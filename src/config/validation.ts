@@ -33,7 +33,7 @@ export const envSchema = z.object({
   // C++ Engine & Orchestrator Configuration
   OCR_BINARY: z.string().optional(),
   OCR_TIMEOUT_MS: z.coerce.number().default(120000),
-  OCR_DEFAULT_DPI: z.coerce.number().default(200),
+  OCR_DEFAULT_DPI: z.coerce.number().default(300),
   OCR_EVIDENCE_BINARY: z.string().optional(),
   OCR_EVIDENCE_TIMEOUT_MS: z.coerce.number().default(30000),
   OCR_EVIDENCE_LLM_THRESHOLD: z.coerce.number().min(0).max(1).default(0.95),

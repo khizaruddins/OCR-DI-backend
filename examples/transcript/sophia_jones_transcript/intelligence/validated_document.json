@@ -34,7 +34,7 @@
       "course_code": "ACCT 102",
       "course_title": "Introduction to Accounting II",
       "credits": 3,
-      "grade": null,
+      "grade": "A",
       "term": null,
       "year": null,
       "evidence": {
@@ -48,7 +48,7 @@
       "course_code": "FINC 201",
       "course_title": "Raising Individual Financial Awareness",
       "credits": 3,
-      "grade": null,
+      "grade": "A",
       "term": null,
       "year": null,
       "evidence": {
@@ -62,7 +62,7 @@
       "course_code": "BUSI 203",
       "course_title": "Essential Information Skills",
       "credits": 3,
-      "grade": null,
+      "grade": "A",
       "term": null,
       "year": null,
       "evidence": {
@@ -76,7 +76,7 @@
       "course_code": "BUSI 101",
       "course_title": "Foundations of Business",
       "credits": 3,
-      "grade": null,
+      "grade": "A",
       "term": null,
       "year": null,
       "evidence": {
@@ -90,7 +90,7 @@
       "course_code": "ACCT 301",
       "course_title": "Business Accounting Systems",
       "credits": 3,
-      "grade": null,
+      "grade": "B",
       "term": null,
       "year": null,
       "evidence": {
@@ -104,7 +104,7 @@
       "course_code": "ACCT 401",
       "course_title": "Financial Accounting and Reporting",
       "credits": 3,
-      "grade": null,
+      "grade": "C",
       "term": null,
       "year": null,
       "evidence": {
@@ -118,7 +118,7 @@
       "course_code": "ACCT 402",
       "course_title": "Management Accounting",
       "credits": 3,
-      "grade": null,
+      "grade": "A",
       "term": null,
       "year": null,
       "evidence": {
@@ -132,7 +132,7 @@
       "course_code": "FINC 301",
       "course_title": "Corporate Finance",
       "credits": 3,
-      "grade": null,
+      "grade": "B",
       "term": null,
       "year": null,
       "evidence": {
@@ -146,7 +146,7 @@
       "course_code": "ACCT 601",
       "course_title": "Research in Accounting",
       "credits": 3,
-      "grade": null,
+      "grade": "B",
       "term": null,
       "year": null,
       "evidence": {
@@ -160,7 +160,7 @@
       "course_code": "BUSI 499",
       "course_title": "Personal and Professional Development",
       "credits": 3,
-      "grade": null,
+      "grade": "B",
       "term": null,
       "year": null,
       "evidence": {
@@ -174,7 +174,7 @@
       "course_code": "AUDT 301",
       "course_title": "Introduction to Auditing Theory and",
       "credits": 3,
-      "grade": null,
+      "grade": "B",
       "term": null,
       "year": null,
       "evidence": {
@@ -188,7 +188,7 @@
       "course_code": "MIS 301",
       "course_title": "Management Information Systems",
       "credits": 3,
-      "grade": null,
+      "grade": "A",
       "term": null,
       "year": null,
       "evidence": {
@@ -202,7 +202,7 @@
       "course_code": "LAW 301",
       "course_title": "Corporate and Business Law",
       "credits": 2,
-      "grade": null,
+      "grade": "C",
       "term": null,
       "year": null,
       "evidence": {
@@ -216,7 +216,7 @@
       "course_code": "TAX 301",
       "course_title": "Personal Taxation",
       "credits": 3,
-      "grade": null,
+      "grade": "C",
       "term": null,
       "year": null,
       "evidence": {

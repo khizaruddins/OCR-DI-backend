@@ -1,0 +1,3561 @@
+{
+  "academic": {
+    "department": "Accounting",
+    "major": "Accounting & Finance"
+  },
+  "compression": {
+    "edr_full_bytes": 41400,
+    "edr_full_characters": 41400,
+    "edr_llm_bytes": 1747,
+    "edr_llm_characters": 1747,
+    "estimated_full_tokens": 10350,
+    "estimated_llm_tokens": 436,
+    "estimated_raw_tokens": 10880,
+    "raw_bytes": 43523,
+    "raw_characters": 43523,
+    "raw_to_full_ratio": 1.051280193236715,
+    "raw_to_llm_ratio": 24.9129937034917,
+    "text_preservation_percentage": 100.0
+  },
+  "confidence": {
+    "low_confidence_token_count": 8,
+    "maximum": 0.970116138458252,
+    "mean": 0.9209398031234741,
+    "minimum": 0.0,
+    "token_count": 153
+  },
+  "document": {
+    "id": "doc_1791629796597_e42cf4",
+    "page_count": 1,
+    "source": "/home/khizaruddin/Downloads/Sophia Jones Transcript.pdf",
+    "type": "transcript"
+  },
+  "engine": {
+    "name": "ocr-engine",
+    "provider": "tesseract",
+    "version": "0.2.0"
+  },
+  "identity": {
+    "birthdate": "Jun 26 1997",
+    "student_id": "2291829",
+    "student_name": "Sophia Jones"
+  },
+  "institution": {
+    "name": "University of Oxford"
+  },
+  "pages": [
+    {
+      "blocks": [
+        {
+          "confidence": {
+            "low_confidence_token_count": 2,
+            "maximum": 0.9680016040802002,
+            "mean": 0.628671407699585,
+            "minimum": 0.0,
+            "token_count": 5
+          },
+          "id": "block_p1_1",
+          "source": {
+            "bbox": {
+              "height": 61,
+              "width": 2031,
+              "x": 163,
+              "y": 150
+            },
+            "page": 1
+          },
+          "text": "si =6UNIVERSITY OF OXFORD 01/28/2019",
+          "type": "header"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9566683769226074,
+            "mean": 0.9566683769226074,
+            "minimum": 0.9566683769226074,
+            "token_count": 2
+          },
+          "id": "block_p1_2",
+          "source": {
+            "bbox": {
+              "height": 34,
+              "width": 584,
+              "x": 301,
+              "y": 568
+            },
+            "page": 1
+          },
+          "text": "STUDENT INFORMATION",
+          "type": "heading"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9658716320991516,
+            "mean": 0.9285731315612793,
+            "minimum": 0.8526188135147095,
+            "token_count": 4
+          },
+          "id": "block_p1_3",
+          "label": "NAME",
+          "source": {
+            "bbox": {
+              "height": 55,
+              "width": 979,
+              "x": 305,
+              "y": 687
+            },
+            "page": 1
+          },
+          "text": "NAME : Sophia Jones",
+          "type": "label_value",
+          "value": "Sophia Jones"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.9411978721618652,
+            "mean": 0.7907170057296753,
+            "minimum": 0.5827531218528748,
+            "token_count": 4
+          },
+          "id": "block_p1_4",
+          "label": "STUDENT ID",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 874,
+              "x": 302,
+              "y": 761
+            },
+            "page": 1
+          },
+          "text": "STUDENT ID > 2291829",
+          "type": "label_value",
+          "value": "2291829"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 2,
+            "maximum": 0.9559829831123352,
+            "mean": 0.7628160715103149,
+            "minimum": 0.47390151023864746,
+            "token_count": 5
+          },
+          "id": "block_p1_5",
+          "label": "BIRTHDATE",
+          "source": {
+            "bbox": {
+              "height": 34,
+              "width": 942,
+              "x": 305,
+              "y": 825
+            },
+            "page": 1
+          },
+          "text": "BIRTHDATE : Jun 26 1997",
+          "type": "label_value",
+          "value": "Jun 26 1997"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9664607048034668,
+            "mean": 0.878218412399292,
+            "minimum": 0.8334233164787292,
+            "token_count": 3
+          },
+          "id": "block_p1_6",
+          "label": "DEPARTMENT",
+          "source": {
+            "bbox": {
+              "height": 48,
+              "width": 944,
+              "x": 305,
+              "y": 886
+            },
+            "page": 1
+          },
+          "text": "DEPARTMENT : Accounting",
+          "type": "label_value",
+          "value": "Accounting"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9681023359298706,
+            "mean": 0.9151702523231506,
+            "minimum": 0.8148648738861084,
+            "token_count": 6
+          },
+          "id": "block_p1_7",
+          "label": "BACHELORS MAJOR",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1189,
+              "x": 305,
+              "y": 952
+            },
+            "page": 1
+          },
+          "text": "BACHELORS MAJOR : Accounting & Finance",
+          "type": "label_value",
+          "value": "Accounting & Finance"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9639979004859924,
+            "mean": 0.9463439583778381,
+            "minimum": 0.9285807609558105,
+            "token_count": 8
+          },
+          "id": "block_p1_8",
+          "source": {
+            "bbox": {
+              "height": 34,
+              "width": 1483,
+              "x": 305,
+              "y": 1146
+            },
+            "page": 1
+          },
+          "text": "DEGREES AWARDED - BACHELORS IN ACCOUNTING & FINANCE",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9688134789466858,
+            "mean": 0.964806079864502,
+            "minimum": 0.9593107104301453,
+            "token_count": 6
+          },
+          "id": "block_p1_9",
+          "source": {
+            "bbox": {
+              "height": 47,
+              "width": 1654,
+              "x": 321,
+              "y": 1334
+            },
+            "page": 1
+          },
+          "text": "TEACH CRS COURSE DESCRIPTION CREDITS GRADE",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9682745933532715,
+            "mean": 0.9598828554153442,
+            "minimum": 0.9491584300994873,
+            "token_count": 7
+          },
+          "id": "block_p1_10",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1472
+            },
+            "page": 1
+          },
+          "text": "ACCT 101 Intro to Accounting | 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9690414667129517,
+            "mean": 0.9449681043624878,
+            "minimum": 0.8118472099304199,
+            "token_count": 8
+          },
+          "id": "block_p1_11",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1568
+            },
+            "page": 1
+          },
+          "text": "ACCT 102 Introduction to Accounting II 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9683562517166138,
+            "mean": 0.9544599652290344,
+            "minimum": 0.9101470708847046,
+            "token_count": 8
+          },
+          "id": "block_p1_12",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1664
+            },
+            "page": 1
+          },
+          "text": "FINC 201 Raising Individual Financial Awareness 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9683562517166138,
+            "mean": 0.9592651128768921,
+            "minimum": 0.9332025051116943,
+            "token_count": 7
+          },
+          "id": "block_p1_13",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1760
+            },
+            "page": 1
+          },
+          "text": "BUSI 203 Essential Information Skills 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9692546725273132,
+            "mean": 0.9559859037399292,
+            "minimum": 0.9366409778594971,
+            "token_count": 7
+          },
+          "id": "block_p1_14",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1857
+            },
+            "page": 1
+          },
+          "text": "BUSI 101 Foundations of Business 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9678488969802856,
+            "mean": 0.9577473998069763,
+            "minimum": 0.928418755531311,
+            "token_count": 7
+          },
+          "id": "block_p1_15",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1953
+            },
+            "page": 1
+          },
+          "text": "ACCT 301 Business Accounting Systems 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.9678488969802856,
+            "mean": 0.9120132327079773,
+            "minimum": 0.5725988149642944,
+            "token_count": 8
+          },
+          "id": "block_p1_16",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1547,
+              "x": 321,
+              "y": 2049
+            },
+            "page": 1
+          },
+          "text": "ACCT 401 Financial Accounting and Reporting 3 Cc",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9674932956695557,
+            "mean": 0.9631743431091309,
+            "minimum": 0.9584468007087708,
+            "token_count": 6
+          },
+          "id": "block_p1_17",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2146
+            },
+            "page": 1
+          },
+          "text": "ACCT 402 Management Accounting 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9677064418792725,
+            "mean": 0.9453015923500061,
+            "minimum": 0.9177321791648865,
+            "token_count": 6
+          },
+          "id": "block_p1_18",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2242
+            },
+            "page": 1
+          },
+          "text": "FINC 301 Corporate Finance 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9692504405975342,
+            "mean": 0.9574441909790039,
+            "minimum": 0.928619384765625,
+            "token_count": 7
+          },
+          "id": "block_p1_19",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2338
+            },
+            "page": 1
+          },
+          "text": "ACCT 601 Research in Accounting 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9643068909645081,
+            "mean": 0.9207230806350708,
+            "minimum": 0.8460816144943237,
+            "token_count": 8
+          },
+          "id": "block_p1_20",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2435
+            },
+            "page": 1
+          },
+          "text": "BUSI 499 Personal and Professional Development 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9692504405975342,
+            "mean": 0.9556556344032288,
+            "minimum": 0.9284359812736511,
+            "token_count": 9
+          },
+          "id": "block_p1_21",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2531
+            },
+            "page": 1
+          },
+          "text": "AUDT 301 Introduction to Auditing Theory and 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9672766923904419,
+            "mean": 0.9672766923904419,
+            "minimum": 0.9672766923904419,
+            "token_count": 1
+          },
+          "id": "block_p1_22",
+          "source": {
+            "bbox": {
+              "height": 28,
+              "width": 146,
+              "x": 757,
+              "y": 2587
+            },
+            "page": 1
+          },
+          "text": "Practice",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9672799706459045,
+            "mean": 0.9585173726081848,
+            "minimum": 0.9421164989471436,
+            "token_count": 7
+          },
+          "id": "block_p1_23",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1563,
+              "x": 306,
+              "y": 2680
+            },
+            "page": 1
+          },
+          "text": "MIS 301 Management Information Systems 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.970116138458252,
+            "mean": 0.9076367616653442,
+            "minimum": 0.555906355381012,
+            "token_count": 8
+          },
+          "id": "block_p1_24",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1562,
+              "x": 306,
+              "y": 2776
+            },
+            "page": 1
+          },
+          "text": "LAW 301 Corporate and Business Law 2 Cc",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.964331865310669,
+            "mean": 0.8818764090538025,
+            "minimum": 0.5149005651473999,
+            "token_count": 6
+          },
+          "id": "block_p1_25",
+          "source": {
+            "bbox": {
+              "height": 42,
+              "width": 1547,
+              "x": 321,
+              "y": 2872
+            },
+            "page": 1
+          },
+          "text": "TAX 301 Personal Taxation 3 Cc",
+          "type": "paragraph"
+        }
+      ],
+      "confidence": {
+        "low_confidence_token_count": 8,
+        "maximum": 0.970116138458252,
+        "mean": 0.9209398031234741,
+        "minimum": 0.0,
+        "token_count": 153
+      },
+      "height": 3300,
+      "page_number": 1,
+      "processing": {
+        "complexity": {
+          "level": "SIMPLE",
+          "score": 0.22749110516934043
+        },
+        "page_classification": "TEXT_AND_IMAGE",
+        "processing_strategy": "OCR",
+        "source_type": "OCR",
+        "timing": {
+          "edr_ms": 0.0,
+          "layout_ms": 0.0,
+          "native_extraction_ms": 2.892407,
+          "ocr_ms": 826.693827,
+          "preflight_ms": 2.574109,
+          "total_ms": 1294.311752
+        }
+      },
+      "rotation": 0,
+      "width": 2550
+    }
+  ],
+  "processing_manifest": {
+    "document": {
+      "pages": 1,
+      "type": "TEXT_AND_IMAGE"
+    },
+    "engine": "ocr-engine",
+    "pages": {
+      "failed": 0,
+      "native_text": 0,
+      "ocr": 1,
+      "ocr_enhanced": 0,
+      "skipped": 0
+    },
+    "strategy": "ADAPTIVE",
+    "version": "0.2.0"
+  },
+  "schema_version": "edr-0.2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "confidence": {
+            "low_confidence_token_count": 2,
+            "maximum": 0.9680016040802002,
+            "mean": 0.628671407699585,
+            "minimum": 0.0,
+            "token_count": 5
+          },
+          "id": "block_p1_1",
+          "source": {
+            "bbox": {
+              "height": 61,
+              "width": 2031,
+              "x": 163,
+              "y": 150
+            },
+            "page": 1
+          },
+          "text": "si =6UNIVERSITY OF OXFORD 01/28/2019",
+          "type": "header"
+        }
+      ],
+      "confidence": 0.628671407699585,
+      "fields": {
+        "name": "University of Oxford"
+      },
+      "id": "section_institution_info",
+      "page_end": 1,
+      "page_start": 1,
+      "source": {
+        "bbox": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "page": 1
+      },
+      "title": "Institution Information",
+      "type": "institution_information"
+    },
+    {
+      "blocks": [
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9658716320991516,
+            "mean": 0.9285731315612793,
+            "minimum": 0.8526188135147095,
+            "token_count": 4
+          },
+          "id": "block_p1_3",
+          "label": "NAME",
+          "source": {
+            "bbox": {
+              "height": 55,
+              "width": 979,
+              "x": 305,
+              "y": 687
+            },
+            "page": 1
+          },
+          "text": "NAME : Sophia Jones",
+          "type": "label_value",
+          "value": "Sophia Jones"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.9411978721618652,
+            "mean": 0.7907170057296753,
+            "minimum": 0.5827531218528748,
+            "token_count": 4
+          },
+          "id": "block_p1_4",
+          "label": "STUDENT ID",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 874,
+              "x": 302,
+              "y": 761
+            },
+            "page": 1
+          },
+          "text": "STUDENT ID > 2291829",
+          "type": "label_value",
+          "value": "2291829"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 2,
+            "maximum": 0.9559829831123352,
+            "mean": 0.7628160715103149,
+            "minimum": 0.47390151023864746,
+            "token_count": 5
+          },
+          "id": "block_p1_5",
+          "label": "BIRTHDATE",
+          "source": {
+            "bbox": {
+              "height": 34,
+              "width": 942,
+              "x": 305,
+              "y": 825
+            },
+            "page": 1
+          },
+          "text": "BIRTHDATE : Jun 26 1997",
+          "type": "label_value",
+          "value": "Jun 26 1997"
+        }
+      ],
+      "confidence": 0.822403073310852,
+      "fields": {
+        "birthdate": "Jun 26 1997",
+        "student_id": "2291829",
+        "student_name": "Sophia Jones"
+      },
+      "id": "section_student_info",
+      "page_end": 1,
+      "page_start": 1,
+      "source": {
+        "bbox": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "page": 1
+      },
+      "title": "Student Information",
+      "type": "student_information"
+    },
+    {
+      "blocks": [
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9664607048034668,
+            "mean": 0.878218412399292,
+            "minimum": 0.8334233164787292,
+            "token_count": 3
+          },
+          "id": "block_p1_6",
+          "label": "DEPARTMENT",
+          "source": {
+            "bbox": {
+              "height": 48,
+              "width": 944,
+              "x": 305,
+              "y": 886
+            },
+            "page": 1
+          },
+          "text": "DEPARTMENT : Accounting",
+          "type": "label_value",
+          "value": "Accounting"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9681023359298706,
+            "mean": 0.9151702523231506,
+            "minimum": 0.8148648738861084,
+            "token_count": 6
+          },
+          "id": "block_p1_7",
+          "label": "BACHELORS MAJOR",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1189,
+              "x": 305,
+              "y": 952
+            },
+            "page": 1
+          },
+          "text": "BACHELORS MAJOR : Accounting & Finance",
+          "type": "label_value",
+          "value": "Accounting & Finance"
+        }
+      ],
+      "confidence": 0.9028530120849609,
+      "fields": {
+        "department": "Accounting",
+        "major": "Accounting & Finance"
+      },
+      "id": "section_academic_info",
+      "page_end": 1,
+      "page_start": 1,
+      "source": {
+        "bbox": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "page": 1
+      },
+      "title": "Academic Information",
+      "type": "academic_information"
+    },
+    {
+      "confidence": 0.9329005479812622,
+      "id": "section_course_history",
+      "page_end": 1,
+      "page_start": 1,
+      "source": {
+        "bbox": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "page": 1
+      },
+      "tables": [
+        {
+          "columns": [
+            {
+              "canonical_name": "course_code",
+              "column_index": 0,
+              "confidence": 0.9625957012176514,
+              "name": "course_code",
+              "source": {
+                "bbox": {
+                  "height": 31,
+                  "width": 177,
+                  "x": 750,
+                  "y": 1338
+                },
+                "page": 1
+              }
+            },
+            {
+              "canonical_name": "course_title",
+              "column_index": 1,
+              "confidence": 0.9593107104301453,
+              "name": "course_title",
+              "source": {
+                "bbox": {
+                  "height": 31,
+                  "width": 286,
+                  "x": 944,
+                  "y": 1338
+                },
+                "page": 1
+              }
+            },
+            {
+              "canonical_name": "credits",
+              "column_index": 2,
+              "confidence": 0.9660043120384216,
+              "name": "credits",
+              "source": {
+                "bbox": {
+                  "height": 47,
+                  "width": 180,
+                  "x": 1553,
+                  "y": 1334
+                },
+                "page": 1
+              }
+            },
+            {
+              "canonical_name": "grade",
+              "column_index": 3,
+              "confidence": 0.9653205275535583,
+              "name": "grade",
+              "source": {
+                "bbox": {
+                  "height": 31,
+                  "width": 151,
+                  "x": 1824,
+                  "y": 1338
+                },
+                "page": 1
+              }
+            }
+          ],
+          "confidence": {
+            "low_confidence_token_count": 3,
+            "maximum": 0.970116138458252,
+            "mean": 0.9329005479812622,
+            "minimum": 0.5149005651473999,
+            "token_count": 60
+          },
+          "has_header": true,
+          "id": "table_p1_1",
+          "page_end": 1,
+          "page_start": 1,
+          "rows": [
+            {
+              "cells": [
+                {
+                  "confidence": 0.9555448293685913,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 296,
+                      "x": 321,
+                      "y": 1472
+                    },
+                    "page": 1
+                  },
+                  "text": "ACCT 101"
+                },
+                {
+                  "confidence": 0.9599485397338867,
+                  "source": {
+                    "bbox": {
+                      "height": 36,
+                      "width": 358,
+                      "x": 757,
+                      "y": 1475
+                    },
+                    "page": 1
+                  },
+                  "text": "Intro to Accounting"
+                },
+                {
+                  "confidence": 0.9682745933532715,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 1476
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.9599707126617432,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 26,
+                      "x": 1843,
+                      "y": 1476
+                    },
+                    "page": 1
+                  },
+                  "text": "A"
+                }
+              ],
+              "confidence": 0.9605339765548706,
+              "course_code": "ACCT 101",
+              "course_title": "Intro to Accounting",
+              "credits": "3",
+              "grade": "A",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 1548,
+                  "x": 321,
+                  "y": 1472
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9630615711212158,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 306,
+                      "x": 321,
+                      "y": 1568
+                    },
+                    "page": 1
+                  },
+                  "text": "ACCT 102"
+                },
+                {
+                  "confidence": 0.9265183210372925,
+                  "source": {
+                    "bbox": {
+                      "height": 36,
+                      "width": 536,
+                      "x": 757,
+                      "y": 1571
+                    },
+                    "page": 1
+                  },
+                  "text": "Introduction to Accounting II"
+                },
+                {
+                  "confidence": 0.9690414667129517,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 1572
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.9585071802139282,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 26,
+                      "x": 1843,
+                      "y": 1572
+                    },
+                    "page": 1
+                  },
+                  "text": "A"
+                }
+              ],
+              "confidence": 0.9449681043624878,
+              "course_code": "ACCT 102",
+              "course_title": "Introduction to Accounting II",
+              "credits": "3",
+              "grade": "A",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 1548,
+                  "x": 321,
+                  "y": 1568
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9276198148727417,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 299,
+                      "x": 325,
+                      "y": 1664
+                    },
+                    "page": 1
+                  },
+                  "text": "FINC 201"
+                },
+                {
+                  "confidence": 0.962928056716919,
+                  "source": {
+                    "bbox": {
+                      "height": 36,
+                      "width": 720,
+                      "x": 757,
+                      "y": 1667
+                    },
+                    "page": 1
+                  },
+                  "text": "Raising Individual Financial Awareness"
+                },
+                {
+                  "confidence": 0.9683562517166138,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 1668
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.9603720903396606,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 26,
+                      "x": 1843,
+                      "y": 1668
+                    },
+                    "page": 1
+                  },
+                  "text": "A"
+                }
+              ],
+              "confidence": 0.954460084438324,
+              "course_code": "FINC 201",
+              "course_title": "Raising Individual Financial Awareness",
+              "credits": "3",
+              "grade": "A",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 1544,
+                  "x": 325,
+                  "y": 1664
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9500497579574585,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 309,
+                      "x": 325,
+                      "y": 1760
+                    },
+                    "page": 1
+                  },
+                  "text": "BUSI 203"
+                },
+                {
+                  "confidence": 0.9603411555290222,
+                  "source": {
+                    "bbox": {
+                      "height": 29,
+                      "width": 498,
+                      "x": 757,
+                      "y": 1763
+                    },
+                    "page": 1
+                  },
+                  "text": "Essential Information Skills"
+                },
+                {
+                  "confidence": 0.9683562517166138,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 1764
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.9653763771057129,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 26,
+                      "x": 1843,
+                      "y": 1764
+                    },
+                    "page": 1
+                  },
+                  "text": "A"
+                }
+              ],
+              "confidence": 0.9592651128768921,
+              "course_code": "BUSI 203",
+              "course_title": "Essential Information Skills",
+              "credits": "3",
+              "grade": "A",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 1544,
+                  "x": 325,
+                  "y": 1760
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9405897855758667,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 292,
+                      "x": 325,
+                      "y": 1857
+                    },
+                    "page": 1
+                  },
+                  "text": "BUSI 101"
+                },
+                {
+                  "confidence": 0.9586968421936035,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 454,
+                      "x": 757,
+                      "y": 1860
+                    },
+                    "page": 1
+                  },
+                  "text": "Foundations of Business"
+                },
+                {
+                  "confidence": 0.9692546725273132,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 1861
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.9653763771057129,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 26,
+                      "x": 1843,
+                      "y": 1861
+                    },
+                    "page": 1
+                  },
+                  "text": "A"
+                }
+              ],
+              "confidence": 0.9559858441352844,
+              "course_code": "BUSI 101",
+              "course_title": "Foundations of Business",
+              "credits": "3",
+              "grade": "A",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 1544,
+                  "x": 325,
+                  "y": 1857
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9556007385253906,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 303,
+                      "x": 321,
+                      "y": 1953
+                    },
+                    "page": 1
+                  },
+                  "text": "ACCT 301"
+                },
+                {
+                  "confidence": 0.9655876755714417,
+                  "source": {
+                    "bbox": {
+                      "height": 36,
+                      "width": 555,
+                      "x": 757,
+                      "y": 1956
+                    },
+                    "page": 1
+                  },
+                  "text": "Business Accounting Systems"
+                },
+                {
+                  "confidence": 0.9678488969802856,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 1957
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.928418755531311,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 22,
+                      "x": 1847,
+                      "y": 1957
+                    },
+                    "page": 1
+                  },
+                  "text": "B"
+                }
+              ],
+              "confidence": 0.9577473998069763,
+              "course_code": "ACCT 301",
+              "course_title": "Business Accounting Systems",
+              "credits": "3",
+              "grade": "B",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 1548,
+                  "x": 321,
+                  "y": 1953
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9513061046600342,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 307,
+                      "x": 321,
+                      "y": 2049
+                    },
+                    "page": 1
+                  },
+                  "text": "ACCT 401"
+                },
+                {
+                  "confidence": 0.9632615447044373,
+                  "source": {
+                    "bbox": {
+                      "height": 36,
+                      "width": 673,
+                      "x": 757,
+                      "y": 2052
+                    },
+                    "page": 1
+                  },
+                  "text": "Financial Accounting and Reporting"
+                },
+                {
+                  "confidence": 0.9678488969802856,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 2053
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.5725988149642944,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 23,
+                      "x": 1845,
+                      "y": 2053
+                    },
+                    "page": 1
+                  },
+                  "text": "C"
+                }
+              ],
+              "confidence": 0.9120132327079773,
+              "course_code": "ACCT 401",
+              "course_title": "Financial Accounting and Reporting",
+              "credits": "3",
+              "grade": "C",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 1547,
+                  "x": 321,
+                  "y": 2049
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9605101346969604,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 317,
+                      "x": 321,
+                      "y": 2146
+                    },
+                    "page": 1
+                  },
+                  "text": "ACCT 402"
+                },
+                {
+                  "confidence": 0.9640779495239258,
+                  "source": {
+                    "bbox": {
+                      "height": 36,
+                      "width": 477,
+                      "x": 757,
+                      "y": 2149
+                    },
+                    "page": 1
+                  },
+                  "text": "Management Accounting"
+                },
+                {
+                  "confidence": 0.9674932956695557,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 2150
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.9623765349388123,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 26,
+                      "x": 1843,
+                      "y": 2150
+                    },
+                    "page": 1
+                  },
+                  "text": "A"
+                }
+              ],
+              "confidence": 0.9631743431091309,
+              "course_code": "ACCT 402",
+              "course_title": "Management Accounting",
+              "credits": "3",
+              "grade": "A",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 1548,
+                  "x": 321,
+                  "y": 2146
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9207309484481812,
+                  "source": {
+                    "bbox": {
+                      "height": 43,
+                      "width": 299,
+                      "x": 325,
+                      "y": 2242
+                    },
+                    "page": 1
+                  },
+                  "text": "FINC 301"
+                },
+                {
+                  "confidence": 0.9666582345962524,
+                  "source": {
+                    "bbox": {
+                      "height": 35,
+                      "width": 342,
+                      "x": 755,
+                      "y": 2245
+                    },
+                    "page": 1
+                  },
+                  "text": "Corporate Finance"
+                },
+                {
+                  "confidence": 0.9674955010414124,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 2246
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.9295358061790466,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 22,
+                      "x": 1847,
+                      "y": 2246
+                    },
+                    "page": 1
+                  },
+                  "text": "B"
+                }
+              ],
+              "confidence": 0.9453016519546509,
+              "course_code": "FINC 301",
+              "course_title": "Corporate Finance",
+              "credits": "3",
+              "grade": "B",
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 1544,
+                  "x": 325,
+                  "y": 2242
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9538121223449707,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 305,
+                      "x": 321,
+                      "y": 2338
+                    },
+                    "page": 1
+                  },
+                  "text": "ACCT 601"
+                },
+                {
+                  "confidence": 0.9655384421348572,
+                  "source": {
+                    "bbox": {
+                      "height": 36,
+                      "width": 439,
+                      "x": 757,
+                      "y": 2341
+                    },
+                    "page": 1
+                  },
+                  "text": "Research in Accounting"
+                },
+                {
+                  "confidence": 0.9692504405975342,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 2342
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.928619384765625,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 22,
+                      "x": 1847,
+                      "y": 2342
+                    },
+                    "page": 1
+                  },
+                  "text": "B"
+                }
+              ],
+              "confidence": 0.9574442505836487,
+              "course_code": "ACCT 601",
+              "course_title": "Research in Accounting",
+              "credits": "3",
+              "grade": "B",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 1548,
+                  "x": 321,
+                  "y": 2338
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9289478659629822,
+                  "source": {
+                    "bbox": {
+                      "height": 43,
+                      "width": 312,
+                      "x": 325,
+                      "y": 2435
+                    },
+                    "page": 1
+                  },
+                  "text": "BUSI 499"
+                },
+                {
+                  "confidence": 0.9334127902984619,
+                  "source": {
+                    "bbox": {
+                      "height": 35,
+                      "width": 745,
+                      "x": 757,
+                      "y": 2438
+                    },
+                    "page": 1
+                  },
+                  "text": "Personal and Professional Development"
+                },
+                {
+                  "confidence": 0.8460816144943237,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 2439
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.9281557202339172,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 22,
+                      "x": 1847,
+                      "y": 2439
+                    },
+                    "page": 1
+                  },
+                  "text": "B"
+                }
+              ],
+              "confidence": 0.920723021030426,
+              "course_code": "BUSI 499",
+              "course_title": "Personal and Professional Development",
+              "credits": "3",
+              "grade": "B",
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 1544,
+                  "x": 325,
+                  "y": 2435
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9361622333526611,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 303,
+                      "x": 321,
+                      "y": 2531
+                    },
+                    "page": 1
+                  },
+                  "text": "AUDT 301"
+                },
+                {
+                  "confidence": 0.9661779403686523,
+                  "source": {
+                    "bbox": {
+                      "height": 81,
+                      "width": 671,
+                      "x": 757,
+                      "y": 2534
+                    },
+                    "page": 1
+                  },
+                  "text": "Introduction to Auditing Theory and Practice"
+                },
+                {
+                  "confidence": 0.9692504405975342,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 2535
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.9284359812736511,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 22,
+                      "x": 1847,
+                      "y": 2535
+                    },
+                    "page": 1
+                  },
+                  "text": "B"
+                }
+              ],
+              "confidence": 0.955655574798584,
+              "course_code": "AUDT 301",
+              "course_title": "Introduction to Auditing Theory and Practice",
+              "credits": "3",
+              "grade": "B",
+              "source": {
+                "bbox": {
+                  "height": 84,
+                  "width": 1548,
+                  "x": 321,
+                  "y": 2531
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9546982049942017,
+                  "source": {
+                    "bbox": {
+                      "height": 44,
+                      "width": 318,
+                      "x": 306,
+                      "y": 2680
+                    },
+                    "page": 1
+                  },
+                  "text": "MIS 301"
+                },
+                {
+                  "confidence": 0.9578357338905334,
+                  "source": {
+                    "bbox": {
+                      "height": 36,
+                      "width": 650,
+                      "x": 757,
+                      "y": 2683
+                    },
+                    "page": 1
+                  },
+                  "text": "Management Information Systems"
+                },
+                {
+                  "confidence": 0.9672033786773682,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 2684
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.9595146179199219,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 26,
+                      "x": 1843,
+                      "y": 2684
+                    },
+                    "page": 1
+                  },
+                  "text": "A"
+                }
+              ],
+              "confidence": 0.9585173726081848,
+              "course_code": "MIS 301",
+              "course_title": "Management Information Systems",
+              "credits": "3",
+              "grade": "A",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 1563,
+                  "x": 306,
+                  "y": 2680
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9447112679481506,
+                  "source": {
+                    "bbox": {
+                      "height": 43,
+                      "width": 318,
+                      "x": 306,
+                      "y": 2776
+                    },
+                    "page": 1
+                  },
+                  "text": "LAW 301"
+                },
+                {
+                  "confidence": 0.9614123702049255,
+                  "source": {
+                    "bbox": {
+                      "height": 35,
+                      "width": 528,
+                      "x": 755,
+                      "y": 2779
+                    },
+                    "page": 1
+                  },
+                  "text": "Corporate and Business Law"
+                },
+                {
+                  "confidence": 0.970116138458252,
+                  "source": {
+                    "bbox": {
+                      "height": 27,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 2780
+                    },
+                    "page": 1
+                  },
+                  "text": "2"
+                },
+                {
+                  "confidence": 0.555906355381012,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 23,
+                      "x": 1845,
+                      "y": 2780
+                    },
+                    "page": 1
+                  },
+                  "text": "C"
+                }
+              ],
+              "confidence": 0.9076368808746338,
+              "course_code": "LAW 301",
+              "course_title": "Corporate and Business Law",
+              "credits": "2",
+              "grade": "C",
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 1562,
+                  "x": 306,
+                  "y": 2776
+                },
+                "page": 1
+              }
+            },
+            {
+              "cells": [
+                {
+                  "confidence": 0.9496312141418457,
+                  "source": {
+                    "bbox": {
+                      "height": 42,
+                      "width": 303,
+                      "x": 321,
+                      "y": 2872
+                    },
+                    "page": 1
+                  },
+                  "text": "TAX 301"
+                },
+                {
+                  "confidence": 0.9623634815216064,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 324,
+                      "x": 757,
+                      "y": 2876
+                    },
+                    "page": 1
+                  },
+                  "text": "Personal Taxation"
+                },
+                {
+                  "confidence": 0.9523680210113525,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 19,
+                      "x": 1569,
+                      "y": 2877
+                    },
+                    "page": 1
+                  },
+                  "text": "3"
+                },
+                {
+                  "confidence": 0.5149005651473999,
+                  "source": {
+                    "bbox": {
+                      "height": 28,
+                      "width": 23,
+                      "x": 1845,
+                      "y": 2877
+                    },
+                    "page": 1
+                  },
+                  "text": "C"
+                }
+              ],
+              "confidence": 0.8818762898445129,
+              "course_code": "TAX 301",
+              "course_title": "Personal Taxation",
+              "credits": "3",
+              "grade": "C",
+              "source": {
+                "bbox": {
+                  "height": 42,
+                  "width": 1547,
+                  "x": 321,
+                  "y": 2872
+                },
+                "page": 1
+              }
+            }
+          ],
+          "source": {
+            "bbox": {
+              "height": 1442,
+              "width": 1563,
+              "x": 306,
+              "y": 1472
+            },
+            "page": 1
+          },
+          "table_type": "course_records"
+        }
+      ],
+      "title": "Course History",
+      "type": "course_history"
+    },
+    {
+      "blocks": [
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9566683769226074,
+            "mean": 0.9566683769226074,
+            "minimum": 0.9566683769226074,
+            "token_count": 2
+          },
+          "id": "block_p1_2",
+          "source": {
+            "bbox": {
+              "height": 34,
+              "width": 584,
+              "x": 301,
+              "y": 568
+            },
+            "page": 1
+          },
+          "text": "STUDENT INFORMATION",
+          "type": "heading"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9639979004859924,
+            "mean": 0.9463439583778381,
+            "minimum": 0.9285807609558105,
+            "token_count": 8
+          },
+          "id": "block_p1_8",
+          "source": {
+            "bbox": {
+              "height": 34,
+              "width": 1483,
+              "x": 305,
+              "y": 1146
+            },
+            "page": 1
+          },
+          "text": "DEGREES AWARDED - BACHELORS IN ACCOUNTING & FINANCE",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9688134789466858,
+            "mean": 0.964806079864502,
+            "minimum": 0.9593107104301453,
+            "token_count": 6
+          },
+          "id": "block_p1_9",
+          "source": {
+            "bbox": {
+              "height": 47,
+              "width": 1654,
+              "x": 321,
+              "y": 1334
+            },
+            "page": 1
+          },
+          "text": "TEACH CRS COURSE DESCRIPTION CREDITS GRADE",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9682745933532715,
+            "mean": 0.9598828554153442,
+            "minimum": 0.9491584300994873,
+            "token_count": 7
+          },
+          "id": "block_p1_10",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1472
+            },
+            "page": 1
+          },
+          "text": "ACCT 101 Intro to Accounting | 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9690414667129517,
+            "mean": 0.9449681043624878,
+            "minimum": 0.8118472099304199,
+            "token_count": 8
+          },
+          "id": "block_p1_11",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1568
+            },
+            "page": 1
+          },
+          "text": "ACCT 102 Introduction to Accounting II 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9683562517166138,
+            "mean": 0.9544599652290344,
+            "minimum": 0.9101470708847046,
+            "token_count": 8
+          },
+          "id": "block_p1_12",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1664
+            },
+            "page": 1
+          },
+          "text": "FINC 201 Raising Individual Financial Awareness 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9683562517166138,
+            "mean": 0.9592651128768921,
+            "minimum": 0.9332025051116943,
+            "token_count": 7
+          },
+          "id": "block_p1_13",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1760
+            },
+            "page": 1
+          },
+          "text": "BUSI 203 Essential Information Skills 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9692546725273132,
+            "mean": 0.9559859037399292,
+            "minimum": 0.9366409778594971,
+            "token_count": 7
+          },
+          "id": "block_p1_14",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1857
+            },
+            "page": 1
+          },
+          "text": "BUSI 101 Foundations of Business 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9678488969802856,
+            "mean": 0.9577473998069763,
+            "minimum": 0.928418755531311,
+            "token_count": 7
+          },
+          "id": "block_p1_15",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1953
+            },
+            "page": 1
+          },
+          "text": "ACCT 301 Business Accounting Systems 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.9678488969802856,
+            "mean": 0.9120132327079773,
+            "minimum": 0.5725988149642944,
+            "token_count": 8
+          },
+          "id": "block_p1_16",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1547,
+              "x": 321,
+              "y": 2049
+            },
+            "page": 1
+          },
+          "text": "ACCT 401 Financial Accounting and Reporting 3 Cc",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9674932956695557,
+            "mean": 0.9631743431091309,
+            "minimum": 0.9584468007087708,
+            "token_count": 6
+          },
+          "id": "block_p1_17",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2146
+            },
+            "page": 1
+          },
+          "text": "ACCT 402 Management Accounting 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9677064418792725,
+            "mean": 0.9453015923500061,
+            "minimum": 0.9177321791648865,
+            "token_count": 6
+          },
+          "id": "block_p1_18",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2242
+            },
+            "page": 1
+          },
+          "text": "FINC 301 Corporate Finance 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9692504405975342,
+            "mean": 0.9574441909790039,
+            "minimum": 0.928619384765625,
+            "token_count": 7
+          },
+          "id": "block_p1_19",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2338
+            },
+            "page": 1
+          },
+          "text": "ACCT 601 Research in Accounting 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9643068909645081,
+            "mean": 0.9207230806350708,
+            "minimum": 0.8460816144943237,
+            "token_count": 8
+          },
+          "id": "block_p1_20",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2435
+            },
+            "page": 1
+          },
+          "text": "BUSI 499 Personal and Professional Development 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9692504405975342,
+            "mean": 0.9556556344032288,
+            "minimum": 0.9284359812736511,
+            "token_count": 9
+          },
+          "id": "block_p1_21",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2531
+            },
+            "page": 1
+          },
+          "text": "AUDT 301 Introduction to Auditing Theory and 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9672766923904419,
+            "mean": 0.9672766923904419,
+            "minimum": 0.9672766923904419,
+            "token_count": 1
+          },
+          "id": "block_p1_22",
+          "source": {
+            "bbox": {
+              "height": 28,
+              "width": 146,
+              "x": 757,
+              "y": 2587
+            },
+            "page": 1
+          },
+          "text": "Practice",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9672799706459045,
+            "mean": 0.9585173726081848,
+            "minimum": 0.9421164989471436,
+            "token_count": 7
+          },
+          "id": "block_p1_23",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1563,
+              "x": 306,
+              "y": 2680
+            },
+            "page": 1
+          },
+          "text": "MIS 301 Management Information Systems 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.970116138458252,
+            "mean": 0.9076367616653442,
+            "minimum": 0.555906355381012,
+            "token_count": 8
+          },
+          "id": "block_p1_24",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1562,
+              "x": 306,
+              "y": 2776
+            },
+            "page": 1
+          },
+          "text": "LAW 301 Corporate and Business Law 2 Cc",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.964331865310669,
+            "mean": 0.8818764090538025,
+            "minimum": 0.5149005651473999,
+            "token_count": 6
+          },
+          "id": "block_p1_25",
+          "source": {
+            "bbox": {
+              "height": 42,
+              "width": 1547,
+              "x": 321,
+              "y": 2872
+            },
+            "page": 1
+          },
+          "text": "TAX 301 Personal Taxation 3 Cc",
+          "type": "paragraph"
+        }
+      ],
+      "confidence": 0.943996250629425,
+      "id": "section_other",
+      "page_end": 1,
+      "page_start": 1,
+      "source": {
+        "bbox": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "page": 1
+      },
+      "title": "General Content",
+      "type": "other"
+    }
+  ],
+  "tables": [
+    {
+      "columns": [
+        {
+          "canonical_name": "course_code",
+          "column_index": 0,
+          "confidence": 0.9625957012176514,
+          "name": "course_code",
+          "source": {
+            "bbox": {
+              "height": 31,
+              "width": 177,
+              "x": 750,
+              "y": 1338
+            },
+            "page": 1
+          }
+        },
+        {
+          "canonical_name": "course_title",
+          "column_index": 1,
+          "confidence": 0.9593107104301453,
+          "name": "course_title",
+          "source": {
+            "bbox": {
+              "height": 31,
+              "width": 286,
+              "x": 944,
+              "y": 1338
+            },
+            "page": 1
+          }
+        },
+        {
+          "canonical_name": "credits",
+          "column_index": 2,
+          "confidence": 0.9660043120384216,
+          "name": "credits",
+          "source": {
+            "bbox": {
+              "height": 47,
+              "width": 180,
+              "x": 1553,
+              "y": 1334
+            },
+            "page": 1
+          }
+        },
+        {
+          "canonical_name": "grade",
+          "column_index": 3,
+          "confidence": 0.9653205275535583,
+          "name": "grade",
+          "source": {
+            "bbox": {
+              "height": 31,
+              "width": 151,
+              "x": 1824,
+              "y": 1338
+            },
+            "page": 1
+          }
+        }
+      ],
+      "confidence": {
+        "low_confidence_token_count": 3,
+        "maximum": 0.970116138458252,
+        "mean": 0.9329005479812622,
+        "minimum": 0.5149005651473999,
+        "token_count": 60
+      },
+      "has_header": true,
+      "id": "table_p1_1",
+      "page_end": 1,
+      "page_start": 1,
+      "rows": [
+        {
+          "cells": [
+            {
+              "confidence": 0.9555448293685913,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 296,
+                  "x": 321,
+                  "y": 1472
+                },
+                "page": 1
+              },
+              "text": "ACCT 101"
+            },
+            {
+              "confidence": 0.9599485397338867,
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 358,
+                  "x": 757,
+                  "y": 1475
+                },
+                "page": 1
+              },
+              "text": "Intro to Accounting"
+            },
+            {
+              "confidence": 0.9682745933532715,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1476
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.9599707126617432,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1476
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9605339765548706,
+          "course_code": "ACCT 101",
+          "course_title": "Intro to Accounting",
+          "credits": "3",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1472
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9630615711212158,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 306,
+                  "x": 321,
+                  "y": 1568
+                },
+                "page": 1
+              },
+              "text": "ACCT 102"
+            },
+            {
+              "confidence": 0.9265183210372925,
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 536,
+                  "x": 757,
+                  "y": 1571
+                },
+                "page": 1
+              },
+              "text": "Introduction to Accounting II"
+            },
+            {
+              "confidence": 0.9690414667129517,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1572
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.9585071802139282,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1572
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9449681043624878,
+          "course_code": "ACCT 102",
+          "course_title": "Introduction to Accounting II",
+          "credits": "3",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1568
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9276198148727417,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 299,
+                  "x": 325,
+                  "y": 1664
+                },
+                "page": 1
+              },
+              "text": "FINC 201"
+            },
+            {
+              "confidence": 0.962928056716919,
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 720,
+                  "x": 757,
+                  "y": 1667
+                },
+                "page": 1
+              },
+              "text": "Raising Individual Financial Awareness"
+            },
+            {
+              "confidence": 0.9683562517166138,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1668
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.9603720903396606,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1668
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.954460084438324,
+          "course_code": "FINC 201",
+          "course_title": "Raising Individual Financial Awareness",
+          "credits": "3",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1664
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9500497579574585,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 309,
+                  "x": 325,
+                  "y": 1760
+                },
+                "page": 1
+              },
+              "text": "BUSI 203"
+            },
+            {
+              "confidence": 0.9603411555290222,
+              "source": {
+                "bbox": {
+                  "height": 29,
+                  "width": 498,
+                  "x": 757,
+                  "y": 1763
+                },
+                "page": 1
+              },
+              "text": "Essential Information Skills"
+            },
+            {
+              "confidence": 0.9683562517166138,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1764
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.9653763771057129,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1764
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9592651128768921,
+          "course_code": "BUSI 203",
+          "course_title": "Essential Information Skills",
+          "credits": "3",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1760
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9405897855758667,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 292,
+                  "x": 325,
+                  "y": 1857
+                },
+                "page": 1
+              },
+              "text": "BUSI 101"
+            },
+            {
+              "confidence": 0.9586968421936035,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 454,
+                  "x": 757,
+                  "y": 1860
+                },
+                "page": 1
+              },
+              "text": "Foundations of Business"
+            },
+            {
+              "confidence": 0.9692546725273132,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1861
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.9653763771057129,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1861
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9559858441352844,
+          "course_code": "BUSI 101",
+          "course_title": "Foundations of Business",
+          "credits": "3",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1857
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9556007385253906,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 303,
+                  "x": 321,
+                  "y": 1953
+                },
+                "page": 1
+              },
+              "text": "ACCT 301"
+            },
+            {
+              "confidence": 0.9655876755714417,
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 555,
+                  "x": 757,
+                  "y": 1956
+                },
+                "page": 1
+              },
+              "text": "Business Accounting Systems"
+            },
+            {
+              "confidence": 0.9678488969802856,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1957
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.928418755531311,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 1957
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.9577473998069763,
+          "course_code": "ACCT 301",
+          "course_title": "Business Accounting Systems",
+          "credits": "3",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1953
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9513061046600342,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 307,
+                  "x": 321,
+                  "y": 2049
+                },
+                "page": 1
+              },
+              "text": "ACCT 401"
+            },
+            {
+              "confidence": 0.9632615447044373,
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 673,
+                  "x": 757,
+                  "y": 2052
+                },
+                "page": 1
+              },
+              "text": "Financial Accounting and Reporting"
+            },
+            {
+              "confidence": 0.9678488969802856,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2053
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.5725988149642944,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 23,
+                  "x": 1845,
+                  "y": 2053
+                },
+                "page": 1
+              },
+              "text": "C"
+            }
+          ],
+          "confidence": 0.9120132327079773,
+          "course_code": "ACCT 401",
+          "course_title": "Financial Accounting and Reporting",
+          "credits": "3",
+          "grade": "C",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1547,
+              "x": 321,
+              "y": 2049
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9605101346969604,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 317,
+                  "x": 321,
+                  "y": 2146
+                },
+                "page": 1
+              },
+              "text": "ACCT 402"
+            },
+            {
+              "confidence": 0.9640779495239258,
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 477,
+                  "x": 757,
+                  "y": 2149
+                },
+                "page": 1
+              },
+              "text": "Management Accounting"
+            },
+            {
+              "confidence": 0.9674932956695557,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2150
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.9623765349388123,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 2150
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9631743431091309,
+          "course_code": "ACCT 402",
+          "course_title": "Management Accounting",
+          "credits": "3",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2146
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9207309484481812,
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 299,
+                  "x": 325,
+                  "y": 2242
+                },
+                "page": 1
+              },
+              "text": "FINC 301"
+            },
+            {
+              "confidence": 0.9666582345962524,
+              "source": {
+                "bbox": {
+                  "height": 35,
+                  "width": 342,
+                  "x": 755,
+                  "y": 2245
+                },
+                "page": 1
+              },
+              "text": "Corporate Finance"
+            },
+            {
+              "confidence": 0.9674955010414124,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2246
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.9295358061790466,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2246
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.9453016519546509,
+          "course_code": "FINC 301",
+          "course_title": "Corporate Finance",
+          "credits": "3",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2242
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9538121223449707,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 305,
+                  "x": 321,
+                  "y": 2338
+                },
+                "page": 1
+              },
+              "text": "ACCT 601"
+            },
+            {
+              "confidence": 0.9655384421348572,
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 439,
+                  "x": 757,
+                  "y": 2341
+                },
+                "page": 1
+              },
+              "text": "Research in Accounting"
+            },
+            {
+              "confidence": 0.9692504405975342,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2342
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.928619384765625,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2342
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.9574442505836487,
+          "course_code": "ACCT 601",
+          "course_title": "Research in Accounting",
+          "credits": "3",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2338
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9289478659629822,
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 312,
+                  "x": 325,
+                  "y": 2435
+                },
+                "page": 1
+              },
+              "text": "BUSI 499"
+            },
+            {
+              "confidence": 0.9334127902984619,
+              "source": {
+                "bbox": {
+                  "height": 35,
+                  "width": 745,
+                  "x": 757,
+                  "y": 2438
+                },
+                "page": 1
+              },
+              "text": "Personal and Professional Development"
+            },
+            {
+              "confidence": 0.8460816144943237,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2439
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.9281557202339172,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2439
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.920723021030426,
+          "course_code": "BUSI 499",
+          "course_title": "Personal and Professional Development",
+          "credits": "3",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2435
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9361622333526611,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 303,
+                  "x": 321,
+                  "y": 2531
+                },
+                "page": 1
+              },
+              "text": "AUDT 301"
+            },
+            {
+              "confidence": 0.9661779403686523,
+              "source": {
+                "bbox": {
+                  "height": 81,
+                  "width": 671,
+                  "x": 757,
+                  "y": 2534
+                },
+                "page": 1
+              },
+              "text": "Introduction to Auditing Theory and Practice"
+            },
+            {
+              "confidence": 0.9692504405975342,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2535
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.9284359812736511,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2535
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.955655574798584,
+          "course_code": "AUDT 301",
+          "course_title": "Introduction to Auditing Theory and Practice",
+          "credits": "3",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 84,
+              "width": 1548,
+              "x": 321,
+              "y": 2531
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9546982049942017,
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 318,
+                  "x": 306,
+                  "y": 2680
+                },
+                "page": 1
+              },
+              "text": "MIS 301"
+            },
+            {
+              "confidence": 0.9578357338905334,
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 650,
+                  "x": 757,
+                  "y": 2683
+                },
+                "page": 1
+              },
+              "text": "Management Information Systems"
+            },
+            {
+              "confidence": 0.9672033786773682,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2684
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.9595146179199219,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 2684
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9585173726081848,
+          "course_code": "MIS 301",
+          "course_title": "Management Information Systems",
+          "credits": "3",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1563,
+              "x": 306,
+              "y": 2680
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9447112679481506,
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 318,
+                  "x": 306,
+                  "y": 2776
+                },
+                "page": 1
+              },
+              "text": "LAW 301"
+            },
+            {
+              "confidence": 0.9614123702049255,
+              "source": {
+                "bbox": {
+                  "height": 35,
+                  "width": 528,
+                  "x": 755,
+                  "y": 2779
+                },
+                "page": 1
+              },
+              "text": "Corporate and Business Law"
+            },
+            {
+              "confidence": 0.970116138458252,
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2780
+                },
+                "page": 1
+              },
+              "text": "2"
+            },
+            {
+              "confidence": 0.555906355381012,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 23,
+                  "x": 1845,
+                  "y": 2780
+                },
+                "page": 1
+              },
+              "text": "C"
+            }
+          ],
+          "confidence": 0.9076368808746338,
+          "course_code": "LAW 301",
+          "course_title": "Corporate and Business Law",
+          "credits": "2",
+          "grade": "C",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1562,
+              "x": 306,
+              "y": 2776
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "confidence": 0.9496312141418457,
+              "source": {
+                "bbox": {
+                  "height": 42,
+                  "width": 303,
+                  "x": 321,
+                  "y": 2872
+                },
+                "page": 1
+              },
+              "text": "TAX 301"
+            },
+            {
+              "confidence": 0.9623634815216064,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 324,
+                  "x": 757,
+                  "y": 2876
+                },
+                "page": 1
+              },
+              "text": "Personal Taxation"
+            },
+            {
+              "confidence": 0.9523680210113525,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2877
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "confidence": 0.5149005651473999,
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 23,
+                  "x": 1845,
+                  "y": 2877
+                },
+                "page": 1
+              },
+              "text": "C"
+            }
+          ],
+          "confidence": 0.8818762898445129,
+          "course_code": "TAX 301",
+          "course_title": "Personal Taxation",
+          "credits": "3",
+          "grade": "C",
+          "source": {
+            "bbox": {
+              "height": 42,
+              "width": 1547,
+              "x": 321,
+              "y": 2872
+            },
+            "page": 1
+          }
+        }
+      ],
+      "source": {
+        "bbox": {
+          "height": 1442,
+          "width": 1563,
+          "x": 306,
+          "y": 1472
+        },
+        "page": 1
+      },
+      "table_type": "course_records"
+    }
+  ],
+  "warnings": [
+    {
+      "confidence": 0.628671407699585,
+      "message": "Section confidence is below threshold",
+      "page": 1,
+      "region": "institution_information",
+      "type": "low_confidence_section"
+    }
+  ]
+}

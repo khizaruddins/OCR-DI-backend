@@ -39,8 +39,8 @@ export class ProcessDocumentOptionsDto {
 
   @ApiPropertyOptional({
     description: 'Rendering DPI for PDF page rasterization (if OCR path is required)',
-    default: 200,
-    example: 200,
+    default: 300,
+    example: 300,
   })
   dpi?: number;
 
@@ -345,6 +345,11 @@ export class DocumentProcessingResponseDto {
     description: 'Application-facing Semantic Final Structured Document JSON projection',
   })
   final_document?: Record<string, unknown>;
+
+  @ApiPropertyOptional({
+    description: 'Extracted courses array containing course codes, titles, credits, and grades',
+  })
+  courses?: Array<Record<string, unknown>>;
 
   @ApiPropertyOptional({
     description: 'Internal candidate final document when canonical finalization is blocked',

@@ -1,4 +1,8 @@
 {
+  "academic": {
+    "department": "Accounting",
+    "major": "Accounting & Finance"
+  },
   "document": {
     "language": "eng",
     "page_count": 1,
@@ -7,7 +11,7 @@
     ],
     "type": "transcript"
   },
-  "estimated_tokens": 602,
+  "estimated_tokens": 760,
   "institution": {
     "name": "University of Oxford"
   },
@@ -18,14 +22,16 @@
         "name": "University of Oxford"
       },
       "page": 1,
-      "text": "ee UNIVERSITY OF OXFORD",
+      "text": "si =6UNIVERSITY OF OXFORD 01/28/2019",
       "title": "Institution Information",
       "type": "institution_information"
     },
     {
       "fields": {
+        "BIRTHDATE": "Jun 26 1997",
         "NAME": "Sophia Jones",
         "STUDENT ID": "2291829",
+        "birthdate": "Jun 26 1997",
         "student_id": "2291829",
         "student_name": "Sophia Jones"
       },
@@ -36,39 +42,43 @@
     {
       "fields": {
         "BACHELORS MAJOR": "Accounting & Finance",
-        "BIRTHDATE": "Jun 261997",
-        "DEPARTMENT": "Accounting"
+        "DEPARTMENT": "Accounting",
+        "department": "Accounting",
+        "major": "Accounting & Finance"
       },
       "page": 1,
+      "title": "Academic Information",
+      "type": "academic_information"
+    },
+    {
+      "page": 1,
       "paragraphs": [
-        "01/28/2019",
         "STUDENT INFORMATION",
         "DEGREES AWARDED - BACHELORS IN ACCOUNTING & FINANCE",
-        "TEACH CRS COURSE DESCRIPTION CREDITS",
-        "GRADE",
-        "ACCT 101 Intro to Accounting | 3",
-        "A",
-        "ACCT 102 Introduction to Accounting II 3",
-        "FINC 201 Raising Individual Financial Awareness 3",
-        "BUSI 203 Essential Information Skills 3",
-        "BUSI 101 Foundations of Business 3",
-        "ACCT 301 Business Accounting Systems 3",
-        "ACCT 401 Financial Accounting and Reporting 3",
-        "ACCT 402 Management Accounting 3",
-        "FINC 301 Corporate Finance 3",
-        "ACCT 601 Research in Accounting 3",
-        "BUSI 499 Personal and Professional Development 3",
-        "AUDT 301 Introduction to Auditing Theory and 3",
+        "TEACH CRS COURSE DESCRIPTION CREDITS GRADE",
+        "ACCT 101 Intro to Accounting | 3 A",
+        "ACCT 102 Introduction to Accounting II 3 A",
+        "FINC 201 Raising Individual Financial Awareness 3 A",
+        "BUSI 203 Essential Information Skills 3 A",
+        "BUSI 101 Foundations of Business 3 A",
+        "ACCT 301 Business Accounting Systems 3 B",
+        "ACCT 401 Financial Accounting and Reporting 3 Cc",
+        "ACCT 402 Management Accounting 3 A",
+        "FINC 301 Corporate Finance 3 B",
+        "ACCT 601 Research in Accounting 3 B",
+        "BUSI 499 Personal and Professional Development 3 B",
+        "AUDT 301 Introduction to Auditing Theory and 3 B",
         "Practice",
-        "MIS 301 Management Information Systems 3",
-        "LAW 301 Corporate and Business Law 2",
-        "TAX 301 Personal Taxation 3"
+        "MIS 301 Management Information Systems 3 A",
+        "LAW 301 Corporate and Business Law 2 Cc",
+        "TAX 301 Personal Taxation 3 Cc"
       ],
       "title": "General Content",
       "type": "other"
     }
   ],
   "student": {
+    "birthdate": "Jun 26 1997",
     "student_id": "2291829",
     "student_name": "Sophia Jones"
   },
@@ -77,7 +87,31 @@
       "headers": [
         "course_code",
         "course_title",
-        "credits"
+        "credits",
+        "grade"
+      ],
+      "low_confidence_cells": [
+        {
+          "col": 3,
+          "confidence": 0.5725988149642944,
+          "row": 6,
+          "text": "C",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 3,
+          "confidence": 0.555906355381012,
+          "row": 13,
+          "text": "C",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 3,
+          "confidence": 0.5149005651473999,
+          "row": 14,
+          "text": "C",
+          "warning": "critical_low_confidence"
+        }
       ],
       "page_range": [
         1,
@@ -85,91 +119,94 @@
       ],
       "rows": [
         [
-          "GRADE",
-          ""
-        ],
-        [
           "ACCT 101",
           "Intro to Accounting",
-          "3"
-        ],
-        [
-          "A",
-          ""
+          "3",
+          "A"
         ],
         [
           "ACCT 102",
           "Introduction to Accounting II",
-          "3"
+          "3",
+          "A"
         ],
         [
           "FINC 201",
           "Raising Individual Financial Awareness",
-          "3"
+          "3",
+          "A"
         ],
         [
           "BUSI 203",
           "Essential Information Skills",
-          "3"
+          "3",
+          "A"
         ],
         [
           "BUSI 101",
           "Foundations of Business",
-          "3"
+          "3",
+          "A"
         ],
         [
           "ACCT 301",
           "Business Accounting Systems",
-          "3"
+          "3",
+          "B"
         ],
         [
           "ACCT 401",
           "Financial Accounting and Reporting",
-          "3"
+          "3",
+          "C"
         ],
         [
           "ACCT 402",
           "Management Accounting",
-          "3"
+          "3",
+          "A"
         ],
         [
           "FINC 301",
           "Corporate Finance",
-          "3"
+          "3",
+          "B"
         ],
         [
           "ACCT 601",
           "Research in Accounting",
-          "3"
+          "3",
+          "B"
         ],
         [
           "BUSI 499",
           "Personal and Professional Development",
-          "3"
+          "3",
+          "B"
         ],
         [
           "AUDT 301",
-          "Introduction to Auditing Theory and",
-          "3"
-        ],
-        [
-          "Practice",
-          ""
+          "Introduction to Auditing Theory and Practice",
+          "3",
+          "B"
         ],
         [
           "MIS 301",
           "Management Information Systems",
-          "3"
+          "3",
+          "A"
         ],
         [
           "LAW 301",
           "Corporate and Business Law",
-          "2"
+          "2",
+          "C"
         ],
         [
           "TAX 301",
           "Personal Taxation",
-          "3"
+          "3",
+          "C"
         ]
       ],
       "table_id": "table_p1_1",

@@ -4,7 +4,7 @@ export default () => ({
   ocr: {
     binaryPath: process.env.OCR_BINARY || '',
     timeoutMs: parseInt(process.env.OCR_TIMEOUT_MS || '120000', 10),
-    defaultDpi: parseInt(process.env.OCR_DEFAULT_DPI || '200', 10),
+    defaultDpi: parseInt(process.env.OCR_DEFAULT_DPI || '300', 10),
   },
   evidence: {
     binaryPath: process.env.OCR_EVIDENCE_BINARY || '',

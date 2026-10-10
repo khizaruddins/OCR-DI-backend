@@ -32,6 +32,35 @@ export interface OcrExecutionResult {
   strategy: string;
 }
 
+export interface ProcessRawOcrOptions {
+  dpi?: number;
+  outputFormat?: 'json' | 'text';
+  forceOcr?: boolean;
+  forceNativeText?: boolean;
+  orientation?: boolean;
+  includeArtifacts?: boolean;
+  debug?: boolean;
+}
+
+export interface RawOcrExecutionResult {
+  success: boolean;
+  exitCode: number;
+  executionTimeMs: number;
+  rawOutputPath: string;
+  rawOutputContent: string;
+  rawOutputJson?: Record<string, unknown>;
+  pageCount: number;
+  engineName: string;
+  engineVersion: string;
+  artifacts: {
+    name: string;
+    filename: string;
+    size_bytes: number;
+    mime_type: string;
+    content?: unknown;
+  }[];
+}
+
 @Injectable()
 export class OcrEngineService {
   private binaryPath: string;
@@ -45,7 +74,7 @@ export class OcrEngineService {
   ) {
     this.binaryPath = this.configService.get<string>('ocr.binaryPath') || '';
     this.timeoutMs = this.configService.get<number>('ocr.timeoutMs') || 120000;
-    this.defaultDpi = this.configService.get<number>('ocr.defaultDpi') || 200;
+    this.defaultDpi = this.configService.get<number>('ocr.defaultDpi') || 300;
   }
 
   resolveBinaryPath(): string {
@@ -256,6 +285,145 @@ export class OcrEngineService {
       nativeTextPages,
       ocrPages,
       strategy,
+    };
+  }
+
+  async processRawOcr(
+    workspace: DocumentWorkspace,
+    options: ProcessRawOcrOptions = {},
+  ): Promise<RawOcrExecutionResult> {
+    const binary = this.resolveBinaryPath();
+    if (!fs.existsSync(binary) && !binary.startsWith('ocr-engine')) {
+      throw new Error(`OCR Engine binary not found: ${binary}`);
+    }
+
+    const isText = options.outputFormat === 'text';
+    const filename = isText ? 'raw_ocr.txt' : 'raw_ocr.json';
+    const rawOutputPath = path.join(workspace.ocrDir, filename);
+
+    const dpi = options.dpi || this.defaultDpi;
+    const args: string[] = [
+      workspace.inputFilePath,
+      '-o',
+      rawOutputPath,
+      '--document-id',
+      workspace.documentId,
+      '--dpi',
+      dpi.toString(),
+      '--format',
+      isText ? 'text' : 'full-json',
+      '--representation',
+      'none',
+    ];
+
+    if (options.orientation === false) {
+      args.push('--no-orientation');
+    }
+
+    if (options.forceOcr) {
+      args.push('--force-ocr');
+    }
+
+    if (options.forceNativeText) {
+      args.push('--force-native-text');
+    }
+
+    if (options.debug) {
+      args.push('--verbose');
+    }
+
+    this.logger.log(
+      'Invoking C++ OCR Engine in RAW_OCR_ONLY mode (bypassing EDR, Evidence, and LLM stages)',
+      { documentId: workspace.documentId, binary, args },
+    );
+
+    const result = await this.processRunner.run(binary, args, {
+      timeoutMs: this.timeoutMs,
+      cwd: workspace.workspaceDir,
+    });
+
+    if (result.timedOut) {
+      throw new Error(`OCR processing timed out after ${this.timeoutMs}ms`);
+    }
+
+    if (result.exitCode !== 0) {
+      const errDetail = result.stderr || result.stdout || `exit code ${result.exitCode}`;
+      this.logger.error(
+        'Raw OCR engine execution failed',
+        undefined,
+        { documentId: workspace.documentId, exitCode: result.exitCode, errDetail },
+      );
+      throw new Error(`OCR Engine process failed: ${errDetail}`);
+    }
+
+    if (!fs.existsSync(rawOutputPath)) {
+      throw new Error(`Raw OCR output file was not produced at: ${rawOutputPath}`);
+    }
+
+    const rawOutputContent = await fs.promises.readFile(rawOutputPath, 'utf8');
+    let rawOutputJson: Record<string, unknown> | undefined;
+    let pageCount = 1;
+    let engineName = 'ocr-engine';
+    let engineVersion = '0.2.0';
+
+    if (!isText) {
+      try {
+        rawOutputJson = JSON.parse(rawOutputContent);
+        if (rawOutputJson) {
+          const doc = rawOutputJson.document as Record<string, unknown> | undefined;
+          if (doc && typeof doc.page_count === 'number') {
+            pageCount = doc.page_count;
+          } else if (Array.isArray(rawOutputJson.pages)) {
+            pageCount = rawOutputJson.pages.length;
+          }
+          const eng = rawOutputJson.engine as Record<string, unknown> | undefined;
+          if (eng && typeof eng.name === 'string') {
+            engineName = eng.name;
+          }
+          if (eng && typeof eng.version === 'string') {
+            engineVersion = eng.version;
+          }
+        }
+      } catch (err) {
+        throw new Error(
+          `Failed to parse raw OCR JSON output: ${err instanceof Error ? err.message : String(err)}`,
+        );
+      }
+    }
+
+    const artifacts = [];
+    if (options.includeArtifacts) {
+      const stat = await fs.promises.stat(rawOutputPath);
+      artifacts.push({
+        name: 'raw_ocr',
+        filename,
+        size_bytes: stat.size,
+        mime_type: isText ? 'text/plain' : 'application/json',
+        content: rawOutputJson || rawOutputContent,
+      });
+    }
+
+    this.logger.log(
+      'Raw OCR execution completed successfully',
+      {
+        documentId: workspace.documentId,
+        pageCount,
+        executionTimeMs: result.executionTimeMs,
+        format: options.outputFormat || 'json',
+      },
+    );
+
+    return {
+      success: true,
+      exitCode: result.exitCode,
+      executionTimeMs: result.executionTimeMs,
+      rawOutputPath,
+      rawOutputContent,
+      rawOutputJson,
+      pageCount,
+      engineName,
+      engineVersion,
+      artifacts,
     };
   }
 }

@@ -1,0 +1,66 @@
+{
+  "classification": {
+    "document_type": "TEXT_AND_IMAGE"
+  },
+  "document": {
+    "file_name": "Sophia Jones Transcript.pdf",
+    "file_size_bytes": 51705,
+    "format": "PDF",
+    "page_count": 1
+  },
+  "pages": [
+    {
+      "complexity": {
+        "level": "SIMPLE",
+        "score": 0.0
+      },
+      "images": {
+        "count": 1,
+        "coverage_ratio": 0.98,
+        "largest_image_ratio": 0.98
+      },
+      "input_type": "TEXT_AND_IMAGE",
+      "page": 1,
+      "processing_strategy": "OCR",
+      "text_layer": {
+        "alphabetic_ratio": 0.8674540682414699,
+        "character_count": 762,
+        "exists": true,
+        "meaningful": false,
+        "printable_ratio": 1.0,
+        "quality_score": 0.9867454068241469,
+        "reliability": {
+          "is_reliable": false,
+          "overlap_ratio": 0.019230769230769232,
+          "suspicious_overlap_count": 3,
+          "trigger_reason": "NATIVE_TEXT_SPATIAL_COLLISION_DETECTED"
+        },
+        "word_count": 156
+      },
+      "timing": {
+        "edr_ms": 0.0,
+        "layout_ms": 0.0,
+        "native_extraction_ms": 0.0,
+        "ocr_ms": 0.0,
+        "preflight_ms": 3.353951,
+        "total_ms": 0.0
+      }
+    }
+  ],
+  "performance": {
+    "average_ms_per_page": 0.0,
+    "edr_time_ms": 0.0,
+    "failed_pages": 0,
+    "fastest_page_ms": 0.0,
+    "native_extraction_time_ms": 0.0,
+    "native_pages": 0,
+    "ocr_pages": 0,
+    "ocr_time_ms": 0.0,
+    "page_count": 0,
+    "preflight_time_ms": 4.644046,
+    "skipped_pages": 0,
+    "slowest_page_ms": 0.0,
+    "total_ms": 0.0
+  },
+  "schema_version": "ocr-preflight-0.2"
+}

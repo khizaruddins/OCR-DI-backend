@@ -710,6 +710,11 @@ Return strict JSON in schema ocr-llm-resolution-response-0.1 format: {"resolutio
         result: isFinalAvailable ? finalDocumentJson : undefined,
         enhanced_edr: enhancedEdrJson,
         final_document: isFinalAvailable ? finalDocumentJson : undefined,
+        courses:
+          isFinalAvailable &&
+          Array.isArray((finalDocumentJson as any)?.courses)
+            ? (finalDocumentJson as any).courses
+            : undefined,
         final_document_candidate: !isFinalAvailable ? candidateFinalDocumentJson : undefined,
         patch_report: patchReportJson,
         finalization_report: finalizationReportJson,

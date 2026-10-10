@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { OcrLogger } from '../common/logger.service';
 import { LlmModule } from '../llm/llm.module';
 import { ArtifactService } from './artifact.service';
+import { DebugOcrController } from './debug-ocr.controller';
 import { DocumentProcessingController } from './document-processing.controller';
 import { DocumentProcessingService } from './document-processing.service';
 import { DocumentWorkspaceService } from './document-workspace.service';
@@ -11,7 +12,7 @@ import { ProcessRunnerService } from './process-runner.service';
 
 @Module({
   imports: [LlmModule],
-  controllers: [DocumentProcessingController],
+  controllers: [DocumentProcessingController, DebugOcrController],
   providers: [
     OcrLogger,
     ProcessRunnerService,

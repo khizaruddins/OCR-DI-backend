@@ -1,0 +1,3979 @@
+{
+  "confidence": 0.9217764139175415,
+  "document": {
+    "file_size_bytes": 51705,
+    "id": "doc_1791629796597_e42cf4",
+    "page_count": 1,
+    "source": "/home/khizaruddin/Downloads/Sophia Jones Transcript.pdf",
+    "type": "pdf"
+  },
+  "engine": {
+    "name": "ocr-engine",
+    "provider": "tesseract",
+    "version": "0.2.0"
+  },
+  "id": "proc_1791629796597_d5d7aa",
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": {
+            "height": 61,
+            "width": 2031,
+            "x": 163,
+            "y": 150
+          },
+          "confidence": 0.5729044079780579,
+          "lines": [
+            {
+              "bbox": {
+                "height": 61,
+                "width": 2031,
+                "x": 163,
+                "y": 150
+              },
+              "confidence": 0.5729044079780579,
+              "text": "si =6UNIVERSITY OF OXFORD                      01/28/2019",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 40,
+                    "width": 151,
+                    "x": 163,
+                    "y": 150
+                  },
+                  "confidence": 0.2672486901283264,
+                  "text": "si"
+                },
+                {
+                  "bbox": {
+                    "height": 40,
+                    "width": 346,
+                    "x": 410,
+                    "y": 168
+                  },
+                  "confidence": 0.0,
+                  "text": "=6UNIVERSITY"
+                },
+                {
+                  "bbox": {
+                    "height": 40,
+                    "width": 65,
+                    "x": 794,
+                    "y": 168
+                  },
+                  "confidence": 0.963722825050354,
+                  "text": "OF"
+                },
+                {
+                  "bbox": {
+                    "height": 40,
+                    "width": 206,
+                    "x": 899,
+                    "y": 168
+                  },
+                  "confidence": 0.9680016040802002,
+                  "text": "OXFORD"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 187,
+                    "x": 2007,
+                    "y": 175
+                  },
+                  "confidence": 0.9443838596343994,
+                  "text": "01/28/2019"
+                }
+              ]
+            }
+          ],
+          "text": ""
+        },
+        {
+          "bbox": {
+            "height": 164,
+            "width": 258,
+            "x": 82,
+            "y": 88
+          },
+          "confidence": 0.949999988079071,
+          "lines": [
+            {
+              "bbox": {
+                "height": 164,
+                "width": 258,
+                "x": 82,
+                "y": 88
+              },
+              "confidence": 0.949999988079071,
+              "text": " ",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 164,
+                    "width": 258,
+                    "x": 82,
+                    "y": 88
+                  },
+                  "confidence": 0.949999988079071,
+                  "text": " "
+                }
+              ]
+            }
+          ],
+          "text": ""
+        },
+        {
+          "bbox": {
+            "height": 427,
+            "width": 1193,
+            "x": 301,
+            "y": 568
+          },
+          "confidence": 0.8637605905532837,
+          "lines": [
+            {
+              "bbox": {
+                "height": 34,
+                "width": 584,
+                "x": 301,
+                "y": 568
+              },
+              "confidence": 0.9566683769226074,
+              "text": "STUDENT INFORMATION",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 225,
+                    "x": 301,
+                    "y": 568
+                  },
+                  "confidence": 0.9566683769226074,
+                  "text": "STUDENT"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 343,
+                    "x": 542,
+                    "y": 568
+                  },
+                  "confidence": 0.9566683769226074,
+                  "text": "INFORMATION"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 55,
+                "width": 979,
+                "x": 305,
+                "y": 687
+              },
+              "confidence": 0.9285730719566345,
+              "text": "NAME                          : Sophia Jones",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 55,
+                    "width": 129,
+                    "x": 305,
+                    "y": 687
+                  },
+                  "confidence": 0.9658716320991516,
+                  "text": "NAME"
+                },
+                {
+                  "bbox": {
+                    "height": 24,
+                    "width": 5,
+                    "x": 914,
+                    "y": 705
+                  },
+                  "confidence": 0.8526188135147095,
+                  "text": ":"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 151,
+                    "x": 985,
+                    "y": 688
+                  },
+                  "confidence": 0.9341945052146912,
+                  "text": "Sophia"
+                },
+                {
+                  "bbox": {
+                    "height": 37,
+                    "width": 130,
+                    "x": 1154,
+                    "y": 688
+                  },
+                  "confidence": 0.9616075158119202,
+                  "text": "Jones"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 43,
+                "width": 874,
+                "x": 302,
+                "y": 761
+              },
+              "confidence": 0.7907170057296753,
+              "text": "STUDENT ID                   > 2291829",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 219,
+                    "x": 302,
+                    "y": 761
+                  },
+                  "confidence": 0.9411978721618652,
+                  "text": "STUDENT"
+                },
+                {
+                  "bbox": {
+                    "height": 32,
+                    "width": 45,
+                    "x": 538,
+                    "y": 762
+                  },
+                  "confidence": 0.9101682305335999,
+                  "text": "ID"
+                },
+                {
+                  "bbox": {
+                    "height": 24,
+                    "width": 5,
+                    "x": 911,
+                    "y": 770
+                  },
+                  "confidence": 0.5827531218528748,
+                  "text": ">"
+                },
+                {
+                  "bbox": {
+                    "height": 37,
+                    "width": 191,
+                    "x": 985,
+                    "y": 767
+                  },
+                  "confidence": 0.7287489175796509,
+                  "text": "2291829"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 34,
+                "width": 942,
+                "x": 305,
+                "y": 825
+              },
+              "confidence": 0.7628160119056702,
+              "text": "BIRTHDATE                    : Jun 26 1997",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 32,
+                    "width": 262,
+                    "x": 305,
+                    "y": 826
+                  },
+                  "confidence": 0.9559829831123352,
+                  "text": "BIRTHDATE"
+                },
+                {
+                  "bbox": {
+                    "height": 24,
+                    "width": 5,
+                    "x": 908,
+                    "y": 834
+                  },
+                  "confidence": 0.6521257162094116,
+                  "text": ":"
+                },
+                {
+                  "bbox": {
+                    "height": 33,
+                    "width": 81,
+                    "x": 987,
+                    "y": 826
+                  },
+                  "confidence": 0.9201602339744568,
+                  "text": "Jun"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 52,
+                    "x": 1085,
+                    "y": 825
+                  },
+                  "confidence": 0.8119098544120789,
+                  "text": "26"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 97,
+                    "x": 1150,
+                    "y": 825
+                  },
+                  "confidence": 0.47390151023864746,
+                  "text": "1997"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 48,
+                "width": 944,
+                "x": 305,
+                "y": 886
+              },
+              "confidence": 0.8782184720039368,
+              "text": "DEPARTMENT               : Accounting",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 48,
+                    "width": 323,
+                    "x": 305,
+                    "y": 886
+                  },
+                  "confidence": 0.9664607048034668,
+                  "text": "DEPARTMENT"
+                },
+                {
+                  "bbox": {
+                    "height": 24,
+                    "width": 5,
+                    "x": 906,
+                    "y": 898
+                  },
+                  "confidence": 0.8347712755203247,
+                  "text": ":"
+                },
+                {
+                  "bbox": {
+                    "height": 43,
+                    "width": 263,
+                    "x": 986,
+                    "y": 888
+                  },
+                  "confidence": 0.8334233164787292,
+                  "text": "Accounting"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 43,
+                "width": 1189,
+                "x": 305,
+                "y": 952
+              },
+              "confidence": 0.9151701927185059,
+              "text": "BACHELORS MAJOR        : Accounting & Finance",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 286,
+                    "x": 305,
+                    "y": 953
+                  },
+                  "confidence": 0.9554905891418457,
+                  "text": "BACHELORS"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 165,
+                    "x": 610,
+                    "y": 953
+                  },
+                  "confidence": 0.9483835697174072,
+                  "text": "MAJOR"
+                },
+                {
+                  "bbox": {
+                    "height": 24,
+                    "width": 5,
+                    "x": 911,
+                    "y": 962
+                  },
+                  "confidence": 0.8148648738861084,
+                  "text": ":"
+                },
+                {
+                  "bbox": {
+                    "height": 43,
+                    "width": 262,
+                    "x": 991,
+                    "y": 952
+                  },
+                  "confidence": 0.8812721967697144,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 28,
+                    "x": 1272,
+                    "y": 953
+                  },
+                  "confidence": 0.9229076504707336,
+                  "text": "&"
+                },
+                {
+                  "bbox": {
+                    "height": 35,
+                    "width": 177,
+                    "x": 1317,
+                    "y": 952
+                  },
+                  "confidence": 0.9681023359298706,
+                  "text": "Finance"
+                }
+              ]
+            }
+          ],
+          "text": ""
+        },
+        {
+          "bbox": {
+            "height": 9,
+            "width": 1923,
+            "x": 314,
+            "y": 1106
+          },
+          "confidence": 0.949999988079071,
+          "lines": [
+            {
+              "bbox": {
+                "height": 9,
+                "width": 1923,
+                "x": 314,
+                "y": 1106
+              },
+              "confidence": 0.949999988079071,
+              "text": " ",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 9,
+                    "width": 1923,
+                    "x": 314,
+                    "y": 1106
+                  },
+                  "confidence": 0.949999988079071,
+                  "text": " "
+                }
+              ]
+            }
+          ],
+          "text": ""
+        },
+        {
+          "bbox": {
+            "height": 34,
+            "width": 1483,
+            "x": 305,
+            "y": 1146
+          },
+          "confidence": 0.9463440179824829,
+          "lines": [
+            {
+              "bbox": {
+                "height": 34,
+                "width": 1483,
+                "x": 305,
+                "y": 1146
+              },
+              "confidence": 0.9463440179824829,
+              "text": "DEGREES AWARDED - BACHELORS IN ACCOUNTING & FINANCE",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 219,
+                    "x": 305,
+                    "y": 1146
+                  },
+                  "confidence": 0.9580312967300415,
+                  "text": "DEGREES"
+                },
+                {
+                  "bbox": {
+                    "height": 32,
+                    "width": 251,
+                    "x": 538,
+                    "y": 1147
+                  },
+                  "confidence": 0.9326763153076172,
+                  "text": "AWARDED"
+                },
+                {
+                  "bbox": {
+                    "height": 3,
+                    "width": 13,
+                    "x": 805,
+                    "y": 1165
+                  },
+                  "confidence": 0.9285807609558105,
+                  "text": "-"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 287,
+                    "x": 837,
+                    "y": 1146
+                  },
+                  "confidence": 0.9606500267982483,
+                  "text": "BACHELORS"
+                },
+                {
+                  "bbox": {
+                    "height": 32,
+                    "width": 41,
+                    "x": 1143,
+                    "y": 1147
+                  },
+                  "confidence": 0.9639979004859924,
+                  "text": "IN"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 317,
+                    "x": 1201,
+                    "y": 1146
+                  },
+                  "confidence": 0.932259738445282,
+                  "text": "ACCOUNTING"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 28,
+                    "x": 1536,
+                    "y": 1146
+                  },
+                  "confidence": 0.932259738445282,
+                  "text": "&"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 206,
+                    "x": 1582,
+                    "y": 1146
+                  },
+                  "confidence": 0.9622963666915894,
+                  "text": "FINANCE"
+                }
+              ]
+            }
+          ],
+          "text": ""
+        },
+        {
+          "bbox": {
+            "height": 9,
+            "width": 1923,
+            "x": 314,
+            "y": 1235
+          },
+          "confidence": 0.949999988079071,
+          "lines": [
+            {
+              "bbox": {
+                "height": 9,
+                "width": 1923,
+                "x": 314,
+                "y": 1235
+              },
+              "confidence": 0.949999988079071,
+              "text": " ",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 9,
+                    "width": 1923,
+                    "x": 314,
+                    "y": 1235
+                  },
+                  "confidence": 0.949999988079071,
+                  "text": " "
+                }
+              ]
+            }
+          ],
+          "text": ""
+        },
+        {
+          "bbox": {
+            "height": 1485,
+            "width": 1669,
+            "x": 306,
+            "y": 1334
+          },
+          "confidence": 0.9471465945243835,
+          "lines": [
+            {
+              "bbox": {
+                "height": 47,
+                "width": 1654,
+                "x": 321,
+                "y": 1334
+              },
+              "confidence": 0.9648061394691467,
+              "text": "TEACH      CRS       COURSE DESCRIPTION                   CREDITS     GRADE",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 31,
+                    "width": 140,
+                    "x": 321,
+                    "y": 1338
+                  },
+                  "confidence": 0.9667919278144836,
+                  "text": "TEACH"
+                },
+                {
+                  "bbox": {
+                    "height": 31,
+                    "width": 82,
+                    "x": 556,
+                    "y": 1338
+                  },
+                  "confidence": 0.9688134789466858,
+                  "text": "CRS"
+                },
+                {
+                  "bbox": {
+                    "height": 31,
+                    "width": 177,
+                    "x": 750,
+                    "y": 1338
+                  },
+                  "confidence": 0.9625957012176514,
+                  "text": "COURSE"
+                },
+                {
+                  "bbox": {
+                    "height": 31,
+                    "width": 286,
+                    "x": 944,
+                    "y": 1338
+                  },
+                  "confidence": 0.9593107104301453,
+                  "text": "DESCRIPTION"
+                },
+                {
+                  "bbox": {
+                    "height": 47,
+                    "width": 180,
+                    "x": 1553,
+                    "y": 1334
+                  },
+                  "confidence": 0.9660043120384216,
+                  "text": "CREDITS"
+                },
+                {
+                  "bbox": {
+                    "height": 31,
+                    "width": 151,
+                    "x": 1824,
+                    "y": 1338
+                  },
+                  "confidence": 0.9653205275535583,
+                  "text": "GRADE"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1548,
+                "x": 321,
+                "y": 1472
+              },
+              "confidence": 0.9605339765548706,
+              "text": "ACCT            101           Intro to Accounting |                                   3                    A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 99,
+                    "x": 321,
+                    "y": 1472
+                  },
+                  "confidence": 0.9619311690330505,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 49,
+                    "x": 568,
+                    "y": 1476
+                  },
+                  "confidence": 0.9491584300994873,
+                  "text": "101"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 84,
+                    "x": 757,
+                    "y": 1476
+                  },
+                  "confidence": 0.9575977921485901,
+                  "text": "Intro"
+                },
+                {
+                  "bbox": {
+                    "height": 24,
+                    "width": 36,
+                    "x": 853,
+                    "y": 1479
+                  },
+                  "confidence": 0.9576829671859741,
+                  "text": "to"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 215,
+                    "x": 900,
+                    "y": 1475
+                  },
+                  "confidence": 0.9645648002624512,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 3,
+                    "x": 1133,
+                    "y": 1476
+                  },
+                  "confidence": 0.9650914669036865,
+                  "text": "|"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 1476
+                  },
+                  "confidence": 0.9682745933532715,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 26,
+                    "x": 1843,
+                    "y": 1476
+                  },
+                  "confidence": 0.9599707126617432,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1548,
+                "x": 321,
+                "y": 1568
+              },
+              "confidence": 0.9449681043624878,
+              "text": "ACCT         102        Introduction to Accounting II                  3                A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 99,
+                    "x": 321,
+                    "y": 1568
+                  },
+                  "confidence": 0.9624236226081848,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 59,
+                    "x": 568,
+                    "y": 1572
+                  },
+                  "confidence": 0.9636995196342468,
+                  "text": "102"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 228,
+                    "x": 757,
+                    "y": 1571
+                  },
+                  "confidence": 0.9652356505393982,
+                  "text": "Introduction"
+                },
+                {
+                  "bbox": {
+                    "height": 24,
+                    "width": 35,
+                    "x": 1000,
+                    "y": 1575
+                  },
+                  "confidence": 0.9632536172866821,
+                  "text": "to"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 215,
+                    "x": 1046,
+                    "y": 1571
+                  },
+                  "confidence": 0.9657367467880249,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 14,
+                    "x": 1279,
+                    "y": 1572
+                  },
+                  "confidence": 0.8118472099304199,
+                  "text": "II"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 1572
+                  },
+                  "confidence": 0.9690414667129517,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 26,
+                    "x": 1843,
+                    "y": 1572
+                  },
+                  "confidence": 0.9585071802139282,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1544,
+                "x": 325,
+                "y": 1664
+              },
+              "confidence": 0.954460084438324,
+              "text": "FINC         201        Raising Individual Financial Awareness     3               A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 87,
+                    "x": 325,
+                    "y": 1668
+                  },
+                  "confidence": 0.9101470708847046,
+                  "text": "FINC"
+                },
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 55,
+                    "x": 569,
+                    "y": 1664
+                  },
+                  "confidence": 0.9450925588607788,
+                  "text": "201"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 131,
+                    "x": 757,
+                    "y": 1667
+                  },
+                  "confidence": 0.9652222394943237,
+                  "text": "Raising"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 178,
+                    "x": 905,
+                    "y": 1667
+                  },
+                  "confidence": 0.9558266997337341,
+                  "text": "Individual"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 163,
+                    "x": 1100,
+                    "y": 1667
+                  },
+                  "confidence": 0.964012861251831,
+                  "text": "Financial"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 201,
+                    "x": 1276,
+                    "y": 1668
+                  },
+                  "confidence": 0.9666505455970764,
+                  "text": "Awareness"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 1668
+                  },
+                  "confidence": 0.9683562517166138,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 26,
+                    "x": 1843,
+                    "y": 1668
+                  },
+                  "confidence": 0.9603720903396606,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1544,
+                "x": 325,
+                "y": 1760
+              },
+              "confidence": 0.9592651128768921,
+              "text": "BUSI          203       Essential Information Skills                   3               A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 84,
+                    "x": 325,
+                    "y": 1760
+                  },
+                  "confidence": 0.9332025051116943,
+                  "text": "BUSI"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 65,
+                    "x": 569,
+                    "y": 1764
+                  },
+                  "confidence": 0.9668970704078674,
+                  "text": "203"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 159,
+                    "x": 757,
+                    "y": 1763
+                  },
+                  "confidence": 0.9610159397125244,
+                  "text": "Essential"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 216,
+                    "x": 933,
+                    "y": 1763
+                  },
+                  "confidence": 0.9571428894996643,
+                  "text": "Information"
+                },
+                {
+                  "bbox": {
+                    "height": 29,
+                    "width": 90,
+                    "x": 1165,
+                    "y": 1763
+                  },
+                  "confidence": 0.9628646969795227,
+                  "text": "Skills"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 1764
+                  },
+                  "confidence": 0.9683562517166138,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 26,
+                    "x": 1843,
+                    "y": 1764
+                  },
+                  "confidence": 0.9653763771057129,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1544,
+                "x": 325,
+                "y": 1857
+              },
+              "confidence": 0.9559858441352844,
+              "text": "BUSI            101          Foundations of Business                           3                   A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 84,
+                    "x": 325,
+                    "y": 1857
+                  },
+                  "confidence": 0.9366409778594971,
+                  "text": "BUSI"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 49,
+                    "x": 568,
+                    "y": 1861
+                  },
+                  "confidence": 0.9445386528968811,
+                  "text": "101"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 231,
+                    "x": 757,
+                    "y": 1860
+                  },
+                  "confidence": 0.9576030969619751,
+                  "text": "Foundations"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 36,
+                    "x": 1001,
+                    "y": 1860
+                  },
+                  "confidence": 0.9576030969619751,
+                  "text": "of"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 161,
+                    "x": 1050,
+                    "y": 1860
+                  },
+                  "confidence": 0.9608844518661499,
+                  "text": "Business"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 1861
+                  },
+                  "confidence": 0.9692546725273132,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 26,
+                    "x": 1843,
+                    "y": 1861
+                  },
+                  "confidence": 0.9653763771057129,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1548,
+                "x": 321,
+                "y": 1953
+              },
+              "confidence": 0.9577473998069763,
+              "text": "ACCT           301          Business Accounting Systems                    3                    B",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 99,
+                    "x": 321,
+                    "y": 1953
+                  },
+                  "confidence": 0.9620363116264343,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 55,
+                    "x": 569,
+                    "y": 1953
+                  },
+                  "confidence": 0.9491651654243469,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 161,
+                    "x": 757,
+                    "y": 1956
+                  },
+                  "confidence": 0.9674105048179626,
+                  "text": "Business"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 215,
+                    "x": 929,
+                    "y": 1956
+                  },
+                  "confidence": 0.965385913848877,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 35,
+                    "width": 153,
+                    "x": 1159,
+                    "y": 1957
+                  },
+                  "confidence": 0.9639665484428406,
+                  "text": "Systems"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 1957
+                  },
+                  "confidence": 0.9678488969802856,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 22,
+                    "x": 1847,
+                    "y": 1957
+                  },
+                  "confidence": 0.928418755531311,
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1547,
+                "x": 321,
+                "y": 2049
+              },
+              "confidence": 0.9120132327079773,
+              "text": "ACCT         401        Financial Accounting and Reporting        3                Cc",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 99,
+                    "x": 321,
+                    "y": 2049
+                  },
+                  "confidence": 0.9600554704666138,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 59,
+                    "x": 569,
+                    "y": 2049
+                  },
+                  "confidence": 0.9425567388534546,
+                  "text": "401"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 162,
+                    "x": 757,
+                    "y": 2052
+                  },
+                  "confidence": 0.9625405669212341,
+                  "text": "Financial"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 215,
+                    "x": 932,
+                    "y": 2052
+                  },
+                  "confidence": 0.9625405669212341,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 67,
+                    "x": 1163,
+                    "y": 2052
+                  },
+                  "confidence": 0.9673368334770203,
+                  "text": "and"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 183,
+                    "x": 1247,
+                    "y": 2052
+                  },
+                  "confidence": 0.9606282711029053,
+                  "text": "Reporting"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 2053
+                  },
+                  "confidence": 0.9678488969802856,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 23,
+                    "x": 1845,
+                    "y": 2053
+                  },
+                  "confidence": 0.5725988149642944,
+                  "text": "Cc"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1548,
+                "x": 321,
+                "y": 2146
+              },
+              "confidence": 0.9631743431091309,
+              "text": "ACCT           402         Management Accounting                          3                    A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 99,
+                    "x": 321,
+                    "y": 2146
+                  },
+                  "confidence": 0.9625735282897949,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 69,
+                    "x": 569,
+                    "y": 2150
+                  },
+                  "confidence": 0.9584468007087708,
+                  "text": "402"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 251,
+                    "x": 757,
+                    "y": 2151
+                  },
+                  "confidence": 0.964997410774231,
+                  "text": "Management"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 215,
+                    "x": 1019,
+                    "y": 2149
+                  },
+                  "confidence": 0.9631584882736206,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 2150
+                  },
+                  "confidence": 0.9674932956695557,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 26,
+                    "x": 1843,
+                    "y": 2150
+                  },
+                  "confidence": 0.9623765349388123,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 43,
+                "width": 1544,
+                "x": 325,
+                "y": 2242
+              },
+              "confidence": 0.9453016519546509,
+              "text": "FINC          301         Corporate Finance                               3                 B",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 87,
+                    "x": 325,
+                    "y": 2246
+                  },
+                  "confidence": 0.9237297773361206,
+                  "text": "FINC"
+                },
+                {
+                  "bbox": {
+                    "height": 43,
+                    "width": 55,
+                    "x": 569,
+                    "y": 2242
+                  },
+                  "confidence": 0.9177321791648865,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 182,
+                    "x": 755,
+                    "y": 2246
+                  },
+                  "confidence": 0.9677064418792725,
+                  "text": "Corporate"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 145,
+                    "x": 952,
+                    "y": 2245
+                  },
+                  "confidence": 0.9656099677085876,
+                  "text": "Finance"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 2246
+                  },
+                  "confidence": 0.9674955010414124,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 22,
+                    "x": 1847,
+                    "y": 2246
+                  },
+                  "confidence": 0.9295358061790466,
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1548,
+                "x": 321,
+                "y": 2338
+              },
+              "confidence": 0.9574442505836487,
+              "text": "ACCT          601         Research in Accounting                          3                  B",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 99,
+                    "x": 321,
+                    "y": 2338
+                  },
+                  "confidence": 0.9637680649757385,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 56,
+                    "x": 570,
+                    "y": 2338
+                  },
+                  "confidence": 0.9438561797142029,
+                  "text": "601"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 165,
+                    "x": 757,
+                    "y": 2341
+                  },
+                  "confidence": 0.9676333069801331,
+                  "text": "Research"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 30,
+                    "x": 938,
+                    "y": 2341
+                  },
+                  "confidence": 0.9664025902748108,
+                  "text": "in"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 215,
+                    "x": 981,
+                    "y": 2341
+                  },
+                  "confidence": 0.9625794291496277,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 2342
+                  },
+                  "confidence": 0.9692504405975342,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 22,
+                    "x": 1847,
+                    "y": 2342
+                  },
+                  "confidence": 0.928619384765625,
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 43,
+                "width": 1544,
+                "x": 325,
+                "y": 2435
+              },
+              "confidence": 0.920723021030426,
+              "text": "BUSI         499       Personal and Professional Development 3               B",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 43,
+                    "width": 84,
+                    "x": 325,
+                    "y": 2435
+                  },
+                  "confidence": 0.8953831195831299,
+                  "text": "BUSI"
+                },
+                {
+                  "bbox": {
+                    "height": 43,
+                    "width": 68,
+                    "x": 569,
+                    "y": 2435
+                  },
+                  "confidence": 0.9625126123428345,
+                  "text": "499"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 156,
+                    "x": 757,
+                    "y": 2438
+                  },
+                  "confidence": 0.9617459177970886,
+                  "text": "Personal"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 67,
+                    "x": 928,
+                    "y": 2438
+                  },
+                  "confidence": 0.9615167379379272,
+                  "text": "and"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 219,
+                    "x": 1013,
+                    "y": 2438
+                  },
+                  "confidence": 0.9643068909645081,
+                  "text": "Professional"
+                },
+                {
+                  "bbox": {
+                    "height": 35,
+                    "width": 253,
+                    "x": 1249,
+                    "y": 2438
+                  },
+                  "confidence": 0.8460816144943237,
+                  "text": "Development"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 2439
+                  },
+                  "confidence": 0.8460816144943237,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 22,
+                    "x": 1847,
+                    "y": 2439
+                  },
+                  "confidence": 0.9281557202339172,
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1548,
+                "x": 321,
+                "y": 2531
+              },
+              "confidence": 0.955655574798584,
+              "text": "AUDT          301          Introduction to Auditing Theory and          3                   B",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 108,
+                    "x": 321,
+                    "y": 2531
+                  },
+                  "confidence": 0.9309356808662415,
+                  "text": "AUDT"
+                },
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 55,
+                    "x": 569,
+                    "y": 2531
+                  },
+                  "confidence": 0.941388726234436,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 228,
+                    "x": 757,
+                    "y": 2534
+                  },
+                  "confidence": 0.9648004174232483,
+                  "text": "Introduction"
+                },
+                {
+                  "bbox": {
+                    "height": 24,
+                    "width": 35,
+                    "x": 1000,
+                    "y": 2538
+                  },
+                  "confidence": 0.9685106873512268,
+                  "text": "to"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 160,
+                    "x": 1046,
+                    "y": 2534
+                  },
+                  "confidence": 0.9665548801422119,
+                  "text": "Auditing"
+                },
+                {
+                  "bbox": {
+                    "height": 36,
+                    "width": 128,
+                    "x": 1220,
+                    "y": 2534
+                  },
+                  "confidence": 0.9655118584632874,
+                  "text": "Theory"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 67,
+                    "x": 1361,
+                    "y": 2534
+                  },
+                  "confidence": 0.9655118584632874,
+                  "text": "and"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 2535
+                  },
+                  "confidence": 0.9692504405975342,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 22,
+                    "x": 1847,
+                    "y": 2535
+                  },
+                  "confidence": 0.9284359812736511,
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 28,
+                "width": 146,
+                "x": 757,
+                "y": 2587
+              },
+              "confidence": 0.9672766923904419,
+              "text": "Practice",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 146,
+                    "x": 757,
+                    "y": 2587
+                  },
+                  "confidence": 0.9672766923904419,
+                  "text": "Practice"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 44,
+                "width": 1563,
+                "x": 306,
+                "y": 2680
+              },
+              "confidence": 0.9585173726081848,
+              "text": "MIS            301         Management Information Systems           3                 A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 85,
+                    "x": 306,
+                    "y": 2680
+                  },
+                  "confidence": 0.9672799706459045,
+                  "text": "MIS"
+                },
+                {
+                  "bbox": {
+                    "height": 44,
+                    "width": 55,
+                    "x": 569,
+                    "y": 2680
+                  },
+                  "confidence": 0.9421164989471436,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 251,
+                    "x": 757,
+                    "y": 2685
+                  },
+                  "confidence": 0.9641003608703613,
+                  "text": "Management"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 216,
+                    "x": 1023,
+                    "y": 2683
+                  },
+                  "confidence": 0.9527034759521484,
+                  "text": "Information"
+                },
+                {
+                  "bbox": {
+                    "height": 35,
+                    "width": 153,
+                    "x": 1254,
+                    "y": 2684
+                  },
+                  "confidence": 0.9567033648490906,
+                  "text": "Systems"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 2684
+                  },
+                  "confidence": 0.9672033786773682,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 26,
+                    "x": 1843,
+                    "y": 2684
+                  },
+                  "confidence": 0.9595146179199219,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 43,
+                "width": 1562,
+                "x": 306,
+                "y": 2776
+              },
+              "confidence": 0.9076368808746338,
+              "text": "LAW          301        Corporate and Business Law                  2                 Cc",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 43,
+                    "width": 94,
+                    "x": 306,
+                    "y": 2776
+                  },
+                  "confidence": 0.9648901224136353,
+                  "text": "LAW"
+                },
+                {
+                  "bbox": {
+                    "height": 43,
+                    "width": 55,
+                    "x": 569,
+                    "y": 2776
+                  },
+                  "confidence": 0.924532413482666,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 34,
+                    "width": 182,
+                    "x": 755,
+                    "y": 2780
+                  },
+                  "confidence": 0.9646328687667847,
+                  "text": "Corporate"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 68,
+                    "x": 950,
+                    "y": 2779
+                  },
+                  "confidence": 0.9575926065444946,
+                  "text": "and"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 161,
+                    "x": 1035,
+                    "y": 2779
+                  },
+                  "confidence": 0.9575926065444946,
+                  "text": "Business"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 72,
+                    "x": 1211,
+                    "y": 2780
+                  },
+                  "confidence": 0.965831458568573,
+                  "text": "Law"
+                },
+                {
+                  "bbox": {
+                    "height": 27,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 2780
+                  },
+                  "confidence": 0.970116138458252,
+                  "text": "2"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 23,
+                    "x": 1845,
+                    "y": 2780
+                  },
+                  "confidence": 0.555906355381012,
+                  "text": "Cc"
+                }
+              ]
+            }
+          ],
+          "text": ""
+        },
+        {
+          "bbox": {
+            "height": 42,
+            "width": 1547,
+            "x": 321,
+            "y": 2872
+          },
+          "confidence": 0.8818762898445129,
+          "lines": [
+            {
+              "bbox": {
+                "height": 42,
+                "width": 1547,
+                "x": 321,
+                "y": 2872
+              },
+              "confidence": 0.8818762898445129,
+              "text": "TAX              301          Personal Taxation                                      3                    Cc",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 42,
+                    "width": 69,
+                    "x": 321,
+                    "y": 2872
+                  },
+                  "confidence": 0.9630034565925598,
+                  "text": "TAX"
+                },
+                {
+                  "bbox": {
+                    "height": 41,
+                    "width": 55,
+                    "x": 569,
+                    "y": 2873
+                  },
+                  "confidence": 0.9362589120864868,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 156,
+                    "x": 757,
+                    "y": 2876
+                  },
+                  "confidence": 0.960395097732544,
+                  "text": "Personal"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 155,
+                    "x": 926,
+                    "y": 2876
+                  },
+                  "confidence": 0.964331865310669,
+                  "text": "Taxation"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 19,
+                    "x": 1569,
+                    "y": 2877
+                  },
+                  "confidence": 0.9523680210113525,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 28,
+                    "width": 23,
+                    "x": 1845,
+                    "y": 2877
+                  },
+                  "confidence": 0.5149005651473999,
+                  "text": "Cc"
+                }
+              ]
+            }
+          ],
+          "text": ""
+        }
+      ],
+      "confidence": 0.9217764139175415,
+      "conflict_reason": "NATIVE_TEXT_SPATIAL_COLLISION_DETECTED",
+      "has_conflict": true,
+      "height": 3300,
+      "native_blocks": [
+        {
+          "bbox": {
+            "height": 73,
+            "width": 1789,
+            "x": 408,
+            "y": 150
+          },
+          "confidence": 1.0,
+          "lines": [
+            {
+              "bbox": {
+                "height": 73,
+                "width": 1789,
+                "x": 408,
+                "y": 150
+              },
+              "confidence": 1.0,
+              "text": "UNIVERSITY OF OXFORD 01/28/2019",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 73,
+                    "width": 350,
+                    "x": 408,
+                    "y": 150
+                  },
+                  "confidence": 1.0,
+                  "text": "UNIVERSITY"
+                },
+                {
+                  "bbox": {
+                    "height": 73,
+                    "width": 70,
+                    "x": 793,
+                    "y": 150
+                  },
+                  "confidence": 1.0,
+                  "text": "OF"
+                },
+                {
+                  "bbox": {
+                    "height": 73,
+                    "width": 210,
+                    "x": 898,
+                    "y": 150
+                  },
+                  "confidence": 1.0,
+                  "text": "OXFORD"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 191,
+                    "x": 2006,
+                    "y": 171
+                  },
+                  "confidence": 1.0,
+                  "text": "01/28/2019"
+                }
+              ]
+            }
+          ],
+          "text": "UNIVERSITY OF OXFORD 01/28/2019"
+        },
+        {
+          "bbox": {
+            "height": 442,
+            "width": 1196,
+            "x": 300,
+            "y": 557
+          },
+          "confidence": 1.0,
+          "lines": [
+            {
+              "bbox": {
+                "height": 56,
+                "width": 589,
+                "x": 300,
+                "y": 557
+              },
+              "confidence": 1.0,
+              "text": "STUDENT INFORMATION",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 227,
+                    "x": 300,
+                    "y": 557
+                  },
+                  "confidence": 1.0,
+                  "text": "STUDENT"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 350,
+                    "x": 539,
+                    "y": 557
+                  },
+                  "confidence": 1.0,
+                  "text": "INFORMATION"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 63,
+                "width": 986,
+                "x": 300,
+                "y": 679
+              },
+              "confidence": 1.0,
+              "text": "NAME : Davis, Sophia Leah Jones",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 144,
+                    "x": 300,
+                    "y": 686
+                  },
+                  "confidence": 1.0,
+                  "text": "NAME"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 10,
+                    "x": 912,
+                    "y": 686
+                  },
+                  "confidence": 1.0,
+                  "text": ":"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 134,
+                    "x": 982,
+                    "y": 686
+                  },
+                  "confidence": 1.0,
+                  "text": "Davis,"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 156,
+                    "x": 983,
+                    "y": 679
+                  },
+                  "confidence": 1.0,
+                  "text": "Sophia"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 112,
+                    "x": 1128,
+                    "y": 686
+                  },
+                  "confidence": 1.0,
+                  "text": "Leah"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 133,
+                    "x": 1153,
+                    "y": 679
+                  },
+                  "confidence": 1.0,
+                  "text": "Jones"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 67,
+                "width": 914,
+                "x": 300,
+                "y": 750
+              },
+              "confidence": 1.0,
+              "text": "STUDENT ID : 2291829 929551012",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 222,
+                    "x": 300,
+                    "y": 750
+                  },
+                  "confidence": 1.0,
+                  "text": "STUDENT"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 52,
+                    "x": 534,
+                    "y": 750
+                  },
+                  "confidence": 1.0,
+                  "text": "ID"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 10,
+                    "x": 909,
+                    "y": 750
+                  },
+                  "confidence": 1.0,
+                  "text": ":"
+                },
+                {
+                  "bbox": {
+                    "height": 67,
+                    "width": 195,
+                    "x": 983,
+                    "y": 750
+                  },
+                  "confidence": 1.0,
+                  "text": "2291829"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 223,
+                    "x": 991,
+                    "y": 750
+                  },
+                  "confidence": 1.0,
+                  "text": "929551012"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 56,
+                "width": 949,
+                "x": 300,
+                "y": 814
+              },
+              "confidence": 1.0,
+              "text": "BIRTHDATE : Jun 26 1997",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 270,
+                    "x": 300,
+                    "y": 814
+                  },
+                  "confidence": 1.0,
+                  "text": "BIRTHDATE"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 10,
+                    "x": 906,
+                    "y": 814
+                  },
+                  "confidence": 1.0,
+                  "text": ":"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 85,
+                    "x": 988,
+                    "y": 814
+                  },
+                  "confidence": 1.0,
+                  "text": "Jun"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 54,
+                    "x": 1084,
+                    "y": 814
+                  },
+                  "confidence": 1.0,
+                  "text": "26"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 99,
+                    "x": 1150,
+                    "y": 814
+                  },
+                  "confidence": 1.0,
+                  "text": "1997"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 56,
+                "width": 954,
+                "x": 300,
+                "y": 878
+              },
+              "confidence": 1.0,
+              "text": "DEPARTMENT : Accounting",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 329,
+                    "x": 300,
+                    "y": 878
+                  },
+                  "confidence": 1.0,
+                  "text": "DEPARTMENT"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 10,
+                    "x": 905,
+                    "y": 878
+                  },
+                  "confidence": 1.0,
+                  "text": ":"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 267,
+                    "x": 987,
+                    "y": 878
+                  },
+                  "confidence": 1.0,
+                  "text": "Accounting"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 56,
+                "width": 1196,
+                "x": 300,
+                "y": 943
+              },
+              "confidence": 1.0,
+              "text": "BACHELORS MAJOR : Accounting & Finance",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 294,
+                    "x": 300,
+                    "y": 943
+                  },
+                  "confidence": 1.0,
+                  "text": "BACHELORS"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 172,
+                    "x": 606,
+                    "y": 943
+                  },
+                  "confidence": 1.0,
+                  "text": "MAJOR"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 10,
+                    "x": 910,
+                    "y": 943
+                  },
+                  "confidence": 1.0,
+                  "text": ":"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 267,
+                    "x": 991,
+                    "y": 943
+                  },
+                  "confidence": 1.0,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 31,
+                    "x": 1270,
+                    "y": 943
+                  },
+                  "confidence": 1.0,
+                  "text": "&"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 183,
+                    "x": 1313,
+                    "y": 943
+                  },
+                  "confidence": 1.0,
+                  "text": "Finance"
+                }
+              ]
+            }
+          ],
+          "text": "STUDENT INFORMATION\nNAME : Davis, Sophia Leah Jones\nSTUDENT ID : 2291829 929551012\nBIRTHDATE : Jun 26 1997\nDEPARTMENT : Accounting\nBACHELORS MAJOR : Accounting & Finance"
+        },
+        {
+          "bbox": {
+            "height": 56,
+            "width": 1492,
+            "x": 300,
+            "y": 1135
+          },
+          "confidence": 1.0,
+          "lines": [
+            {
+              "bbox": {
+                "height": 56,
+                "width": 1492,
+                "x": 300,
+                "y": 1135
+              },
+              "confidence": 1.0,
+              "text": "DEGREES AWARDED - BACHELORS IN ACCOUNTING & FINANCE",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 226,
+                    "x": 300,
+                    "y": 1135
+                  },
+                  "confidence": 1.0,
+                  "text": "DEGREES"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 253,
+                    "x": 538,
+                    "y": 1135
+                  },
+                  "confidence": 1.0,
+                  "text": "AWARDED"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 18,
+                    "x": 803,
+                    "y": 1135
+                  },
+                  "confidence": 1.0,
+                  "text": "-"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 294,
+                    "x": 833,
+                    "y": 1135
+                  },
+                  "confidence": 1.0,
+                  "text": "BACHELORS"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 51,
+                    "x": 1138,
+                    "y": 1135
+                  },
+                  "confidence": 1.0,
+                  "text": "IN"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 322,
+                    "x": 1201,
+                    "y": 1135
+                  },
+                  "confidence": 1.0,
+                  "text": "ACCOUNTING"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 31,
+                    "x": 1535,
+                    "y": 1135
+                  },
+                  "confidence": 1.0,
+                  "text": "&"
+                },
+                {
+                  "bbox": {
+                    "height": 56,
+                    "width": 214,
+                    "x": 1578,
+                    "y": 1135
+                  },
+                  "confidence": 1.0,
+                  "text": "FINANCE"
+                }
+              ]
+            }
+          ],
+          "text": "DEGREES AWARDED - BACHELORS IN ACCOUNTING & FINANCE"
+        },
+        {
+          "bbox": {
+            "height": 1586,
+            "width": 1655,
+            "x": 322,
+            "y": 1328
+          },
+          "confidence": 1.0,
+          "lines": [
+            {
+              "bbox": {
+                "height": 51,
+                "width": 1655,
+                "x": 322,
+                "y": 1328
+              },
+              "confidence": 1.0,
+              "text": "TEACH CRS COURSE DESCRIPTION CREDITS GRADE",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 51,
+                    "width": 145,
+                    "x": 322,
+                    "y": 1328
+                  },
+                  "confidence": 1.0,
+                  "text": "TEACH"
+                },
+                {
+                  "bbox": {
+                    "height": 51,
+                    "width": 86,
+                    "x": 554,
+                    "y": 1328
+                  },
+                  "confidence": 1.0,
+                  "text": "CRS"
+                },
+                {
+                  "bbox": {
+                    "height": 51,
+                    "width": 181,
+                    "x": 749,
+                    "y": 1328
+                  },
+                  "confidence": 1.0,
+                  "text": "COURSE"
+                },
+                {
+                  "bbox": {
+                    "height": 51,
+                    "width": 294,
+                    "x": 941,
+                    "y": 1328
+                  },
+                  "confidence": 1.0,
+                  "text": "DESCRIPTION"
+                },
+                {
+                  "bbox": {
+                    "height": 51,
+                    "width": 184,
+                    "x": 1552,
+                    "y": 1328
+                  },
+                  "confidence": 1.0,
+                  "text": "CREDITS"
+                },
+                {
+                  "bbox": {
+                    "height": 51,
+                    "width": 154,
+                    "x": 1823,
+                    "y": 1328
+                  },
+                  "confidence": 1.0,
+                  "text": "GRADE"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1549,
+                "x": 322,
+                "y": 1467
+              },
+              "confidence": 1.0,
+              "text": "ACCT 101 Intro to Accounting I 3 A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 101,
+                    "x": 322,
+                    "y": 1467
+                  },
+                  "confidence": 1.0,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 52,
+                    "x": 569,
+                    "y": 1467
+                  },
+                  "confidence": 1.0,
+                  "text": "101"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 90,
+                    "x": 753,
+                    "y": 1467
+                  },
+                  "confidence": 1.0,
+                  "text": "Intro"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 38,
+                    "x": 853,
+                    "y": 1467
+                  },
+                  "confidence": 1.0,
+                  "text": "to"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 219,
+                    "x": 901,
+                    "y": 1467
+                  },
+                  "confidence": 1.0,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 11,
+                    "x": 1129,
+                    "y": 1467
+                  },
+                  "confidence": 1.0,
+                  "text": "I"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 1467
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 27,
+                    "x": 1844,
+                    "y": 1467
+                  },
+                  "confidence": 1.0,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1549,
+                "x": 322,
+                "y": 1563
+              },
+              "confidence": 1.0,
+              "text": "ACCT 102 Introduction to Accounting II 3 A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 101,
+                    "x": 322,
+                    "y": 1563
+                  },
+                  "confidence": 1.0,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 60,
+                    "x": 569,
+                    "y": 1563
+                  },
+                  "confidence": 1.0,
+                  "text": "102"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 236,
+                    "x": 753,
+                    "y": 1563
+                  },
+                  "confidence": 1.0,
+                  "text": "Introduction"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 38,
+                    "x": 999,
+                    "y": 1563
+                  },
+                  "confidence": 1.0,
+                  "text": "to"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 219,
+                    "x": 1047,
+                    "y": 1563
+                  },
+                  "confidence": 1.0,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 23,
+                    "x": 1275,
+                    "y": 1563
+                  },
+                  "confidence": 1.0,
+                  "text": "II"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 1563
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 27,
+                    "x": 1844,
+                    "y": 1563
+                  },
+                  "confidence": 1.0,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1549,
+                "x": 322,
+                "y": 1659
+              },
+              "confidence": 1.0,
+              "text": "FINC 201 Raising Individual Financial Awareness 3 A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 93,
+                    "x": 322,
+                    "y": 1659
+                  },
+                  "confidence": 1.0,
+                  "text": "FINC"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 60,
+                    "x": 569,
+                    "y": 1659
+                  },
+                  "confidence": 1.0,
+                  "text": "201"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 139,
+                    "x": 753,
+                    "y": 1659
+                  },
+                  "confidence": 1.0,
+                  "text": "Raising"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 185,
+                    "x": 902,
+                    "y": 1659
+                  },
+                  "confidence": 1.0,
+                  "text": "Individual"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 170,
+                    "x": 1097,
+                    "y": 1659
+                  },
+                  "confidence": 1.0,
+                  "text": "Financial"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 202,
+                    "x": 1276,
+                    "y": 1659
+                  },
+                  "confidence": 1.0,
+                  "text": "Awareness"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 1659
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 27,
+                    "x": 1844,
+                    "y": 1659
+                  },
+                  "confidence": 1.0,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1549,
+                "x": 322,
+                "y": 1756
+              },
+              "confidence": 1.0,
+              "text": "BUSI 203 Essential Information Skills 3 A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 92,
+                    "x": 322,
+                    "y": 1756
+                  },
+                  "confidence": 1.0,
+                  "text": "BUSI"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 67,
+                    "x": 569,
+                    "y": 1756
+                  },
+                  "confidence": 1.0,
+                  "text": "203"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 167,
+                    "x": 753,
+                    "y": 1756
+                  },
+                  "confidence": 1.0,
+                  "text": "Essential"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 223,
+                    "x": 930,
+                    "y": 1756
+                  },
+                  "confidence": 1.0,
+                  "text": "Information"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 94,
+                    "x": 1163,
+                    "y": 1756
+                  },
+                  "confidence": 1.0,
+                  "text": "Skills"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 1756
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 27,
+                    "x": 1844,
+                    "y": 1756
+                  },
+                  "confidence": 1.0,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1549,
+                "x": 322,
+                "y": 1852
+              },
+              "confidence": 1.0,
+              "text": "BUSI 101 Foundations of Business 3 A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 92,
+                    "x": 322,
+                    "y": 1852
+                  },
+                  "confidence": 1.0,
+                  "text": "BUSI"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 52,
+                    "x": 569,
+                    "y": 1852
+                  },
+                  "confidence": 1.0,
+                  "text": "101"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 237,
+                    "x": 753,
+                    "y": 1852
+                  },
+                  "confidence": 1.0,
+                  "text": "Foundations"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 36,
+                    "x": 1000,
+                    "y": 1852
+                  },
+                  "confidence": 1.0,
+                  "text": "of"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 166,
+                    "x": 1046,
+                    "y": 1852
+                  },
+                  "confidence": 1.0,
+                  "text": "Business"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 1852
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 27,
+                    "x": 1844,
+                    "y": 1852
+                  },
+                  "confidence": 1.0,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1550,
+                "x": 322,
+                "y": 1948
+              },
+              "confidence": 1.0,
+              "text": "ACCT 301 Business Accounting Systems 3 B",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 101,
+                    "x": 322,
+                    "y": 1948
+                  },
+                  "confidence": 1.0,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 60,
+                    "x": 569,
+                    "y": 1948
+                  },
+                  "confidence": 1.0,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 166,
+                    "x": 753,
+                    "y": 1948
+                  },
+                  "confidence": 1.0,
+                  "text": "Business"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 219,
+                    "x": 929,
+                    "y": 1948
+                  },
+                  "confidence": 1.0,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 156,
+                    "x": 1158,
+                    "y": 1948
+                  },
+                  "confidence": 1.0,
+                  "text": "Systems"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 1948
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 28,
+                    "x": 1844,
+                    "y": 1948
+                  },
+                  "confidence": 1.0,
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1549,
+                "x": 322,
+                "y": 2045
+              },
+              "confidence": 1.0,
+              "text": "ACCT 401 Financial Accounting and Reporting 3 C",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 101,
+                    "x": 322,
+                    "y": 2045
+                  },
+                  "confidence": 1.0,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 63,
+                    "x": 569,
+                    "y": 2045
+                  },
+                  "confidence": 1.0,
+                  "text": "401"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 170,
+                    "x": 753,
+                    "y": 2045
+                  },
+                  "confidence": 1.0,
+                  "text": "Financial"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 219,
+                    "x": 933,
+                    "y": 2045
+                  },
+                  "confidence": 1.0,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 73,
+                    "x": 1161,
+                    "y": 2045
+                  },
+                  "confidence": 1.0,
+                  "text": "and"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 191,
+                    "x": 1244,
+                    "y": 2045
+                  },
+                  "confidence": 1.0,
+                  "text": "Reporting"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 2045
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 27,
+                    "x": 1844,
+                    "y": 2045
+                  },
+                  "confidence": 1.0,
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1549,
+                "x": 322,
+                "y": 2141
+              },
+              "confidence": 1.0,
+              "text": "ACCT 402 Management Accounting 3 A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 101,
+                    "x": 322,
+                    "y": 2141
+                  },
+                  "confidence": 1.0,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 71,
+                    "x": 569,
+                    "y": 2141
+                  },
+                  "confidence": 1.0,
+                  "text": "402"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 257,
+                    "x": 753,
+                    "y": 2141
+                  },
+                  "confidence": 1.0,
+                  "text": "Management"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 219,
+                    "x": 1020,
+                    "y": 2141
+                  },
+                  "confidence": 1.0,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 2141
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 27,
+                    "x": 1844,
+                    "y": 2141
+                  },
+                  "confidence": 1.0,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1550,
+                "x": 322,
+                "y": 2237
+              },
+              "confidence": 1.0,
+              "text": "FINC 301 Corporate Finance 3 B",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 93,
+                    "x": 322,
+                    "y": 2237
+                  },
+                  "confidence": 1.0,
+                  "text": "FINC"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 60,
+                    "x": 569,
+                    "y": 2237
+                  },
+                  "confidence": 1.0,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 186,
+                    "x": 753,
+                    "y": 2237
+                  },
+                  "confidence": 1.0,
+                  "text": "Corporate"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 150,
+                    "x": 949,
+                    "y": 2237
+                  },
+                  "confidence": 1.0,
+                  "text": "Finance"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 2237
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 28,
+                    "x": 1844,
+                    "y": 2237
+                  },
+                  "confidence": 1.0,
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1550,
+                "x": 322,
+                "y": 2334
+              },
+              "confidence": 1.0,
+              "text": "ACCT 601 Research in Accounting 3 B",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 101,
+                    "x": 322,
+                    "y": 2334
+                  },
+                  "confidence": 1.0,
+                  "text": "ACCT"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 61,
+                    "x": 569,
+                    "y": 2334
+                  },
+                  "confidence": 1.0,
+                  "text": "601"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 173,
+                    "x": 753,
+                    "y": 2334
+                  },
+                  "confidence": 1.0,
+                  "text": "Research"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 35,
+                    "x": 936,
+                    "y": 2334
+                  },
+                  "confidence": 1.0,
+                  "text": "in"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 219,
+                    "x": 981,
+                    "y": 2334
+                  },
+                  "confidence": 1.0,
+                  "text": "Accounting"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 2334
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 28,
+                    "x": 1844,
+                    "y": 2334
+                  },
+                  "confidence": 1.0,
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1550,
+                "x": 322,
+                "y": 2430
+              },
+              "confidence": 1.0,
+              "text": "BUSI 499 Personal and Professional Development 3 B",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 92,
+                    "x": 322,
+                    "y": 2430
+                  },
+                  "confidence": 1.0,
+                  "text": "BUSI"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 70,
+                    "x": 569,
+                    "y": 2430
+                  },
+                  "confidence": 1.0,
+                  "text": "499"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 163,
+                    "x": 753,
+                    "y": 2430
+                  },
+                  "confidence": 1.0,
+                  "text": "Personal"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 73,
+                    "x": 926,
+                    "y": 2430
+                  },
+                  "confidence": 1.0,
+                  "text": "and"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 227,
+                    "x": 1009,
+                    "y": 2430
+                  },
+                  "confidence": 1.0,
+                  "text": "Professional"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 258,
+                    "x": 1246,
+                    "y": 2430
+                  },
+                  "confidence": 1.0,
+                  "text": "Development"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 2430
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 28,
+                    "x": 1844,
+                    "y": 2430
+                  },
+                  "confidence": 1.0,
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1550,
+                "x": 322,
+                "y": 2526
+              },
+              "confidence": 1.0,
+              "text": "AUDT 301 Introduction to Auditing Theory and 3 B",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 108,
+                    "x": 322,
+                    "y": 2526
+                  },
+                  "confidence": 1.0,
+                  "text": "AUDT"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 60,
+                    "x": 569,
+                    "y": 2526
+                  },
+                  "confidence": 1.0,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 236,
+                    "x": 753,
+                    "y": 2526
+                  },
+                  "confidence": 1.0,
+                  "text": "Introduction"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 38,
+                    "x": 999,
+                    "y": 2526
+                  },
+                  "confidence": 1.0,
+                  "text": "to"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 164,
+                    "x": 1047,
+                    "y": 2526
+                  },
+                  "confidence": 1.0,
+                  "text": "Auditing"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 129,
+                    "x": 1220,
+                    "y": 2526
+                  },
+                  "confidence": 1.0,
+                  "text": "Theory"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 73,
+                    "x": 1359,
+                    "y": 2526
+                  },
+                  "confidence": 1.0,
+                  "text": "and"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 2526
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 28,
+                    "x": 1844,
+                    "y": 2526
+                  },
+                  "confidence": 1.0,
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 152,
+                "x": 753,
+                "y": 2579
+              },
+              "confidence": 1.0,
+              "text": "Practice",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 152,
+                    "x": 753,
+                    "y": 2579
+                  },
+                  "confidence": 1.0,
+                  "text": "Practice"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1549,
+                "x": 322,
+                "y": 2675
+              },
+              "confidence": 1.0,
+              "text": "MIS 301 Management Information Systems 3 A",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 70,
+                    "x": 322,
+                    "y": 2675
+                  },
+                  "confidence": 1.0,
+                  "text": "MIS"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 60,
+                    "x": 569,
+                    "y": 2675
+                  },
+                  "confidence": 1.0,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 257,
+                    "x": 753,
+                    "y": 2675
+                  },
+                  "confidence": 1.0,
+                  "text": "Management"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 223,
+                    "x": 1020,
+                    "y": 2675
+                  },
+                  "confidence": 1.0,
+                  "text": "Information"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 156,
+                    "x": 1253,
+                    "y": 2675
+                  },
+                  "confidence": 1.0,
+                  "text": "Systems"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 2675
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 27,
+                    "x": 1844,
+                    "y": 2675
+                  },
+                  "confidence": 1.0,
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1549,
+                "x": 322,
+                "y": 2771
+              },
+              "confidence": 1.0,
+              "text": "LAW 301 Corporate and Business Law 2 C",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 89,
+                    "x": 322,
+                    "y": 2771
+                  },
+                  "confidence": 1.0,
+                  "text": "LAW"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 60,
+                    "x": 569,
+                    "y": 2771
+                  },
+                  "confidence": 1.0,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 186,
+                    "x": 753,
+                    "y": 2771
+                  },
+                  "confidence": 1.0,
+                  "text": "Corporate"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 73,
+                    "x": 949,
+                    "y": 2771
+                  },
+                  "confidence": 1.0,
+                  "text": "and"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 166,
+                    "x": 1032,
+                    "y": 2771
+                  },
+                  "confidence": 1.0,
+                  "text": "Business"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 77,
+                    "x": 1208,
+                    "y": 2771
+                  },
+                  "confidence": 1.0,
+                  "text": "Law"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 2771
+                  },
+                  "confidence": 1.0,
+                  "text": "2"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 27,
+                    "x": 1844,
+                    "y": 2771
+                  },
+                  "confidence": 1.0,
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "bbox": {
+                "height": 46,
+                "width": 1549,
+                "x": 322,
+                "y": 2868
+              },
+              "confidence": 1.0,
+              "text": "TAX 301 Personal Taxation 3 C",
+              "tokens": [
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 71,
+                    "x": 322,
+                    "y": 2868
+                  },
+                  "confidence": 1.0,
+                  "text": "TAX"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 60,
+                    "x": 569,
+                    "y": 2868
+                  },
+                  "confidence": 1.0,
+                  "text": "301"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 163,
+                    "x": 753,
+                    "y": 2868
+                  },
+                  "confidence": 1.0,
+                  "text": "Personal"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 159,
+                    "x": 926,
+                    "y": 2868
+                  },
+                  "confidence": 1.0,
+                  "text": "Taxation"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 21,
+                    "x": 1569,
+                    "y": 2868
+                  },
+                  "confidence": 1.0,
+                  "text": "3"
+                },
+                {
+                  "bbox": {
+                    "height": 46,
+                    "width": 27,
+                    "x": 1844,
+                    "y": 2868
+                  },
+                  "confidence": 1.0,
+                  "text": "C"
+                }
+              ]
+            }
+          ],
+          "text": "TEACH CRS COURSE DESCRIPTION CREDITS GRADE\nACCT 101 Intro to Accounting I 3 A\nACCT 102 Introduction to Accounting II 3 A\nFINC 201 Raising Individual Financial Awareness 3 A\nBUSI 203 Essential Information Skills 3 A\nBUSI 101 Foundations of Business 3 A\nACCT 301 Business Accounting Systems 3 B\nACCT 401 Financial Accounting and Reporting 3 C\nACCT 402 Management Accounting 3 A\nFINC 301 Corporate Finance 3 B\nACCT 601 Research in Accounting 3 B\nBUSI 499 Personal and Professional Development 3 B\nAUDT 301 Introduction to Auditing Theory and 3 B\nPractice\nMIS 301 Management Information Systems 3 A\nLAW 301 Corporate and Business Law 2 C\nTAX 301 Personal Taxation 3 C"
+        }
+      ],
+      "page_number": 1,
+      "processing": {
+        "complexity": {
+          "level": "SIMPLE",
+          "score": 0.22749110516934043
+        },
+        "page_classification": "TEXT_AND_IMAGE",
+        "processing_strategy": "OCR",
+        "source_type": "OCR",
+        "timing": {
+          "edr_ms": 0.0,
+          "layout_ms": 0.0,
+          "native_extraction_ms": 2.892407,
+          "ocr_ms": 826.693827,
+          "preflight_ms": 2.574109,
+          "total_ms": 1294.311752
+        }
+      },
+      "raw_text": "si =6UNIVERSITY OF OXFORD                      01/28/2019\n\n \n\nSTUDENT INFORMATION\n\nNAME                          : Sophia Jones\nSTUDENT ID                   > 2291829\n\nBIRTHDATE                    : Jun 26 1997\nDEPARTMENT               : Accounting\nBACHELORS MAJOR        : Accounting & Finance\n\n \n\nDEGREES AWARDED - BACHELORS IN ACCOUNTING & FINANCE\n\n \n\nTEACH      CRS       COURSE DESCRIPTION                   CREDITS     GRADE\nACCT            101           Intro to Accounting |                                   3                    A\nACCT         102        Introduction to Accounting II                  3                A\nFINC         201        Raising Individual Financial Awareness     3               A\nBUSI          203       Essential Information Skills                   3               A\nBUSI            101          Foundations of Business                           3                   A\nACCT           301          Business Accounting Systems                    3                    B\nACCT         401        Financial Accounting and Reporting        3                Cc\nACCT           402         Management Accounting                          3                    A\nFINC          301         Corporate Finance                               3                 B\nACCT          601         Research in Accounting                          3                  B\nBUSI         499       Personal and Professional Development 3               B\nAUDT          301          Introduction to Auditing Theory and          3                   B\nPractice\nMIS            301         Management Information Systems           3                 A\nLAW          301        Corporate and Business Law                  2                 Cc\n\nTAX              301          Personal Taxation                                      3                    Cc\n",
+      "rotation": 0,
+      "skew_angle": 0.0,
+      "text": "si =6UNIVERSITY OF OXFORD                      01/28/2019\n\n\n\nSTUDENT INFORMATION\n\nNAME                          : Sophia Jones\nSTUDENT ID                   > 2291829\n\nBIRTHDATE                    : Jun 26 1997\nDEPARTMENT               : Accounting\nBACHELORS MAJOR        : Accounting & Finance\n\n\n\nDEGREES AWARDED - BACHELORS IN ACCOUNTING & FINANCE\n\n\n\nTEACH      CRS       COURSE DESCRIPTION                   CREDITS     GRADE\nACCT            101           Intro to Accounting |                                   3                    A\nACCT         102        Introduction to Accounting II                  3                A\nFINC         201        Raising Individual Financial Awareness     3               A\nBUSI          203       Essential Information Skills                   3               A\nBUSI            101          Foundations of Business                           3                   A\nACCT           301          Business Accounting Systems                    3                    B\nACCT         401        Financial Accounting and Reporting        3                Cc\nACCT           402         Management Accounting                          3                    A\nFINC          301         Corporate Finance                               3                 B\nACCT          601         Research in Accounting                          3                  B\nBUSI         499       Personal and Professional Development 3               B\nAUDT          301          Introduction to Auditing Theory and          3                   B\nPractice\nMIS            301         Management Information Systems           3                 A\nLAW          301        Corporate and Business Law                  2                 Cc\n\nTAX              301          Personal Taxation                                      3                    Cc",
+      "timing": {
+        "native_extraction_ms": 2.892407,
+        "ocr_time_ms": 826.693827,
+        "preflight_ms": 2.574109,
+        "preprocess_time_ms": 349.896254,
+        "render_time_ms": 114.811841,
+        "total_ms": 1294.311752
+      },
+      "width": 2550
+    }
+  ],
+  "processing": {
+    "native_extraction_time_ms": 2.892407,
+    "ocr_time_ms": 826.693827,
+    "pdf_render_time_ms": 114.811841,
+    "preflight_time_ms": 3.685234,
+    "preprocess_time_ms": 349.896254,
+    "serialization_time_ms": 0.0,
+    "total_time_ms": 1302.147246
+  },
+  "schema_version": "0.1"
+}

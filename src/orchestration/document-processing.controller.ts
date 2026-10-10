@@ -85,7 +85,7 @@ Executes the end-to-end OCR Intelligence pipeline:
         },
         dpi: {
           type: 'integer',
-          default: 200,
+          default: 300,
           description: 'Rendering DPI for PDF page rasterization if OCR is needed',
         },
         orientation: {
@@ -149,7 +149,7 @@ Executes the end-to-end OCR Intelligence pipeline:
     const options: ProcessDocumentOptionsDto = {
       documentType: (rawDocType as string) || 'transcript',
       llmThreshold: rawThreshold ? parseFloat(rawThreshold as string) : 0.95,
-      dpi: body.dpi ? parseInt(body.dpi as string, 10) : 200,
+      dpi: body.dpi ? parseInt(body.dpi as string, 10) : 300,
       orientation: body.orientation !== 'false' && body.orientation !== false,
       runLlm: rawRunLlm === 'true' || rawRunLlm === true || rawRunLlm === '1',
       includeArtifacts: rawIncludeArtifacts === 'true' || rawIncludeArtifacts === true,
