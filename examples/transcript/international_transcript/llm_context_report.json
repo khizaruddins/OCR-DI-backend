@@ -1,0 +1,86 @@
+{
+  "chunk_count": 1,
+  "compression": {
+    "edr_full_bytes": 191462,
+    "estimated_full_tokens": 47865,
+    "estimated_llm_tokens": 3249,
+    "estimated_raw_tokens": 59899,
+    "full_to_llm_ratio": 14.72897915224248,
+    "llm_context_bytes": 12999,
+    "meaningful_text_coverage_percentage": 81.97920941047737,
+    "raw_bytes": 239597,
+    "raw_to_full_ratio": 1.2514075900178625,
+    "raw_to_llm_ratio": 18.431956304331102
+  },
+  "confidence_preservation": {
+    "output_confidence_annotations": 30,
+    "preservation_percentage": 100.0,
+    "source_items_with_preserved_evidence": 144,
+    "source_low_confidence_items": 144
+  },
+  "context_quality_score": 96.39584188209548,
+  "document_id": "doc_1787168866407_705df3",
+  "document_type": "transcript",
+  "execution_time_ms": 3.655138,
+  "is_chunked": false,
+  "loss_analysis": {
+    "chunked_items": 0,
+    "compacted_items": 299,
+    "deduplicated_items": 37,
+    "metadata_items": 0,
+    "noise_items": 0,
+    "preserved_items": 0,
+    "structured_items": 67,
+    "total_source_items": 403,
+    "unaccounted_loss": 0
+  },
+  "page_coverage": {
+    "coverage_percentage": 100.0,
+    "pages_detected": 7,
+    "pages_represented": 7
+  },
+  "schema_version": "llm-context-report-0.1",
+  "section_coverage": {
+    "coverage_percentage": 100.0,
+    "sections": [
+      {
+        "fate": "STRUCTURED",
+        "represented": true,
+        "source_id": "section_course_history",
+        "type": "course_history"
+      },
+      {
+        "fate": "STRUCTURED",
+        "represented": true,
+        "source_id": "section_other",
+        "type": "other"
+      }
+    ],
+    "sections_detected": 2,
+    "sections_represented": 2
+  },
+  "status": "VERIFIED_ZERO_UNACCOUNTED_LOSS",
+  "table_coverage": {
+    "cell_coverage_percentage": 100.0,
+    "cells_detected": 146,
+    "cells_represented": 146,
+    "row_coverage_percentage": 100.0,
+    "rows_detected": 50,
+    "rows_represented": 50,
+    "table_coverage_percentage": 100.0,
+    "tables_detected": 4,
+    "tables_represented": 4
+  },
+  "text_coverage": {
+    "coverage_percentage": 81.97920941047737,
+    "represented_meaningful_text": 11987,
+    "source_meaningful_text": 14622,
+    "unit": "characters",
+    "unrepresented_text": {
+      "deduplicated": 0,
+      "metadata": 0,
+      "noise": 0,
+      "unaccounted": 0
+    }
+  }
+}

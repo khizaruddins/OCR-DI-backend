@@ -1,0 +1,239 @@
+{
+  "schema_version": "edmo-transcript-0.1",
+  "document_type": "transcript",
+  "student": {
+    "name": "Sophia Jones",
+    "student_id": "2291829",
+    "birthdate": "Jun 261997"
+  },
+  "institution": {
+    "name": "University of Oxford"
+  },
+  "program": {
+    "degree": "BACHELORS MAJOR",
+    "major": "Accounting",
+    "minor": null,
+    "school": null
+  },
+  "academic_records": [
+    {
+      "course_code": "ACCT 101",
+      "course_title": "Intro to Accounting",
+      "credits": 3,
+      "grade": "A",
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 1,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "ACCT 102",
+      "course_title": "Introduction to Accounting II",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 3,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "FINC 201",
+      "course_title": "Raising Individual Financial Awareness",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 4,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "BUSI 203",
+      "course_title": "Essential Information Skills",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 5,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "BUSI 101",
+      "course_title": "Foundations of Business",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 6,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "ACCT 301",
+      "course_title": "Business Accounting Systems",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 7,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "ACCT 401",
+      "course_title": "Financial Accounting and Reporting",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 8,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "ACCT 402",
+      "course_title": "Management Accounting",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 9,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "FINC 301",
+      "course_title": "Corporate Finance",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 10,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "ACCT 601",
+      "course_title": "Research in Accounting",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 11,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "BUSI 499",
+      "course_title": "Personal and Professional Development",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 12,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "AUDT 301",
+      "course_title": "Introduction to Auditing Theory and",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 13,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "MIS 301",
+      "course_title": "Management Information Systems",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 15,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "LAW 301",
+      "course_title": "Corporate and Business Law",
+      "credits": 2,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 16,
+        "column": 0
+      }
+    },
+    {
+      "course_code": "TAX 301",
+      "course_title": "Personal Taxation",
+      "credits": 3,
+      "grade": null,
+      "term": null,
+      "year": null,
+      "evidence": {
+        "page": 1,
+        "source": "table_p1_1",
+        "row": 17,
+        "column": 0
+      }
+    }
+  ],
+  "academic_summary": {
+    "cumulative_gpa": null,
+    "term_gpa": null,
+    "total_credits_earned": null
+  },
+  "degree_information": {
+    "degree_conferred": null,
+    "conferral_date": null
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "document": {
+    "language": "eng",
+    "page_count": 1,
+    "pages_present": [
+      1
+    ],
+    "type": "transcript"
+  },
+  "estimated_tokens": 602,
+  "institution": {
+    "name": "University of Oxford"
+  },
+  "schema_version": "llm-context-0.1",
+  "sections": [
+    {
+      "fields": {
+        "name": "University of Oxford"
+      },
+      "page": 1,
+      "text": "ee UNIVERSITY OF OXFORD",
+      "title": "Institution Information",
+      "type": "institution_information"
+    },
+    {
+      "fields": {
+        "NAME": "Sophia Jones",
+        "STUDENT ID": "2291829",
+        "student_id": "2291829",
+        "student_name": "Sophia Jones"
+      },
+      "page": 1,
+      "title": "Student Information",
+      "type": "student_information"
+    },
+    {
+      "fields": {
+        "BACHELORS MAJOR": "Accounting & Finance",
+        "BIRTHDATE": "Jun 261997",
+        "DEPARTMENT": "Accounting"
+      },
+      "page": 1,
+      "paragraphs": [
+        "01/28/2019",
+        "STUDENT INFORMATION",
+        "DEGREES AWARDED - BACHELORS IN ACCOUNTING & FINANCE",
+        "TEACH CRS COURSE DESCRIPTION CREDITS",
+        "GRADE",
+        "ACCT 101 Intro to Accounting | 3",
+        "A",
+        "ACCT 102 Introduction to Accounting II 3",
+        "FINC 201 Raising Individual Financial Awareness 3",
+        "BUSI 203 Essential Information Skills 3",
+        "BUSI 101 Foundations of Business 3",
+        "ACCT 301 Business Accounting Systems 3",
+        "ACCT 401 Financial Accounting and Reporting 3",
+        "ACCT 402 Management Accounting 3",
+        "FINC 301 Corporate Finance 3",
+        "ACCT 601 Research in Accounting 3",
+        "BUSI 499 Personal and Professional Development 3",
+        "AUDT 301 Introduction to Auditing Theory and 3",
+        "Practice",
+        "MIS 301 Management Information Systems 3",
+        "LAW 301 Corporate and Business Law 2",
+        "TAX 301 Personal Taxation 3"
+      ],
+      "title": "General Content",
+      "type": "other"
+    }
+  ],
+  "student": {
+    "student_id": "2291829",
+    "student_name": "Sophia Jones"
+  },
+  "tables": [
+    {
+      "headers": [
+        "course_code",
+        "course_title",
+        "credits"
+      ],
+      "page_range": [
+        1,
+        1
+      ],
+      "rows": [
+        [
+          "GRADE",
+          ""
+        ],
+        [
+          "ACCT 101",
+          "Intro to Accounting",
+          "3"
+        ],
+        [
+          "A",
+          ""
+        ],
+        [
+          "ACCT 102",
+          "Introduction to Accounting II",
+          "3"
+        ],
+        [
+          "FINC 201",
+          "Raising Individual Financial Awareness",
+          "3"
+        ],
+        [
+          "BUSI 203",
+          "Essential Information Skills",
+          "3"
+        ],
+        [
+          "BUSI 101",
+          "Foundations of Business",
+          "3"
+        ],
+        [
+          "ACCT 301",
+          "Business Accounting Systems",
+          "3"
+        ],
+        [
+          "ACCT 401",
+          "Financial Accounting and Reporting",
+          "3"
+        ],
+        [
+          "ACCT 402",
+          "Management Accounting",
+          "3"
+        ],
+        [
+          "FINC 301",
+          "Corporate Finance",
+          "3"
+        ],
+        [
+          "ACCT 601",
+          "Research in Accounting",
+          "3"
+        ],
+        [
+          "BUSI 499",
+          "Personal and Professional Development",
+          "3"
+        ],
+        [
+          "AUDT 301",
+          "Introduction to Auditing Theory and",
+          "3"
+        ],
+        [
+          "Practice",
+          ""
+        ],
+        [
+          "MIS 301",
+          "Management Information Systems",
+          "3"
+        ],
+        [
+          "LAW 301",
+          "Corporate and Business Law",
+          "2"
+        ],
+        [
+          "TAX 301",
+          "Personal Taxation",
+          "3"
+        ]
+      ],
+      "table_id": "table_p1_1",
+      "type": "course_records"
+    }
+  ]
+}

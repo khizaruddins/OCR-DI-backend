@@ -1,0 +1,383 @@
+{
+  "schema_version": "edmo-validation-report-0.1",
+  "status": "PASS",
+  "schema_valid": true,
+  "schema_errors": [],
+  "evidence_validation": {
+    "supported_values": 34,
+    "unsupported_values": 0,
+    "missing_supported_values": 0,
+    "invalid_source_references": 0,
+    "details": [
+      {
+        "field": "student.name",
+        "value": "Sophia Jones",
+        "status": "SUPPORTED"
+      },
+      {
+        "field": "student.student_id",
+        "value": "2291829",
+        "status": "SUPPORTED"
+      },
+      {
+        "field": "institution.name",
+        "value": "University of Oxford",
+        "status": "SUPPORTED"
+      },
+      {
+        "field": "academic_records[0].course_code",
+        "value": "ACCT 101",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 1,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[0].course_title",
+        "value": "Intro to Accounting",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 1,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[0].grade",
+        "value": "A",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 1,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[1].course_code",
+        "value": "ACCT 102",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 3,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[1].course_title",
+        "value": "Introduction to Accounting II",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 3,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[2].course_code",
+        "value": "FINC 201",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 4,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[2].course_title",
+        "value": "Raising Individual Financial Awareness",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 4,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[3].course_code",
+        "value": "BUSI 203",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 5,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[3].course_title",
+        "value": "Essential Information Skills",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 5,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[4].course_code",
+        "value": "BUSI 101",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 6,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[4].course_title",
+        "value": "Foundations of Business",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 6,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[5].course_code",
+        "value": "ACCT 301",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 7,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[5].course_title",
+        "value": "Business Accounting Systems",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 7,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[6].course_code",
+        "value": "ACCT 401",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 8,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[6].course_title",
+        "value": "Financial Accounting and Reporting",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 8,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[7].course_code",
+        "value": "ACCT 402",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 9,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[7].course_title",
+        "value": "Management Accounting",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 9,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[8].course_code",
+        "value": "FINC 301",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 10,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[8].course_title",
+        "value": "Corporate Finance",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 10,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[9].course_code",
+        "value": "ACCT 601",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 11,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[9].course_title",
+        "value": "Research in Accounting",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 11,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[10].course_code",
+        "value": "BUSI 499",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 12,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[10].course_title",
+        "value": "Personal and Professional Development",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 12,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[11].course_code",
+        "value": "AUDT 301",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 13,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[11].course_title",
+        "value": "Introduction to Auditing Theory and",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 13,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[12].course_code",
+        "value": "MIS 301",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 15,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[12].course_title",
+        "value": "Management Information Systems",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 15,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[13].course_code",
+        "value": "LAW 301",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 16,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[13].course_title",
+        "value": "Corporate and Business Law",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 16,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[14].course_code",
+        "value": "TAX 301",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 17,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[14].course_title",
+        "value": "Personal Taxation",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 17,
+          "column": 0
+        }
+      }
+    ]
+  },
+  "hallucination_flags": 0,
+  "warnings": [],
+  "quality_metrics": {
+    "field_precision": 1,
+    "field_recall": 1,
+    "record_precision": 1,
+    "record_recall": 0.8333,
+    "source_rows_count": 18,
+    "candidate_records_count": 15,
+    "latency_ms": 223735,
+    "input_tokens": 1815,
+    "output_tokens": 5575
+  }
+}

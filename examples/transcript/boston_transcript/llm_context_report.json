@@ -1,0 +1,104 @@
+{
+  "chunk_count": 1,
+  "compression": {
+    "edr_full_bytes": 134328,
+    "estimated_full_tokens": 33582,
+    "estimated_llm_tokens": 3510,
+    "estimated_raw_tokens": 26989,
+    "full_to_llm_ratio": 9.565477462080752,
+    "llm_context_bytes": 14043,
+    "meaningful_text_coverage_percentage": 100.0,
+    "raw_bytes": 107959,
+    "raw_to_full_ratio": 0.803696920969567,
+    "raw_to_llm_ratio": 7.687744783878089
+  },
+  "confidence_preservation": {
+    "output_confidence_annotations": 41,
+    "preservation_percentage": 100.0,
+    "source_items_with_preserved_evidence": 87,
+    "source_low_confidence_items": 87
+  },
+  "context_quality_score": 100.0,
+  "document_id": "doc_1787139705494_ce4b1b",
+  "document_type": "transcript",
+  "execution_time_ms": 1.618633,
+  "is_chunked": false,
+  "loss_analysis": {
+    "chunked_items": 0,
+    "compacted_items": 194,
+    "deduplicated_items": 14,
+    "metadata_items": 0,
+    "noise_items": 0,
+    "preserved_items": 0,
+    "structured_items": 70,
+    "total_source_items": 278,
+    "unaccounted_loss": 0
+  },
+  "page_coverage": {
+    "coverage_percentage": 100.0,
+    "pages_detected": 2,
+    "pages_represented": 2
+  },
+  "schema_version": "llm-context-report-0.1",
+  "section_coverage": {
+    "coverage_percentage": 100.0,
+    "sections": [
+      {
+        "fate": "STRUCTURED",
+        "represented": true,
+        "source_id": "section_institution_info",
+        "type": "institution_information"
+      },
+      {
+        "fate": "STRUCTURED",
+        "represented": true,
+        "source_id": "section_academic_info",
+        "type": "academic_information"
+      },
+      {
+        "fate": "STRUCTURED",
+        "represented": true,
+        "source_id": "section_course_history",
+        "type": "course_history"
+      },
+      {
+        "fate": "STRUCTURED",
+        "represented": true,
+        "source_id": "section_academic_summary",
+        "type": "academic_summary"
+      },
+      {
+        "fate": "COMPACTED",
+        "represented": true,
+        "source_id": "section_other",
+        "type": "other"
+      }
+    ],
+    "sections_detected": 5,
+    "sections_represented": 5
+  },
+  "status": "VERIFIED_ZERO_UNACCOUNTED_LOSS",
+  "table_coverage": {
+    "cell_coverage_percentage": 100.0,
+    "cells_detected": 131,
+    "cells_represented": 131,
+    "row_coverage_percentage": 100.0,
+    "rows_detected": 45,
+    "rows_represented": 45,
+    "table_coverage_percentage": 100.0,
+    "tables_detected": 6,
+    "tables_represented": 6
+  },
+  "text_coverage": {
+    "coverage_percentage": 100.0,
+    "represented_meaningful_text": 9178,
+    "source_meaningful_text": 6598,
+    "unit": "characters",
+    "unrepresented_text": {
+      "deduplicated": 0,
+      "metadata": 0,
+      "noise": 0,
+      "unaccounted": 0
+    }
+  }
+}

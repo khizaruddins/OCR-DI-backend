@@ -1,0 +1,764 @@
+{
+  "academic": {
+    "degree": "BACHELOR OF SCIENCE - 05/19/2025",
+    "gpa": "3.437                      CUM TOTALS:     124 121 116",
+    "major": "BIOLOGY",
+    "school": "MORRISSEY COLLEGE OF ARTS AND SCIENCES"
+  },
+  "document": {
+    "language": "eng",
+    "page_count": 2,
+    "pages_present": [
+      1,
+      2
+    ],
+    "type": "transcript"
+  },
+  "document_footer": "University Registrar",
+  "document_header": "DEGREE : BACHELOR OF SCIENCE - 05/19/2025 | Lyons Hall 103 | MAJOR : BIOLOGY | NAME : | Office of Student Services | SCHOOL : MORRISSEY COLLEGE OF ARTS AND SCIENCES",
+  "estimated_tokens": 3510,
+  "institution": {
+    "name": "Boston College"
+  },
+  "schema_version": "llm-context-0.1",
+  "sections": [
+    {
+      "fields": {
+        "name": "Boston College"
+      },
+      "page": 1,
+      "title": "Institution Information",
+      "type": "institution_information"
+    },
+    {
+      "fields": {
+        "degree": "BACHELOR OF SCIENCE - 05/19/2025",
+        "major": "BIOLOGY",
+        "school": "MORRISSEY COLLEGE OF ARTS AND SCIENCES"
+      },
+      "page": 1,
+      "title": "Academic Information",
+      "type": "academic_information"
+    },
+    {
+      "fields": {
+        "gpa": "3.437                      CUM TOTALS:     124 121 116"
+      },
+      "page": 1,
+      "title": "Academic Summary",
+      "type": "academic_summary"
+    },
+    {
+      "fields": {
+        "ARTS1101 DRAWING I": "FOUNDATIONS                       03 «03'—=«CC                      HIST1077 _ GLOBALIZATION I                                   03 «03'~—~CA",
+        "CHEM1127 GATEWAY": "GEN CHEM DISC I                    01 of A                     TERM GPA: 3.624                          TERMTOTALS: 16 16 16",
+        "CHEM1128 GATEWAY": "GEN CHERGDISC IT                     fae                       FALL 2023 MORRISSEY COLLEGE OF ARTS AND SCIENCES",
+        "CUM GPA": "2.967                          CORROTALS: BL Signy                    BIOL4960 | UNDERGRADUATE RESEARCH                  03° «03—=«*CA",
+        "CUMGPA": "3,389                           CUMTOTALS: 79 79 78",
+        "Page": "lof 2",
+        "TERM GPA": "3.778                           TERMTOTALS: 18 18 18",
+        "TERMGPA": "2.511                                 TERMTOTALS: 16 16 15                          BIOL2040  INVEST/MOLECULAR CELL BIO                      03° «03"
+      },
+      "page": 1,
+      "paragraphs": [
+        "BOSTON COLLEGE Otic of Student Services",
+        "Office of Student Services 140 Commonwealth Avenue",
+        "Academic Transcript Chestnut Hill, MA 02467",
+        "ADVANCED PLACEMENT FALL 2022 MORRISSEY COLLEGE OF ARTS AND SCIENCES",
+        "BIOL1999_ _ BIOLOGY TRANSFER 00 COURSE = COURSE TITLE ATT EARN GR",
+        "BIOL1999 BIOLOGY TRANSFER 00 BIOL1060 GATEWAY TOPIC SEMINAR FOR STEM ol of A",
+        "ENGL1999 ENGLISH TRANSFER 00 BIOL2010 ECOLOGY AND EVOLUTION 03°«03—~«CA",
+        "ENGL1999 ENGLISH TRANSFER 00 BIOL2050 GATEWAY BIO DISCUSSION I 01 ol A",
+        "MATH1102 CALCULUS I(MATH/SCI MAJ) 00 CHEM2231 ORGANIC CHEMISTRY I 03 03——«C+",
+        "FALL 2021 MORRISSEY COLLEGE OF ARTS AND SCIENCES CHEM2233 ORGANIC CHEMISTRY LAB I o1 o1 8B",
+        "COURSE COURSE TITLE ATT EARN GR CHEM2237_ GATEWAY: ORG CHEM DISC I ol o1 A",
+        "CHEM1109 GENERAL CHEMISTRY I 03° «03 C+ PHIL1070 = PHILOSOPHY OF PERSON I 03 «03:=«CA",
+        "CHEM1111 GENERAL CHEM LAB I oy “oe-c ATT EARN UNITS",
+        "MATH1103 CALCULUS II(MATH/SCI MAJ) 04 04 CG CUMGPA: 3.196 CUMTOTALS: 47 47 46",
+        "UNCS2201 COURAGE TO KNOW 03°«03'—=~«~CA",
+        "UNCS2245__ FIRST-YEAR TOPIC SEMINAR o1 ol P SPRING 2023 MORRISSEY COLLEGE OF ARTS AND SCIENCES",
+        "ATT EARN UNITS COURSE COURSE TITLE ATT EARN GR",
+        "BIOL3150 INTRODUCTION TO GENOMICS 04 «(04 «B+",
+        "SPRING 2022 MORRISSEY COLLEGE OF ARTS AND SCIENCES PHIL1071 —- PHILOSOPHY OF PERSON II 03° 030",
+        "COURSE = COURSE TITLE ATT EARN GR PSYC1113_ INTRODUCTION TO ol of A",
+        "BIOL2000 | MOLECULES AND CELLS 03 403) «~Bt NEUROPSYCHOLOGICAL DISORDERS",
+        "BIOL2060 GATEWAY BIO DISCUSSION II 01 oof A ATT EARN UNITS",
+        "CHEM1110 GENERAL CHEMISTRY II 03 «03——Oi&Be cant auk, Mara CUMTOTAIET 61 «G16",
+        "CHEM1112 GENERAL CHEM LAB II Of 01 c+",
+        "HIST1084_ GLOBALIZATION II 03°«03—~«*CA COURSE COURSE TITLE ATT EARN GR",
+        "SOCY1001 INTRODUCTORY SOCIOLOGY 03° «(03 AS BIOL2300 _ BIOSTATISTICS 03° «03——Oi&Be",
+        "ATT EARN UNITS BIOL3030 INTRO TO PHYSIOLOGY 03°«03—=~«CA",
+        "EALC1121 ELEMENTARY CHINESE I 03°«203—=~«CA",
+        "EALC1123_ ELEM CHINESE PRACTICUM 03°«03'—~«*A",
+        "ATT EARN UNITS",
+        "pe)"
+      ],
+      "title": "Page 1 General Content",
+      "type": "unclassified"
+    },
+    {
+      "fields": {
+        "CUM GPA": "3.437                      CUM TOTALS:     124 121 116",
+        "CUMGPA": "3.451                           CUM TOTALS:      97 “97.-.96",
+        "Page": "2 of 2",
+        "TERM GPA": "3.418                           TERM TOTALS:     15     15     12",
+        "TOTAL CREDITS EARNED": "121 CUMGPA: 3.437"
+      },
+      "page": 2,
+      "paragraphs": [
+        "BOSTON COLLEGE",
+        "Boston College",
+        "140 Commonwealth Avenue",
+        "Academic Transcript",
+        "Chestnut Hill, MA 02467",
+        "SPRING 2024 MORRISSEY COLLEGE OF ARTS AND SCIENCES",
+        "COURSE. COURSE TITLE ATT EARN GR",
+        "BIOL4570 PRINCIPLES OF IMMUNOLOGY 03 03 C+",
+        "BIOL4960 UNDERGRADUATE RESEARCH 03 03 A",
+        "CSCI1101 COMPUTER SCIENCE I 03 03 A",
+        "EALC1122 ELEMENTARY CHINESE II 03 03 A",
+        "EALC1124 ELEM CHINESE PRACTICUM 03 03 A",
+        "PHCG1210 PUBLIC HLTH GLOBAL SOCIET 03 03 A",
+        "ATT EARN UNITS",
+        "FALL 2024 MORRISSEY COLLEGE OF ARTS AND SCIENCES",
+        "COURSE COURSE TITLE ATT EARN GR",
+        "BIOL4960 UNDERGRADUATE RESEARCH 03 03 A",
+        "BIOL5450 ADV LAB IN CELL IMAGING 02 02 A-",
+        "CHEM4461 BIOCHEMISTRY I 03 00 Ww",
+        "THEO1431 ISLAM XIANITY IN DIALOGUE 03 03 C+",
+        "UNAS1016 DESIGNING YOUR CAREER o1 o1 P",
+        "ATT EARN UNITS",
+        "SPRING 2025 MORRISSEY COLLEGE OF ARTS AND SCIENCES",
+        "COURSE. COURSE TITLE ATT EARN GR",
+        "BIOL4030 DEEP SEA BIOLOGY 03 03 A",
+        "BIOL4350 BIOLOGICAL CHEMISTRY 03 03 C+",
+        "BIOL4400 MOLECULAR BIOLOGY 03 03 P",
+        "BIOL4960 UNDERGRADUATE RESEARCH 03 03 A",
+        "THEO1402 GOD, SELF, AND SOCIETY 03 03 A",
+        "ATT EARN UNITS",
+        "END OF RECORD",
+        "pe)"
+      ],
+      "title": "Page 2 General Content",
+      "type": "unclassified"
+    }
+  ],
+  "tables": [
+    {
+      "headers": [
+        "course_code",
+        "course_title",
+        "attempted_credits",
+        "earned_credits",
+        "grade"
+      ],
+      "low_confidence_cells": [
+        {
+          "col": 0,
+          "confidence": 0.7434281706809998,
+          "row": 0,
+          "text": "BIOL1999",
+          "warning": ""
+        },
+        {
+          "col": 1,
+          "confidence": 0.6062516570091248,
+          "row": 0,
+          "text": "BIOLOGY TRANSFER 00 BIOL1060 GATEWAY TOPIC SEMINAR FOR STEM ol of",
+          "warning": ""
+        },
+        {
+          "col": 1,
+          "confidence": 0.7682441473007202,
+          "row": 1,
+          "text": "ENGLISH TRANSFER 00 BIOL2010 ECOLOGY AND EVOLUTION 03°«03—~«CA",
+          "warning": ""
+        },
+        {
+          "col": 1,
+          "confidence": 0.6524229645729065,
+          "row": 2,
+          "text": "ENGLISH TRANSFER 00 BIOL2050 GATEWAY BIO DISCUSSION I 01 ol",
+          "warning": ""
+        },
+        {
+          "col": 1,
+          "confidence": 0.7542464733123779,
+          "row": 3,
+          "text": "CALCULUS I(MATH/SCI MAJ) 00 CHEM2231 ORGANIC CHEMISTRY I 03 03——«C+",
+          "warning": ""
+        },
+        {
+          "col": 0,
+          "confidence": 0.7958551049232483,
+          "row": 5,
+          "text": "COURSE",
+          "warning": ""
+        },
+        {
+          "col": 1,
+          "confidence": 0.7799561023712158,
+          "row": 5,
+          "text": "COURSE TITLE ATT EARN GR CHEM2237_ GATEWAY: ORG CHEM DISC I ol",
+          "warning": ""
+        },
+        {
+          "col": 2,
+          "confidence": 0.47675269842147827,
+          "row": 5,
+          "text": "01",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 1,
+          "confidence": 0.286831259727478,
+          "row": 6,
+          "text": "DRAWING I:FOUNDATIONS 03 «03'—=«CC HIST1077 GLOBALIZATION I 03 «03'~—~CA",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 1,
+          "confidence": 0.6246561408042908,
+          "row": 7,
+          "text": "GENERAL CHEMISTRY I 03° «03 C+ PHIL1070 = PHILOSOPHY OF PERSON I 03 «03:=«CA",
+          "warning": ""
+        },
+        {
+          "col": 1,
+          "confidence": 0.7861704230308533,
+          "row": 8,
+          "text": "GENERAL CHEM LAB I oy “oe-c ATT EARN UNITS",
+          "warning": ""
+        },
+        {
+          "col": 0,
+          "confidence": 0.07155410945415497,
+          "row": 9,
+          "text": "CHEM1127",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 1,
+          "confidence": 0.7060296535491943,
+          "row": 9,
+          "text": "GATEWAY:GEN CHEM DISC I 01 of A TERM GPA: 3.624 TERMTOTALS: 16",
+          "warning": ""
+        },
+        {
+          "col": 1,
+          "confidence": 0.7570968866348267,
+          "row": 10,
+          "text": "CALCULUS II(MATH/SCI MAJ) 04 04 CG CUMGPA: 3.196 CUMTOTALS: 47",
+          "warning": ""
+        },
+        {
+          "col": 0,
+          "confidence": 0.49428489804267883,
+          "row": 11,
+          "text": "UNCS2201",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 1,
+          "confidence": 0.671504020690918,
+          "row": 11,
+          "text": "COURAGE TO KNOW 03°«03'—=~«~CA",
+          "warning": ""
+        },
+        {
+          "col": 0,
+          "confidence": 0.20366287231445313,
+          "row": 12,
+          "text": "UNCS2245__",
+          "warning": "critical_low_confidence"
+        }
+      ],
+      "page_range": [
+        1,
+        1
+      ],
+      "rows": [
+        [
+          "BIOL1999",
+          "BIOLOGY TRANSFER 00 BIOL1060 GATEWAY TOPIC SEMINAR FOR STEM ol of",
+          "A"
+        ],
+        [
+          "ENGL1999",
+          "ENGLISH TRANSFER 00 BIOL2010 ECOLOGY AND EVOLUTION 03°«03—~«CA"
+        ],
+        [
+          "ENGL1999",
+          "ENGLISH TRANSFER 00 BIOL2050 GATEWAY BIO DISCUSSION I 01 ol",
+          "A"
+        ],
+        [
+          "MATH1102",
+          "CALCULUS I(MATH/SCI MAJ) 00 CHEM2231 ORGANIC CHEMISTRY I 03 03——«C+"
+        ],
+        [
+          "FALL 2021",
+          "MORRISSEY COLLEGE OF ARTS AND SCIENCES CHEM2233 ORGANIC CHEMISTRY LAB I o1 o1 8B"
+        ],
+        [
+          "COURSE",
+          "COURSE TITLE ATT EARN GR CHEM2237_ GATEWAY: ORG CHEM DISC I ol",
+          "01",
+          "A"
+        ],
+        [
+          "ARTS1101",
+          "DRAWING I:FOUNDATIONS 03 «03'—=«CC HIST1077 GLOBALIZATION I 03 «03'~—~CA"
+        ],
+        [
+          "CHEM1109",
+          "GENERAL CHEMISTRY I 03° «03 C+ PHIL1070 = PHILOSOPHY OF PERSON I 03 «03:=«CA"
+        ],
+        [
+          "CHEM1111",
+          "GENERAL CHEM LAB I oy “oe-c ATT EARN UNITS"
+        ],
+        [
+          "CHEM1127",
+          "GATEWAY:GEN CHEM DISC I 01 of A TERM GPA: 3.624 TERMTOTALS: 16",
+          "16"
+        ],
+        [
+          "MATH1103",
+          "CALCULUS II(MATH/SCI MAJ) 04 04 CG CUMGPA: 3.196 CUMTOTALS: 47",
+          "46"
+        ],
+        [
+          "UNCS2201",
+          "COURAGE TO KNOW 03°«03'—=~«~CA"
+        ],
+        [
+          "UNCS2245__",
+          "FIRST-YEAR TOPIC SEMINAR o1 ol P SPRING 2023 MORRISSEY COLLEGE OF ARTS AND SCIENCES"
+        ],
+        [
+          "ATT",
+          "EARN UNITS COURSE COURSE TITLE ATT EARN GR"
+        ]
+      ],
+      "table_id": "table_p1_1",
+      "type": "course_records"
+    },
+    {
+      "headers": [
+        "course_code",
+        "course_title",
+        "credits"
+      ],
+      "low_confidence_cells": [
+        {
+          "col": 1,
+          "confidence": 0.5997018814086914,
+          "row": 0,
+          "text": "INTRODUCTION TO GENOMICS 04 «(04 «B+",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 2,
+          "confidence": 0.43085819482803345,
+          "row": 1,
+          "text": "030",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 1,
+          "confidence": 0.7422373294830322,
+          "row": 2,
+          "text": "MOLECULES AND CELLS 03 403) «~Bt NEUROPSYCHOLOGICAL DISORDERS",
+          "warning": ""
+        },
+        {
+          "col": 0,
+          "confidence": 0.18395499885082245,
+          "row": 3,
+          "text": "BIOL2060",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 1,
+          "confidence": 0.7393278479576111,
+          "row": 3,
+          "text": "GATEWAY BIO DISCUSSION II 01 oof A ATT EARN UNITS",
+          "warning": ""
+        }
+      ],
+      "page_range": [
+        1,
+        1
+      ],
+      "rows": [
+        [
+          "BIOL3150",
+          "INTRODUCTION TO GENOMICS 04 «(04 «B+"
+        ],
+        [
+          "SPRING",
+          "2022 MORRISSEY COLLEGE OF ARTS AND SCIENCES PHIL1071 —- PHILOSOPHY OF PERSON II 03°",
+          "030"
+        ],
+        [
+          "BIOL2000",
+          "MOLECULES AND CELLS 03 403) «~Bt NEUROPSYCHOLOGICAL DISORDERS"
+        ],
+        [
+          "BIOL2060",
+          "GATEWAY BIO DISCUSSION II 01 oof A ATT EARN UNITS"
+        ]
+      ],
+      "table_id": "table_p1_2",
+      "type": "course_records"
+    },
+    {
+      "headers": [
+        "course_code",
+        "course_title",
+        "credits",
+        "grade"
+      ],
+      "low_confidence_cells": [
+        {
+          "col": 1,
+          "confidence": 0.4165773391723633,
+          "row": 0,
+          "text": "GENERAL CHEMISTRY II 03 «03——Oi&Be cant auk, Mara CUMTOTAIET 61 «G16",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 2,
+          "confidence": 0.47586074471473694,
+          "row": 1,
+          "text": "01",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 3,
+          "confidence": 0.3137417733669281,
+          "row": 1,
+          "text": "c+",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 0,
+          "confidence": 0.251901239156723,
+          "row": 2,
+          "text": "CHEM1128",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 1,
+          "confidence": 0.7745528221130371,
+          "row": 2,
+          "text": "GATEWAY:GEN CHERGDISC IT fae FALL 2023 MORRISSEY COLLEGE OF ARTS AND SCIENCES",
+          "warning": ""
+        },
+        {
+          "col": 1,
+          "confidence": 0.39298123121261597,
+          "row": 3,
+          "text": "INTRODUCTORY SOCIOLOGY 03° «(03 AS BIOL2300 BIOSTATISTICS 03° «03——Oi&Be",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 1,
+          "confidence": 0.682399332523346,
+          "row": 4,
+          "text": "EARN UNITS BIOL3030 INTRO TO PHYSIOLOGY 03°«03—=~«CA",
+          "warning": ""
+        }
+      ],
+      "page_range": [
+        1,
+        1
+      ],
+      "rows": [
+        [
+          "CHEM1110",
+          "GENERAL CHEMISTRY II 03 «03——Oi&Be cant auk, Mara CUMTOTAIET 61 «G16"
+        ],
+        [
+          "CHEM1112",
+          "GENERAL CHEM LAB II Of",
+          "01",
+          "c+"
+        ],
+        [
+          "CHEM1128",
+          "GATEWAY:GEN CHERGDISC IT fae FALL 2023 MORRISSEY COLLEGE OF ARTS AND SCIENCES"
+        ],
+        [
+          "SOCY1001",
+          "INTRODUCTORY SOCIOLOGY 03° «(03 AS BIOL2300 BIOSTATISTICS 03° «03——Oi&Be"
+        ],
+        [
+          "ATT",
+          "EARN UNITS BIOL3030 INTRO TO PHYSIOLOGY 03°«03—=~«CA"
+        ]
+      ],
+      "table_id": "table_p1_3",
+      "type": "course_records"
+    },
+    {
+      "headers": [
+        "course_code",
+        "course_title"
+      ],
+      "low_confidence_cells": [
+        {
+          "col": 0,
+          "confidence": 0.6742877960205078,
+          "row": 0,
+          "text": "EALC1121",
+          "warning": ""
+        },
+        {
+          "col": 1,
+          "confidence": 0.5351431965827942,
+          "row": 0,
+          "text": "ELEMENTARY CHINESE I 03°«203—=~«CA",
+          "warning": "critical_low_confidence"
+        },
+        {
+          "col": 1,
+          "confidence": 0.7244485020637512,
+          "row": 1,
+          "text": "ELEM CHINESE PRACTICUM 03°«03'—~«*A",
+          "warning": ""
+        },
+        {
+          "col": 3,
+          "confidence": 0.7726901769638062,
+          "row": 2,
+          "text": "C+",
+          "warning": ""
+        }
+      ],
+      "page_range": [
+        1,
+        2
+      ],
+      "rows": [
+        [
+          "EALC1121",
+          "ELEMENTARY CHINESE I 03°«203—=~«CA"
+        ],
+        [
+          "EALC1123_",
+          "ELEM CHINESE PRACTICUM 03°«03'—~«*A"
+        ],
+        [
+          "BIOL4570",
+          "PRINCIPLES OF IMMUNOLOGY",
+          "03",
+          "C+"
+        ],
+        [
+          "BIOL4960",
+          "UNDERGRADUATE RESEARCH",
+          "03",
+          "A"
+        ],
+        [
+          "CSCI1101",
+          "COMPUTER SCIENCE I",
+          "03",
+          "A"
+        ],
+        [
+          "EALC1122",
+          "ELEMENTARY CHINESE II",
+          "03",
+          "A"
+        ],
+        [
+          "EALC1124",
+          "ELEM CHINESE PRACTICUM",
+          "03",
+          "A"
+        ],
+        [
+          "PHCG1210",
+          "PUBLIC HLTH GLOBAL SOCIET",
+          "03",
+          "A"
+        ],
+        [
+          "ATT",
+          "EARN UNITS"
+        ]
+      ],
+      "table_id": "table_p1_4",
+      "type": "course_records"
+    },
+    {
+      "headers": [
+        "course_code",
+        "course_title",
+        "attempted_credits",
+        "earned_credits",
+        "grade"
+      ],
+      "low_confidence_cells": [
+        {
+          "col": 3,
+          "confidence": 0.651315450668335,
+          "row": 2,
+          "text": "A-",
+          "warning": ""
+        },
+        {
+          "col": 3,
+          "confidence": 0.666932225227356,
+          "row": 3,
+          "text": "W",
+          "warning": ""
+        },
+        {
+          "col": 3,
+          "confidence": 0.7771760821342468,
+          "row": 4,
+          "text": "C+",
+          "warning": ""
+        },
+        {
+          "col": 2,
+          "confidence": 0.7640469074249268,
+          "row": 5,
+          "text": "01",
+          "warning": ""
+        },
+        {
+          "col": 3,
+          "confidence": 0.7376030087471008,
+          "row": 5,
+          "text": "P",
+          "warning": ""
+        }
+      ],
+      "page_range": [
+        2,
+        2
+      ],
+      "rows": [
+        [
+          "FALL 2024",
+          "MORRISSEY COLLEGE OF ARTS AND SCIENCES"
+        ],
+        [
+          "BIOL4960",
+          "UNDERGRADUATE RESEARCH",
+          "03",
+          "A"
+        ],
+        [
+          "BIOL5450",
+          "ADV LAB IN CELL IMAGING",
+          "02",
+          "A-"
+        ],
+        [
+          "CHEM4461",
+          "BIOCHEMISTRY I",
+          "00",
+          "W"
+        ],
+        [
+          "THEO1431",
+          "ISLAM XIANITY IN DIALOGUE",
+          "03",
+          "C+"
+        ],
+        [
+          "UNAS1016",
+          "DESIGNING YOUR CAREER",
+          "01",
+          "P"
+        ],
+        [
+          "ATT",
+          "EARN UNITS"
+        ]
+      ],
+      "table_id": "table_p2_6",
+      "type": "course_records"
+    },
+    {
+      "headers": [
+        "course_code",
+        "course_title",
+        "attempted_credits",
+        "earned_credits",
+        "grade"
+      ],
+      "low_confidence_cells": [
+        {
+          "col": 3,
+          "confidence": 0.7646874189376831,
+          "row": 0,
+          "text": "A",
+          "warning": ""
+        },
+        {
+          "col": 3,
+          "confidence": 0.777204155921936,
+          "row": 1,
+          "text": "C+",
+          "warning": ""
+        },
+        {
+          "col": 3,
+          "confidence": 0.47254860401153564,
+          "row": 4,
+          "text": "A",
+          "warning": "critical_low_confidence"
+        }
+      ],
+      "page_range": [
+        2,
+        2
+      ],
+      "rows": [
+        [
+          "BIOL4030",
+          "DEEP SEA BIOLOGY",
+          "03",
+          "A"
+        ],
+        [
+          "BIOL4350",
+          "BIOLOGICAL CHEMISTRY",
+          "03",
+          "C+"
+        ],
+        [
+          "BIOL4400",
+          "MOLECULAR BIOLOGY",
+          "03",
+          "P"
+        ],
+        [
+          "BIOL4960",
+          "UNDERGRADUATE RESEARCH",
+          "03",
+          "A"
+        ],
+        [
+          "THEO1402",
+          "GOD, SELF, AND SOCIETY",
+          "03",
+          "A"
+        ],
+        [
+          "ATT",
+          "EARN UNITS"
+        ]
+      ],
+      "table_id": "table_p2_7",
+      "type": "course_records"
+    }
+  ]
+}

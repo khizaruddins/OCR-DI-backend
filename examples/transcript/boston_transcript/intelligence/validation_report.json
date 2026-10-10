@@ -1,0 +1,105 @@
+{
+  "schema_version": "edmo-validation-report-0.1",
+  "status": "WARN",
+  "schema_valid": true,
+  "schema_errors": [],
+  "evidence_validation": {
+    "supported_values": 2,
+    "unsupported_values": 6,
+    "missing_supported_values": 0,
+    "invalid_source_references": 0,
+    "details": [
+      {
+        "field": "student.name",
+        "value": "Sophia Jones",
+        "status": "UNSUPPORTED_BY_EVIDENCE",
+        "reason": "Value 'Sophia Jones' for 'student.name' is not supported by context evidence."
+      },
+      {
+        "field": "student.student_id",
+        "value": "2291829",
+        "status": "UNSUPPORTED_BY_EVIDENCE",
+        "reason": "Value '2291829' for 'student.student_id' is not supported by context evidence."
+      },
+      {
+        "field": "institution.name",
+        "value": "University of Oxford",
+        "status": "UNSUPPORTED_BY_EVIDENCE",
+        "reason": "Value 'University of Oxford' for 'institution.name' is not supported by context evidence."
+      },
+      {
+        "field": "academic_records[0].course_code",
+        "value": "ACCT 101",
+        "status": "UNSUPPORTED_BY_EVIDENCE",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 1,
+          "column": 0
+        },
+        "reason": "Course code 'ACCT 101' is not present in document evidence."
+      },
+      {
+        "field": "academic_records[0].course_title",
+        "value": "Intro to Accounting",
+        "status": "UNSUPPORTED_BY_EVIDENCE",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 1,
+          "column": 0
+        },
+        "reason": "Course title 'Intro to Accounting' is not supported by document evidence."
+      },
+      {
+        "field": "academic_records[0].grade",
+        "value": "A",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 1,
+          "column": 0
+        }
+      },
+      {
+        "field": "academic_records[1].course_code",
+        "value": "ACCT 102",
+        "status": "UNSUPPORTED_BY_EVIDENCE",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 3,
+          "column": 0
+        },
+        "reason": "Course code 'ACCT 102' is not present in document evidence."
+      },
+      {
+        "field": "academic_records[1].course_title",
+        "value": "Introduction to Accounting II",
+        "status": "SUPPORTED",
+        "evidenceRef": {
+          "page": 1,
+          "source": "table_p1_1",
+          "row": 3,
+          "column": 0
+        }
+      }
+    ]
+  },
+  "hallucination_flags": 6,
+  "warnings": [
+    "6 field(s) were flagged as UNSUPPORTED_BY_EVIDENCE."
+  ],
+  "quality_metrics": {
+    "field_precision": 0.25,
+    "field_recall": 1,
+    "record_precision": 0,
+    "record_recall": 0.0444,
+    "source_rows_count": 45,
+    "candidate_records_count": 2,
+    "latency_ms": 15,
+    "input_tokens": 250,
+    "output_tokens": 120
+  }
+}
