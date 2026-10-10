@@ -80,7 +80,7 @@ export const DegreeInformationSchema = z.object({
 });
 
 export const TranscriptExtractionSchema = z.object({
-  schema_version: z.literal('edmo-transcript-0.1').default('edmo-transcript-0.1'),
+  schema_version: z.enum(['ocr-transcript-0.1', 'edmo-transcript-0.1']).default('ocr-transcript-0.1'),
   document_type: z.literal('transcript').default('transcript'),
   student: StudentInfoSchema.default({
     name: null,

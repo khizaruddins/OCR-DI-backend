@@ -2,7 +2,7 @@ import { z } from 'zod';
 import { EvidenceRefSchema } from './transcript.schema';
 
 export const GenericDocumentSchema = z.object({
-  schema_version: z.string().default('edmo-document-0.1'),
+  schema_version: z.string().default('ocr-document-0.1'),
   document_type: z.string(),
   title: z.string().nullable().default(null),
   entities: z

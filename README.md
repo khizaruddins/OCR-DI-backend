@@ -1,6 +1,6 @@
 # OCR Document Intelligence Engine (LLM Backend) v0.1
 
-The **OCR DI LLM Backend** is the semantic interpretation and structured extraction service for the EDMO Document Intelligence platform. It consumes loss-aware `llm_context.json` produced by the EDMO C++ OCR Engine and orchestrates structured semantic extraction using a locally hosted LLM (Ollama + Qwen3-8B).
+The **OCR DI LLM Backend** is the semantic interpretation and structured extraction service for the OCR Document Intelligence platform. It consumes loss-aware `llm_context.json` produced by the OCR C++ OCR Engine and orchestrates structured semantic extraction using a locally hosted LLM (Ollama + Qwen3-8B).
 
 ---
 
@@ -21,7 +21,7 @@ The **OCR DI LLM Backend** is the semantic interpretation and structured extract
                            │
                            ▼
                   ┌─────────────────┐
-                  │ EDMO OCR ENGINE │ (C++)
+                  │ OCR ENGINE │ (C++)
                   └────────┬────────┘
                            │
                            ▼
@@ -30,7 +30,7 @@ The **OCR DI LLM Backend** is the semantic interpretation and structured extract
                            │
                            ▼
            ┌────────────────────────────────┐
-           │     EDMO DI LLM BACKEND        │
+           │     OCR DI LLM BACKEND         │
            │                                │
            │ 1. Context Validator           │  (Loss Gate: unaccounted_loss == 0)
            │ 2. Prompt Builder              │  (transcript.v1 + Injection Defense)
@@ -79,7 +79,7 @@ LLM_THINKING=false
 
 ### Step 2: Install Project Dependencies
 ```bash
-cd edmo-di-llm-backend
+cd ocr-di-llm-backend
 npm install
 ```
 
@@ -209,4 +209,4 @@ Each processed document writes five JSON artifacts in `results/<document-id>/int
 2. `llm_response.json` - Raw model output text and token metrics.
 3. `candidate_document.json` - Parsed JSON directly from model interpretation.
 4. `validation_report.json` - Complete schema, evidence, and hallucination audit with precision/recall metrics.
-5. `validated_document.json` - Trusted, normalized EDMO JSON ready for downstream consumption.
+5. `validated_document.json` - Trusted, normalized OCR JSON ready for downstream consumption.
