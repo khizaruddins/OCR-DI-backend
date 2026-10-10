@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { z } from 'zod';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { GenericDocumentSchema } from './schemas/generic-document.schema';
 import {
   TRANSCRIPT_JSON_SCHEMA,
@@ -19,7 +19,7 @@ export interface DocumentRoutingStrategy {
 export class DocumentRouterService {
   private readonly routes: Map<string, DocumentRoutingStrategy> = new Map();
 
-  constructor(private readonly logger: EdmoLogger) {
+  constructor(private readonly logger: OcrLogger) {
     this.registerDefaultRoutes();
   }
 

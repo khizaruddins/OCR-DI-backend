@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import axios, { AxiosInstance } from 'axios';
-import { EdmoLogger } from '../../common/logger.service';
+import { OcrLogger } from '../../common/logger.service';
 import { LlmRequest, StructuredLlmRequest } from '../dto/llm-request.dto';
 import {
   LlmHealthStatus,
@@ -26,7 +26,7 @@ export class LmStudioProvider implements LlmProvider {
 
   constructor(
     private readonly configService: ConfigService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {
     const rawUrl = this.configService.get<string>(
       'llm.lmStudioBaseUrl',

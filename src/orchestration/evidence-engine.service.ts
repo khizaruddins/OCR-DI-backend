@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs';
 import * as path from 'path';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { DocumentWorkspace } from './document-workspace.service';
 import { ProcessRunnerService } from './process-runner.service';
 
@@ -52,7 +52,7 @@ export class EvidenceEngineService {
   constructor(
     private readonly configService: ConfigService,
     private readonly processRunner: ProcessRunnerService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {
     this.binaryPath = this.configService.get<string>('evidence.binaryPath') || '';
     this.timeoutMs = this.configService.get<number>('evidence.timeoutMs') || 30000;
@@ -71,13 +71,15 @@ export class EvidenceEngineService {
     }
 
     const candidatePaths = [
-      path.resolve(process.cwd(), '../edmo-evidence-engine/build/bin/edmo-evidence'),
-      path.resolve(process.cwd(), 'edmo-evidence-engine/build/bin/edmo-evidence'),
-      path.resolve(__dirname, '../../../../edmo-evidence-engine/build/bin/edmo-evidence'),
-      path.resolve(__dirname, '../../../edmo-evidence-engine/build/bin/edmo-evidence'),
-      path.resolve(__dirname, '../../edmo-evidence-engine/build/bin/edmo-evidence'),
-      '/usr/local/bin/edmo-evidence',
-      'edmo-evidence',
+      path.resolve(process.cwd(), '../ocr-evidence-engine/build/bin/ocr-evidence'),
+      path.resolve(process.cwd(), '../ocr-evidence-engine/build/bin/edmo-evidence'),
+      path.resolve(process.cwd(), 'ocr-evidence-engine/build/bin/ocr-evidence'),
+      path.resolve(process.cwd(), 'ocr-evidence-engine/build/bin/ocr-evidence'),
+      path.resolve(__dirname, '../../../../ocr-evidence-engine/build/bin/ocr-evidence'),
+      path.resolve(__dirname, '../../../ocr-evidence-engine/build/bin/ocr-evidence'),
+      path.resolve(__dirname, '../../ocr-evidence-engine/build/bin/ocr-evidence'),
+      '/usr/local/bin/ocr-evidence',
+      'ocr-evidence',
     ];
 
     for (const candidate of candidatePaths) {
@@ -87,7 +89,7 @@ export class EvidenceEngineService {
       }
     }
 
-    return this.binaryPath || 'edmo-evidence';
+    return this.binaryPath || 'ocr-evidence';
   }
 
   async getHealth(): Promise<{
@@ -107,7 +109,7 @@ export class EvidenceEngineService {
 
     try {
       const res = await this.processRunner.run(binary, ['--help'], { timeoutMs: 5000 });
-      if (res.exitCode === 0 || res.stdout.includes('EDMO Evidence Intelligence Engine')) {
+      if (res.exitCode === 0 || res.stdout.includes('Evidence Intelligence Engine')) {
         return {
           available: true,
           binary,
@@ -134,7 +136,7 @@ export class EvidenceEngineService {
     options: EvidenceEngineOptions = {},
   ): Promise<EvidenceExecutionResult> {
     const binary = this.resolveBinaryPath();
-    if (!fs.existsSync(binary) && !binary.startsWith('edmo-evidence')) {
+    if (!fs.existsSync(binary) && !binary.startsWith('ocr-evidence')) {
       throw new Error(`Evidence Engine binary not found: ${binary}`);
     }
 
@@ -329,7 +331,7 @@ export class EvidenceEngineService {
     executionTimeMs: number;
   }> {
     const binary = this.resolveBinaryPath();
-    if (!fs.existsSync(binary) && !binary.startsWith('edmo-evidence')) {
+    if (!fs.existsSync(binary) && !binary.startsWith('ocr-evidence')) {
       throw new Error(`Evidence Engine binary not found: ${binary}`);
     }
 

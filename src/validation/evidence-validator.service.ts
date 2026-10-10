@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { LlmContext } from '../context/interfaces/llm-context.interface';
 import {
   EvidenceItemStatus,
@@ -9,7 +9,7 @@ import {
 
 @Injectable()
 export class EvidenceValidatorService {
-  constructor(private readonly logger: EdmoLogger) {}
+  constructor(private readonly logger: OcrLogger) {}
 
   validateEvidence(
     context: LlmContext,

@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { spawn } from 'child_process';
 import * as path from 'path';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 
 export interface ProcessRunOptions {
   cwd?: string;
@@ -19,7 +19,7 @@ export interface ProcessRunResult {
 
 @Injectable()
 export class ProcessRunnerService {
-  constructor(private readonly logger: EdmoLogger) {}
+  constructor(private readonly logger: OcrLogger) {}
 
   async run(
     executable: string,

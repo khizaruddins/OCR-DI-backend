@@ -1,12 +1,12 @@
-import { EdmoLogger } from '../../src/common/logger.service';
+import { OcrLogger } from '../../src/common/logger.service';
 import { ProcessRunnerService } from '../../src/orchestration/process-runner.service';
 
 describe('ProcessRunnerService', () => {
   let runner: ProcessRunnerService;
-  let logger: EdmoLogger;
+  let logger: OcrLogger;
 
   beforeEach(() => {
-    logger = new EdmoLogger();
+    logger = new OcrLogger();
     jest.spyOn(logger, 'debug').mockImplementation(() => {});
     jest.spyOn(logger, 'warn').mockImplementation(() => {});
     jest.spyOn(logger, 'error').mockImplementation(() => {});

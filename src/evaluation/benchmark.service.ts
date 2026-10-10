@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import * as fs from 'fs';
 import * as path from 'path';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { ContextLoaderService } from '../context/context-loader.service';
 import { DocumentsService } from '../documents/documents.service';
 import { ExtractResponseDto } from '../documents/dto/extract-request.dto';
@@ -42,7 +42,7 @@ export class BenchmarkService {
   constructor(
     private readonly contextLoader: ContextLoaderService,
     private readonly documentsService: DocumentsService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {}
 
   async runBenchmark(

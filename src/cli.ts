@@ -11,7 +11,7 @@ import { LlmService } from './llm/services/llm.service';
 const program = new Command();
 
 program
-  .name('edmo-intelligence')
+  .name('ocr-intelligence')
   .description('EDMO Document Intelligence CLI Engine')
   .version('0.1.0');
 

@@ -46,7 +46,7 @@ export class DocumentProcessingController {
   @ApiOperation({
     summary: 'Upload and process document through adaptive OCR and Evidence Intelligence pipeline',
     description: `
-Executes the end-to-end EDMO Intelligence pipeline:
+Executes the end-to-end OCR Intelligence pipeline:
 1. **Document Preflight & Classification**: Analyzes page streams, vector text density, and image coverage in $<3\\text{ms}$.
 2. **Adaptive Execution**: Digital pages extract via sub-millisecond native vector path; scanned pages route through CV preprocessing, deskewing, orientation detection, and OCR.
 3. **Full EDR Representation**: Builds reading order, table matrices, key-values, and tokens.
@@ -165,7 +165,7 @@ Executes the end-to-end EDMO Intelligence pipeline:
   @ApiOperation({
     summary: 'Get artifact metadata for a processed document workspace',
     description:
-      'Inspects the document workspace (if preserved via debug=true or EDMO_KEEP_ARTIFACTS=true) and lists available artifacts (`raw_ocr.json`, `edr_full.json`, `evidence-full.json`, `evidence-llm.json`, `evidence-report.json`).',
+      'Inspects the document workspace (if preserved via debug=true or OCR_KEEP_ARTIFACTS=true) and lists available artifacts (`raw_ocr.json`, `edr_full.json`, `evidence-full.json`, `evidence-llm.json`, `evidence-report.json`).',
   })
   @ApiParam({
     name: 'documentId',

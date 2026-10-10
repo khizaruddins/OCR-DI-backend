@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { ContextModule } from '../context/context.module';
 import { ExtractionModule } from '../extraction/extraction.module';
 import { LlmModule } from '../llm/llm.module';
@@ -17,7 +17,7 @@ import { DocumentsService } from './documents.service';
     LlmModule,
   ],
   controllers: [DocumentsController],
-  providers: [EdmoLogger, DocumentsService],
+  providers: [OcrLogger, DocumentsService],
   exports: [DocumentsService],
 })
 export class DocumentsModule {}

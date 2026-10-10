@@ -3,7 +3,7 @@ import { ConfigService } from '@nestjs/config';
 import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 
 export interface DocumentWorkspace {
   documentId: string;
@@ -27,10 +27,10 @@ export class DocumentWorkspaceService {
 
   constructor(
     private readonly configService: ConfigService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {
     this.baseWorkDir =
-      this.configService.get<string>('orchestrator.workDir') || '/tmp/edmo';
+      this.configService.get<string>('orchestrator.workDir') || '/tmp/ocr';
     this.keepArtifacts =
       this.configService.get<boolean>('orchestrator.keepArtifacts') || false;
 
@@ -108,7 +108,7 @@ export class DocumentWorkspaceService {
   async cleanupWorkspace(workspace: DocumentWorkspace, force = false): Promise<void> {
     if (this.keepArtifacts && !force) {
       this.logger.debug(
-        'Preserving workspace artifacts per configuration (EDMO_KEEP_ARTIFACTS=true)',
+        'Preserving workspace artifacts per configuration (OCR_KEEP_ARTIFACTS=true)',
         { documentId: workspace.documentId, workspaceDir: workspace.workspaceDir },
       );
       return;

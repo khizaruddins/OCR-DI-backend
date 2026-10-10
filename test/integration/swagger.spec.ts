@@ -18,8 +18,8 @@ describe('Swagger Documentation (Integration)', () => {
     app = moduleFixture.createNestApplication();
 
     const config = new DocumentBuilder()
-      .setTitle('EDMO Document Intelligence Engine (LLM Backend)')
-      .setDescription('API documentation for EDMO DI LLM backend')
+      .setTitle('OCR Document Intelligence Engine (LLM Backend)')
+      .setDescription('API documentation for OCR DI LLM backend')
       .setVersion('0.1.0')
       .addTag('Document Intelligence')
       .addTag('Health')
@@ -39,7 +39,7 @@ describe('Swagger Documentation (Integration)', () => {
   it('should generate valid OpenAPI 3.0 document with expected info', () => {
     expect(swaggerDocument).toBeDefined();
     expect(swaggerDocument.openapi).toMatch(/^3\./);
-    expect(swaggerDocument.info.title).toBe('EDMO Document Intelligence Engine (LLM Backend)');
+    expect(swaggerDocument.info.title).toBe('OCR Document Intelligence Engine (LLM Backend)');
     expect(swaggerDocument.info.version).toBe('0.1.0');
   });
 
@@ -86,7 +86,7 @@ describe('Swagger Documentation (Integration)', () => {
       .expect(200);
 
     expect(response.body.openapi).toMatch(/^3\./);
-    expect(response.body.info.title).toBe('EDMO Document Intelligence Engine (LLM Backend)');
+    expect(response.body.info.title).toBe('OCR Document Intelligence Engine (LLM Backend)');
     expect(response.body.paths['/v1/intelligence/extract']).toBeDefined();
   });
 });

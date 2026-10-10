@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { LlmContext } from '../context/interfaces/llm-context.interface';
 import { LlmGenerationOptions } from '../llm/dto/llm-request.dto';
 import { LlmUsage } from '../llm/dto/llm-response.dto';
@@ -39,7 +39,7 @@ export class ExtractionService {
     private readonly promptBuilder: PromptBuilderService,
     private readonly llmService: LlmService,
     private readonly configService: ConfigService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {}
 
   async extract<T = Record<string, unknown>>(

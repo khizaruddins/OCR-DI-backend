@@ -1,11 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { z } from 'zod';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { SchemaValidationResult } from './interfaces/validation.interfaces';
 
 @Injectable()
 export class SchemaValidatorService {
-  constructor(private readonly logger: EdmoLogger) {}
+  constructor(private readonly logger: OcrLogger) {}
 
   validate<T>(schema: z.ZodType<T>, data: unknown): SchemaValidationResult {
     const result = schema.safeParse(data);

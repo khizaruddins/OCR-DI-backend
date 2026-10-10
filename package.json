@@ -2,11 +2,11 @@
   "name": "edmo-di-llm-backend",
   "version": "0.1.0",
   "description": "EDMO Document Intelligence LLM Backend Engine v0.1",
-  "author": "EDMO Team",
+  "author": "OCR Team",
   "private": true,
   "license": "UNLICENSED",
   "bin": {
-    "edmo-intelligence": "./bin/edmo-intelligence.js"
+    "ocr-intelligence": "./bin/ocr-intelligence.js"
   },
   "scripts": {
     "build": "nest build",

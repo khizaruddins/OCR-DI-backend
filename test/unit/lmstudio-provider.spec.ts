@@ -1,7 +1,7 @@
 import { ConfigService } from '@nestjs/config';
 import { Test, TestingModule } from '@nestjs/testing';
 import axios from 'axios';
-import { EdmoLogger } from '../../src/common/logger.service';
+import { OcrLogger } from '../../src/common/logger.service';
 import { LmStudioProvider } from '../../src/llm/providers/lmstudio.provider';
 
 jest.mock('axios');
@@ -23,7 +23,7 @@ describe('LmStudioProvider', () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
         LmStudioProvider,
-        EdmoLogger,
+        OcrLogger,
         {
           provide: ConfigService,
           useValue: {

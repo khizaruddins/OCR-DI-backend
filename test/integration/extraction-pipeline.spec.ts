@@ -3,7 +3,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import * as fs from 'fs';
 import * as path from 'path';
 import { LLM_PROVIDER_TOKEN } from '../../src/common/constants';
-import { EdmoLogger } from '../../src/common/logger.service';
+import { OcrLogger } from '../../src/common/logger.service';
 import configuration from '../../src/config/configuration';
 import { ContextModule } from '../../src/context/context.module';
 import { DocumentsModule } from '../../src/documents/documents.module';
@@ -42,7 +42,7 @@ describe('End-to-End Extraction Pipeline (Integration)', () => {
         ValidationModule,
         DocumentsModule,
       ],
-      providers: [EdmoLogger],
+      providers: [OcrLogger],
     }).compile();
 
     documentsService = module.get<DocumentsService>(DocumentsService);
@@ -68,7 +68,7 @@ describe('End-to-End Extraction Pipeline (Integration)', () => {
       },
     });
 
-    expect(response.schema_version).toBe('edmo-intelligence-response-0.1');
+    expect(response.schema_version).toBe('ocr-intelligence-response-0.1');
     expect(response.model.provider).toBe('mock');
     expect(response.model.name).toBe('qwen3:8b');
     expect(response.validation.schema_valid).toBe(true);

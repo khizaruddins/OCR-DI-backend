@@ -70,7 +70,7 @@ export class ExtractDocumentMetaDto {
 export class ExtractRequestDto {
   @ApiPropertyOptional({
     description: 'Request schema version',
-    example: 'edmo-intelligence-request-0.1',
+    example: 'ocr-intelligence-request-0.1',
   })
   schema_version?: string;
 
@@ -203,9 +203,9 @@ export class ArtifactPathsDto {
 export class ExtractResponseDto<T = Record<string, unknown>> {
   @ApiProperty({
     description: 'Response specification version',
-    example: 'edmo-intelligence-response-0.1',
+    example: 'ocr-intelligence-response-0.1',
   })
-  schema_version!: 'edmo-intelligence-response-0.1';
+  schema_version!: 'ocr-intelligence-response-0.1';
 
   @ApiProperty({
     description: 'Extracted document identification',

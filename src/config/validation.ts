@@ -31,19 +31,19 @@ export const envSchema = z.object({
     .default('true'),
 
   // C++ Engine & Orchestrator Configuration
-  EDMO_OCR_BINARY: z.string().optional(),
-  EDMO_OCR_TIMEOUT_MS: z.coerce.number().default(120000),
-  EDMO_DEFAULT_DPI: z.coerce.number().default(200),
-  EDMO_EVIDENCE_BINARY: z.string().optional(),
-  EDMO_EVIDENCE_TIMEOUT_MS: z.coerce.number().default(30000),
-  EDMO_EVIDENCE_LLM_THRESHOLD: z.coerce.number().min(0).max(1).default(0.95),
-  EDMO_WORK_DIR: z.string().default('/tmp/edmo'),
-  EDMO_MAX_FILE_SIZE_MB: z.coerce.number().default(50),
-  EDMO_KEEP_ARTIFACTS: z
+  OCR_BINARY: z.string().optional(),
+  OCR_TIMEOUT_MS: z.coerce.number().default(120000),
+  OCR_DEFAULT_DPI: z.coerce.number().default(200),
+  OCR_EVIDENCE_BINARY: z.string().optional(),
+  OCR_EVIDENCE_TIMEOUT_MS: z.coerce.number().default(30000),
+  OCR_EVIDENCE_LLM_THRESHOLD: z.coerce.number().min(0).max(1).default(0.95),
+  OCR_WORK_DIR: z.string().default('/tmp/ocr'),
+  OCR_MAX_FILE_SIZE_MB: z.coerce.number().default(50),
+  OCR_KEEP_ARTIFACTS: z
     .string()
     .transform((val: string) => val === 'true' || val === '1')
     .default('false'),
-  EDMO_LLM_ENABLED: z
+  OCR_LLM_ENABLED: z
     .string()
     .transform((val: string) => val === 'true' || val === '1')
     .default('true'),

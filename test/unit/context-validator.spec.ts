@@ -1,6 +1,6 @@
 import { ConfigService } from '@nestjs/config';
 import { Test, TestingModule } from '@nestjs/testing';
-import { EdmoLogger } from '../../src/common/logger.service';
+import { OcrLogger } from '../../src/common/logger.service';
 import { ContextValidatorService } from '../../src/context/context-validator.service';
 import { LlmContext, LlmContextReport } from '../../src/context/interfaces/llm-context.interface';
 
@@ -11,7 +11,7 @@ describe('ContextValidatorService', () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
         ContextValidatorService,
-        EdmoLogger,
+        OcrLogger,
         {
           provide: ConfigService,
           useValue: {

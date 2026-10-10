@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { LlmModule } from '../llm/llm.module';
 import { ArtifactService } from './artifact.service';
 import { DocumentProcessingController } from './document-processing.controller';
@@ -13,7 +13,7 @@ import { ProcessRunnerService } from './process-runner.service';
   imports: [LlmModule],
   controllers: [DocumentProcessingController],
   providers: [
-    EdmoLogger,
+    OcrLogger,
     ProcessRunnerService,
     DocumentWorkspaceService,
     OcrEngineService,
@@ -22,7 +22,7 @@ import { ProcessRunnerService } from './process-runner.service';
     DocumentProcessingService,
   ],
   exports: [
-    EdmoLogger,
+    OcrLogger,
     ProcessRunnerService,
     DocumentWorkspaceService,
     OcrEngineService,

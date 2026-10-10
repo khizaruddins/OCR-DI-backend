@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { EdmoLogger } from './common/logger.service';
+import { OcrLogger } from './common/logger.service';
 import configuration from './config/configuration';
 import { validateEnvironment } from './config/validation';
 import { ContextModule } from './context/context.module';
@@ -30,7 +30,7 @@ import { ValidationModule } from './validation/validation.module';
     HealthModule,
     EvaluationModule,
   ],
-  providers: [EdmoLogger],
-  exports: [EdmoLogger],
+  providers: [OcrLogger],
+  exports: [OcrLogger],
 })
 export class AppModule {}

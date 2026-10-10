@@ -1,7 +1,7 @@
 import { ConfigService } from '@nestjs/config';
 import { Test, TestingModule } from '@nestjs/testing';
 import axios from 'axios';
-import { EdmoLogger } from '../../src/common/logger.service';
+import { OcrLogger } from '../../src/common/logger.service';
 import { OllamaProvider } from '../../src/llm/providers/ollama.provider';
 
 jest.mock('axios');
@@ -21,7 +21,7 @@ describe('OllamaProvider', () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
         OllamaProvider,
-        EdmoLogger,
+        OcrLogger,
         {
           provide: ConfigService,
           useValue: {

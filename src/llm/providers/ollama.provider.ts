@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import axios, { AxiosInstance } from 'axios';
-import { EdmoLogger } from '../../common/logger.service';
+import { OcrLogger } from '../../common/logger.service';
 import { LlmRequest, StructuredLlmRequest } from '../dto/llm-request.dto';
 import {
   LlmHealthStatus,
@@ -25,7 +25,7 @@ export class OllamaProvider implements LlmProvider {
 
   constructor(
     private readonly configService: ConfigService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {
     this.baseUrl = this.configService.get<string>('llm.ollamaBaseUrl', 'http://localhost:11434');
     this.defaultModel = this.configService.get<string>('llm.ollamaModel', 'qwen3:8b');

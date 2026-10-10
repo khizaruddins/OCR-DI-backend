@@ -7,7 +7,7 @@ import { DocumentsService } from '../../src/documents/documents.service';
 
 async function runLiveOllamaTest() {
   console.log(chalk.cyan.bold('\n======================================================'));
-  console.log(chalk.cyan.bold('  EDMO Live Ollama Integration Test (Qwen3-8B)'));
+  console.log(chalk.cyan.bold('  OCR Live Ollama Integration Test (Qwen3-8B)'));
   console.log(chalk.cyan.bold('======================================================\n'));
 
   const ollamaUrl = process.env.OLLAMA_BASE_URL || 'http://localhost:11434';

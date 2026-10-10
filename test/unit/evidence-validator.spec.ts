@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { EdmoLogger } from '../../src/common/logger.service';
+import { OcrLogger } from '../../src/common/logger.service';
 import { LlmContext } from '../../src/context/interfaces/llm-context.interface';
 import { EvidenceValidatorService } from '../../src/validation/evidence-validator.service';
 
@@ -40,7 +40,7 @@ describe('EvidenceValidatorService & Hallucination Detection', () => {
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      providers: [EvidenceValidatorService, EdmoLogger],
+      providers: [EvidenceValidatorService, OcrLogger],
     }).compile();
 
     service = module.get<EvidenceValidatorService>(EvidenceValidatorService);

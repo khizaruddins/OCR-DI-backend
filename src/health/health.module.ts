@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { LlmModule } from '../llm/llm.module';
 import { OrchestrationModule } from '../orchestration/orchestration.module';
 import { HealthController } from './health.controller';
@@ -7,6 +7,6 @@ import { HealthController } from './health.controller';
 @Module({
   imports: [LlmModule, OrchestrationModule],
   controllers: [HealthController],
-  providers: [EdmoLogger],
+  providers: [OcrLogger],
 })
 export class HealthModule {}

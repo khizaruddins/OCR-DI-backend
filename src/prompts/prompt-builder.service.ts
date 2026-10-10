@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { LlmContext } from '../context/interfaces/llm-context.interface';
 import { BuiltPrompt, PromptTemplate } from './types/prompt.types';
 import { TranscriptV1Prompt } from './versions/transcript.v1';
@@ -12,7 +12,7 @@ export class PromptBuilderService {
 
   constructor(
     private readonly configService: ConfigService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {
     this.defaultVersion = this.configService.get<string>(
       'prompts.defaultVersion',

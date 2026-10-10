@@ -64,7 +64,7 @@ export class HealthController {
     schema: {
       example: {
         status: 'healthy',
-        binary: '/path/to/edmo-ocr',
+        binary: '/path/to/ocr-engine',
         available: true,
         version: 'EDMO Document Processing & OCR Engine v0.2.0',
       },
@@ -88,7 +88,7 @@ export class HealthController {
     schema: {
       example: {
         status: 'healthy',
-        binary: '/path/to/edmo-evidence',
+        binary: '/path/to/ocr-evidence',
         available: true,
         version: '0.1.0',
       },

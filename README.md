@@ -1,6 +1,6 @@
-# EDMO Document Intelligence Engine (LLM Backend) v0.1
+# OCR Document Intelligence Engine (LLM Backend) v0.1
 
-The **EDMO DI LLM Backend** is the semantic interpretation and structured extraction service for the EDMO Document Intelligence platform. It consumes loss-aware `llm_context.json` produced by the EDMO C++ OCR Engine and orchestrates structured semantic extraction using a locally hosted LLM (Ollama + Qwen3-8B).
+The **OCR DI LLM Backend** is the semantic interpretation and structured extraction service for the EDMO Document Intelligence platform. It consumes loss-aware `llm_context.json` produced by the EDMO C++ OCR Engine and orchestrates structured semantic extraction using a locally hosted LLM (Ollama + Qwen3-8B).
 
 ---
 
@@ -99,7 +99,7 @@ npm run start:prod
 
 ## 4. CLI Usage
 
-The service provides the `edmo-intelligence` CLI tool:
+The service provides the `ocr-intelligence` CLI tool:
 
 ### Extract Structured Data from Context
 ```bash

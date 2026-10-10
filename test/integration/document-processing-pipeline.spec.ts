@@ -90,7 +90,7 @@ describe('Document Processing Pipeline (Integration)', () => {
         evidenceReportPath: '/tmp/test/evidence-report.json',
         evidenceFullJson: {},
         evidenceLlmJson: {
-          schema_version: 'edmo-llm-context-0.1',
+          schema_version: 'ocr-llm-context-0.1',
           document: { id: 'doc_mock_123', type: 'transcript', page_count: 2 },
           llm_required: true,
           tasks: [
@@ -168,7 +168,7 @@ describe('Document Processing Pipeline (Integration)', () => {
         evidenceReportPath: '/tmp/test/evidence-report.json',
         evidenceFullJson: {},
         evidenceLlmJson: {
-          schema_version: 'edmo-llm-context-0.1',
+          schema_version: 'ocr-llm-context-0.1',
           document: { id: 'doc_mock_123', type: 'transcript', page_count: 2 },
           llm_required: true,
           tasks: [

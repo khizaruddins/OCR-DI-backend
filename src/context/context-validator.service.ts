@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import {
   ContextValidationResult,
   LlmContext,
@@ -13,7 +13,7 @@ export class ContextValidatorService {
 
   constructor(
     private readonly configService: ConfigService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {
     this.strictLoss = this.configService.get<boolean>(
       'validation.strictLoss',

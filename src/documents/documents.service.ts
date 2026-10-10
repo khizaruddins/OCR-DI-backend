@@ -8,7 +8,7 @@ import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs';
 import * as path from 'path';
 import { v4 as uuidv4 } from 'uuid';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { ContextLoaderService } from '../context/context-loader.service';
 import { ContextValidatorService } from '../context/context-validator.service';
 import { LlmContext, LlmContextReport } from '../context/interfaces/llm-context.interface';
@@ -33,7 +33,7 @@ export class DocumentsService {
     private readonly validatorService: ExtractionValidatorService,
     private readonly llmService: LlmService,
     private readonly configService: ConfigService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {
     this.defaultResultsDir = this.configService.get<string>(
       'storage.resultsDir',
@@ -163,7 +163,7 @@ export class DocumentsService {
     );
 
     return {
-      schema_version: 'edmo-intelligence-response-0.1',
+      schema_version: 'ocr-intelligence-response-0.1',
       document: {
         id: documentId,
         type: documentType,

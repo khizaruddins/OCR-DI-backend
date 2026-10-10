@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs';
 import * as path from 'path';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 
 export interface ArtifactInfo {
   name: string;
@@ -26,10 +26,10 @@ export class ArtifactService {
 
   constructor(
     private readonly configService: ConfigService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {
     this.baseWorkDir =
-      this.configService.get<string>('orchestrator.workDir') || '/tmp/edmo';
+      this.configService.get<string>('orchestrator.workDir') || '/tmp/ocr';
   }
 
   async getDocumentArtifacts(documentId: string): Promise<DocumentArtifactSummary> {

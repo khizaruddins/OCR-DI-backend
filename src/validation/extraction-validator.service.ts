@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { LlmContext } from '../context/interfaces/llm-context.interface';
 import { DocumentRouterService } from '../extraction/document-router.service';
 import { ExtractionResult } from '../extraction/extraction.service';
@@ -20,7 +20,7 @@ export class ExtractionValidatorService {
     private readonly evidenceValidator: EvidenceValidatorService,
     private readonly normalizer: NormalizationService,
     private readonly router: DocumentRouterService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {}
 
   validateAndNormalize<T = Record<string, unknown>>(

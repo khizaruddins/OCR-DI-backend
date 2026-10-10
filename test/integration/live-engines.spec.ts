@@ -129,7 +129,7 @@ describe('Live C++ Engines End-to-End Test', () => {
     expect(res.body.pipeline.status).toBe('FINAL_DOCUMENT_READY');
     expect(['READY', 'PARTIAL']).toContain(res.body.document_readiness);
     expect(res.body.final_document).toBeDefined();
-    expect(res.body.final_document).toHaveProperty('schema_version', 'edmo-final-document-0.1');
+    expect(res.body.final_document).toHaveProperty('schema_version', 'ocr-final-document-0.1');
     expect(res.body.final_document).toHaveProperty('confidence');
     expect(res.body.final_document.confidence).toHaveProperty('overall');
     expect(res.body.final_document.confidence).toHaveProperty('extraction');

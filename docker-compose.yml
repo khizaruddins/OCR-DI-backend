@@ -1,11 +1,11 @@
 version: '3.8'
 
 services:
-  edmo-backend:
+  ocr-backend:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: edmo-di-llm-backend
+    container_name: ocr-di-llm-backend
     ports:
       - "3000:3000"
     environment:
@@ -23,21 +23,21 @@ services:
     depends_on:
       - ollama
     networks:
-      - edmo-network
+      - ocr-network
 
   ollama:
     image: ollama/ollama:latest
-    container_name: edmo-ollama
+    container_name: ocr-ollama
     ports:
       - "11434:11434"
     volumes:
       - ollama-models:/root/.ollama
     networks:
-      - edmo-network
+      - ocr-network
 
 volumes:
   ollama-models:
 
 networks:
-  edmo-network:
+  ocr-network:
     driver: bridge

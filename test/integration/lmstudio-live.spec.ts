@@ -7,7 +7,7 @@ import { DocumentsService } from '../../src/documents/documents.service';
 
 async function runLiveLmStudioTest() {
   console.log(chalk.cyan.bold('\n======================================================'));
-  console.log(chalk.cyan.bold('  EDMO Live LM Studio Integration Test (Qwen3-8B-MLX)'));
+  console.log(chalk.cyan.bold('  OCR Live LM Studio Integration Test (Qwen3-8B-MLX)'));
   console.log(chalk.cyan.bold('======================================================\n'));
 
   const lmStudioUrl =

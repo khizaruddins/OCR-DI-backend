@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs';
 import * as path from 'path';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { DocumentWorkspace } from './document-workspace.service';
 import { ProcessRunnerService } from './process-runner.service';
 
@@ -41,7 +41,7 @@ export class OcrEngineService {
   constructor(
     private readonly configService: ConfigService,
     private readonly processRunner: ProcessRunnerService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {
     this.binaryPath = this.configService.get<string>('ocr.binaryPath') || '';
     this.timeoutMs = this.configService.get<number>('ocr.timeoutMs') || 120000;
@@ -59,13 +59,15 @@ export class OcrEngineService {
     }
 
     const candidatePaths = [
+      path.resolve(process.cwd(), '../OCR Layer/build/bin/ocr-engine'),
       path.resolve(process.cwd(), '../OCR Layer/build/bin/edmo-ocr'),
-      path.resolve(process.cwd(), 'OCR Layer/build/bin/edmo-ocr'),
-      path.resolve(__dirname, '../../../../OCR Layer/build/bin/edmo-ocr'),
-      path.resolve(__dirname, '../../../OCR Layer/build/bin/edmo-ocr'),
-      path.resolve(__dirname, '../../OCR Layer/build/bin/edmo-ocr'),
-      '/usr/local/bin/edmo-ocr',
-      'edmo-ocr',
+      path.resolve(process.cwd(), 'OCR Layer/build/bin/ocr-engine'),
+      path.resolve(process.cwd(), 'OCR Layer/build/bin/ocr-engine'),
+      path.resolve(__dirname, '../../../../OCR Layer/build/bin/ocr-engine'),
+      path.resolve(__dirname, '../../../OCR Layer/build/bin/ocr-engine'),
+      path.resolve(__dirname, '../../OCR Layer/build/bin/ocr-engine'),
+      '/usr/local/bin/ocr-engine',
+      'ocr-engine',
     ];
 
     for (const candidate of candidatePaths) {
@@ -75,7 +77,7 @@ export class OcrEngineService {
       }
     }
 
-    return this.binaryPath || 'edmo-ocr';
+    return this.binaryPath || 'ocr-engine';
   }
 
   async getHealth(): Promise<{
@@ -122,7 +124,7 @@ export class OcrEngineService {
     options: OcrEngineOptions = {},
   ): Promise<OcrExecutionResult> {
     const binary = this.resolveBinaryPath();
-    if (!fs.existsSync(binary) && !binary.startsWith('edmo-ocr')) {
+    if (!fs.existsSync(binary) && !binary.startsWith('ocr-engine')) {
       throw new Error(`OCR Engine binary not found: ${binary}`);
     }
 

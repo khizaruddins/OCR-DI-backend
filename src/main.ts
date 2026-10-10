@@ -1,11 +1,11 @@
 import { NestFactory } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { AppModule } from './app.module';
-import { EdmoLogger } from './common/logger.service';
+import { OcrLogger } from './common/logger.service';
 import { LlmService } from './llm/services/llm.service';
 
 async function bootstrap() {
-  const logger = new EdmoLogger();
+  const logger = new OcrLogger();
   const app = await NestFactory.create(AppModule, {
     logger,
   });
@@ -20,7 +20,7 @@ async function bootstrap() {
 
   // Configure Swagger OpenAPI Documentation
   const swaggerConfig = new DocumentBuilder()
-    .setTitle('EDMO Document Processing & Evidence Intelligence Platform')
+    .setTitle('OCR Document Processing & Evidence Intelligence Platform')
     .setDescription(
       'End-to-End Intelligent Document Processing orchestrating C++ Document Processing/OCR Engine v0.2, C++ Evidence Intelligence Engine v0.1, and Selective LLM Semantic Resolvers.\n\n' +
         '### Pipeline Flow\n' +
@@ -45,7 +45,7 @@ async function bootstrap() {
       showRequestDuration: true,
       persistAuthorization: true,
     },
-    customSiteTitle: 'EDMO DI LLM Backend - API Docs',
+    customSiteTitle: 'OCR DI LLM Backend - API Docs',
   });
 
   // Also setup alias on /api-docs and /swagger
@@ -55,13 +55,13 @@ async function bootstrap() {
       filter: true,
       showRequestDuration: true,
     },
-    customSiteTitle: 'EDMO DI LLM Backend - API Docs',
+    customSiteTitle: 'OCR DI LLM Backend - API Docs',
   });
 
   await app.listen(port);
 
   logger.log(`=======================================================`);
-  logger.log(`  EDMO Document Intelligence Engine (LLM Backend) v0.1`);
+  logger.log(`  OCR Document Intelligence Engine (LLM Backend) v0.1`);
   logger.log(`  Listening on: http://localhost:${port}`);
   logger.log(`  Swagger UI:   http://localhost:${port}/docs`);
   logger.log(`  OpenAPI JSON: http://localhost:${port}/docs-json`);

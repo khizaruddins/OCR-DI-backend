@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { ExtractionModule } from '../extraction/extraction.module';
 import { EvidenceValidatorService } from './evidence-validator.service';
 import { ExtractionValidatorService } from './extraction-validator.service';
@@ -10,7 +10,7 @@ import { SchemaValidatorService } from './schema-validator.service';
 @Module({
   imports: [ConfigModule, ExtractionModule],
   providers: [
-    EdmoLogger,
+    OcrLogger,
     SchemaValidatorService,
     EvidenceValidatorService,
     NormalizationService,

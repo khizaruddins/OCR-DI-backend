@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import * as fs from 'fs';
 import * as path from 'path';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { ContextValidatorService } from './context-validator.service';
 import {
   ContextValidationResult,
@@ -20,7 +20,7 @@ export interface LoadedContextData {
 export class ContextLoaderService {
   constructor(
     private readonly validator: ContextValidatorService,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {}
 
   loadFromFile(

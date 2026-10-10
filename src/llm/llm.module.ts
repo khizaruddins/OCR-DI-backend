@@ -1,7 +1,7 @@
 import { DynamicModule, Module, Provider } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { LLM_PROVIDER_TOKEN } from '../common/constants';
-import { EdmoLogger } from '../common/logger.service';
+import { OcrLogger } from '../common/logger.service';
 import { LmStudioProvider } from './providers/lmstudio.provider';
 import { MockLlmProvider } from './providers/mock.provider';
 import { OllamaProvider } from './providers/ollama.provider';
@@ -10,7 +10,7 @@ import { LlmService } from './services/llm.service';
 @Module({
   imports: [ConfigModule],
   providers: [
-    EdmoLogger,
+    OcrLogger,
     LmStudioProvider,
     OllamaProvider,
     MockLlmProvider,
@@ -49,7 +49,7 @@ export class LlmModule {
       module: LlmModule,
       imports: [ConfigModule],
       providers: [
-        EdmoLogger,
+        OcrLogger,
         mockProviderOverride || {
           provide: LLM_PROVIDER_TOKEN,
           useClass: MockLlmProvider,

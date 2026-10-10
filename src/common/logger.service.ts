@@ -2,7 +2,7 @@ import { Injectable, LoggerService } from '@nestjs/common';
 import pino from 'pino';
 
 @Injectable()
-export class EdmoLogger implements LoggerService {
+export class OcrLogger implements LoggerService {
   private readonly logger: pino.Logger;
 
   constructor() {
@@ -75,3 +75,5 @@ export class EdmoLogger implements LoggerService {
     }
   }
 }
+
+export { OcrLogger as EdmoLogger };

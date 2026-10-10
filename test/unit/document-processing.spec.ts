@@ -1,6 +1,6 @@
 import { BadRequestException } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { EdmoLogger } from '../../src/common/logger.service';
+import { OcrLogger } from '../../src/common/logger.service';
 import { LlmService } from '../../src/llm/services/llm.service';
 import { ArtifactService } from '../../src/orchestration/artifact.service';
 import { DocumentProcessingService } from '../../src/orchestration/document-processing.service';
@@ -17,17 +17,17 @@ describe('DocumentProcessingService (Unit)', () => {
   let artifactService: ArtifactService;
   let llmService: LlmService;
   let configService: ConfigService;
-  let logger: EdmoLogger;
+  let logger: OcrLogger;
 
   beforeEach(() => {
-    logger = new EdmoLogger();
+    logger = new OcrLogger();
     jest.spyOn(logger, 'log').mockImplementation(() => {});
     jest.spyOn(logger, 'warn').mockImplementation(() => {});
     jest.spyOn(logger, 'error').mockImplementation(() => {});
 
     configService = {
       get: jest.fn((key: string) => {
-        if (key === 'orchestrator.workDir') return '/tmp/edmo_test';
+        if (key === 'orchestrator.workDir') return '/tmp/ocr_test';
         if (key === 'orchestrator.maxFileSizeMb') return 50;
         if (key === 'orchestrator.keepArtifacts') return false;
         return undefined;
@@ -156,7 +156,7 @@ describe('DocumentProcessingService (Unit)', () => {
         evidenceLlmPath: '/tmp/test/evidence-llm.json',
         evidenceReportPath: '/tmp/test/evidence-report.json',
         resolutionRequestJson: {
-          schema_version: 'edmo-llm-resolution-request-0.1',
+          schema_version: 'ocr-llm-resolution-request-0.1',
           document_id: 'doc_123',
           document_type: 'transcript',
           resolution_mode: 'FIELD_CORRECTION',
@@ -175,7 +175,7 @@ describe('DocumentProcessingService (Unit)', () => {
         },
         evidenceFullJson: {},
         evidenceLlmJson: {
-          schema_version: 'edmo-llm-context-0.1',
+          schema_version: 'ocr-llm-context-0.1',
           document: { id: 'doc_123', type: 'transcript' },
           llm_required: true,
           tasks: [
@@ -253,7 +253,7 @@ describe('DocumentProcessingService (Unit)', () => {
         evidenceLlmPath: '/tmp/test/evidence-llm.json',
         evidenceReportPath: '/tmp/test/evidence-report.json',
         resolutionRequestJson: {
-          schema_version: 'edmo-llm-resolution-request-0.1',
+          schema_version: 'ocr-llm-resolution-request-0.1',
           tasks: [{ task_id: 'resolve_1', field: 'course_title' }],
         },
         evidenceFullJson: {},
@@ -281,7 +281,7 @@ describe('DocumentProcessingService (Unit)', () => {
           audit: { unaccounted_loss: 0, zero_loss: true },
         },
         finalDocumentJson: {
-          schema_version: 'edmo-final-document-0.1',
+          schema_version: 'ocr-final-document-0.1',
           document: { document_id: 'doc_123', document_type: 'transcript', page_count: 1 },
           document_readiness: 'READY',
           student: { name: 'Marcus Thorne' },
@@ -305,7 +305,7 @@ describe('DocumentProcessingService (Unit)', () => {
       expect(response.llm.results).toBeDefined();
       expect(response.llm.results?.length).toBe(1);
       expect(response.result).toBeDefined();
-      expect(response.result).toHaveProperty('schema_version', 'edmo-final-document-0.1');
+      expect(response.result).toHaveProperty('schema_version', 'ocr-final-document-0.1');
       expect(llmService.generateStructured).toHaveBeenCalled();
       expect(evidenceEngine.mergeLlmPatches).toHaveBeenCalled();
     });
@@ -345,7 +345,7 @@ describe('DocumentProcessingService (Unit)', () => {
           audit: { unaccounted_loss: 0, zero_loss: true },
         },
         finalDocumentJson: {
-          schema_version: 'edmo-final-document-0.1',
+          schema_version: 'ocr-final-document-0.1',
           document: { document_id: 'doc_clean_001', document_type: 'transcript', page_count: 1 },
           document_readiness: 'READY',
           student: { name: 'Alice Smith' },
@@ -373,7 +373,7 @@ describe('DocumentProcessingService (Unit)', () => {
       expect(response.llm.required).toBe(false);
       expect(response.llm.called).toBe(false);
       expect(response.result).toBeDefined();
-      expect(response.result).toHaveProperty('schema_version', 'edmo-final-document-0.1');
+      expect(response.result).toHaveProperty('schema_version', 'ocr-final-document-0.1');
       expect(response.result).toHaveProperty('courses');
     });
 
@@ -472,7 +472,7 @@ describe('DocumentProcessingService (Unit)', () => {
           evidenceLlmPath: '/tmp/test/evidence-llm.json',
           evidenceReportPath: '/tmp/test/evidence-report.json',
           resolutionRequestJson: {
-            schema_version: 'edmo-llm-resolution-request-0.1',
+            schema_version: 'ocr-llm-resolution-request-0.1',
             context_level: isExpanded ? 'EXPANDED' : 'TARGETED',
             tasks: [{ task_id: 'resolve_001', field: 'major' }],
           },
@@ -536,7 +536,7 @@ describe('DocumentProcessingService (Unit)', () => {
         patchReportPath: '/tmp/test/patch-report.json',
         enhancedEdrJson: { schema_version: 'edr-enhanced-0.1' },
         finalDocumentJson: {
-          schema_version: 'edmo-final-document-0.1',
+          schema_version: 'ocr-final-document-0.1',
           document_readiness: 'READY',
           academic: { major: 'Computer Science' },
         },
@@ -600,7 +600,7 @@ describe('DocumentProcessingService (Unit)', () => {
         evidenceLlmPath: '/tmp/test/evidence-llm.json',
         evidenceReportPath: '/tmp/test/evidence-report.json',
         resolutionRequestJson: {
-          schema_version: 'edmo-llm-resolution-request-0.1',
+          schema_version: 'ocr-llm-resolution-request-0.1',
           tasks: [{ task_id: 'resolve_001', field: 'student_name' }],
         },
         evidenceFullJson: {},
@@ -649,7 +649,7 @@ describe('DocumentProcessingService (Unit)', () => {
         patchReportPath: '/tmp/test/patch-report.json',
         enhancedEdrJson: { schema_version: 'edr-enhanced-0.1' },
         finalDocumentJson: {
-          schema_version: 'edmo-final-document-0.1',
+          schema_version: 'ocr-final-document-0.1',
           document_readiness: 'PARTIAL',
           student: { name: null },
         },

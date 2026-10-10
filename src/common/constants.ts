@@ -4,8 +4,8 @@ export const SCHEMA_VERSIONS = {
   CONTEXT: 'llm-context-0.1',
   CONTEXT_REPORT: 'llm-context-report-0.1',
   TRANSCRIPT: 'edmo-transcript-0.1',
-  REQUEST: 'edmo-intelligence-request-0.1',
-  RESPONSE: 'edmo-intelligence-response-0.1',
+  REQUEST: 'ocr-intelligence-request-0.1',
+  RESPONSE: 'ocr-intelligence-response-0.1',
   VALIDATION_REPORT: 'edmo-validation-report-0.1',
 } as const;
 

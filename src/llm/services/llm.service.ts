@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { LLM_PROVIDER_TOKEN } from '../../common/constants';
-import { EdmoLogger } from '../../common/logger.service';
+import { OcrLogger } from '../../common/logger.service';
 import { LlmRequest, StructuredLlmRequest } from '../dto/llm-request.dto';
 import {
   LlmHealthStatus,
@@ -14,7 +14,7 @@ import { LlmProvider } from '../interfaces/llm-provider.interface';
 export class LlmService {
   constructor(
     @Inject(LLM_PROVIDER_TOKEN) private readonly activeProvider: LlmProvider,
-    private readonly logger: EdmoLogger,
+    private readonly logger: OcrLogger,
   ) {}
 
   get providerName(): string {

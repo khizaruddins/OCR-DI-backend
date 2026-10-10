@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { EdmoLogger } from '../../src/common/logger.service';
+import { OcrLogger } from '../../src/common/logger.service';
 import { TranscriptExtractionSchema } from '../../src/extraction/schemas/transcript.schema';
 import { SchemaValidatorService } from '../../src/validation/schema-validator.service';
 
@@ -8,7 +8,7 @@ describe('SchemaValidatorService', () => {
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      providers: [SchemaValidatorService, EdmoLogger],
+      providers: [SchemaValidatorService, OcrLogger],
     }).compile();
 
     service = module.get<SchemaValidatorService>(SchemaValidatorService);
